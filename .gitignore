@@ -1,0 +1,8 @@
+.gradle/
+.cxx/
+.kotlin/
+node_modules/
+.idea/
+**/build/
+local.properties
+*.jks

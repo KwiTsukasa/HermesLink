@@ -1,0 +1,36 @@
+{
+  "name": "hermes-link",
+  "version": "0.6.1",
+  "private": true,
+  "packageManager": "npm@10.9.4",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "start": "react-native start",
+    "lint": "eslint index.js src --ext .js,.ts,.tsx --max-warnings 0",
+    "format:check": "prettier --check index.js src",
+    "format": "prettier --write index.js src",
+    "android": "react-native run-android"
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "0.11.0",
+    "@xterm/xterm": "6.0.0",
+    "react": "19.3.0",
+    "react-native": "0.88.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@react-native-community/cli": "21.0.0",
+    "@react-native-community/cli-platform-android": "21.0.0",
+    "@react-native/babel-preset": "0.88.1",
+    "@react-native/eslint-config": "0.88.1",
+    "@react-native/metro-config": "0.88.1",
+    "@react-native/typescript-config": "0.88.1",
+    "@types/react": "^19.2.0",
+    "eslint": "8.57.1",
+    "prettier": "3.6.2",
+    "typescript": "~5.9.3"
+  }
+}

@@ -1,0 +1,1932 @@
+{
+  "native.new_file": {
+    "en": "(New file)",
+    "zh-CN": "（新文件）"
+  },
+  "native.before": {
+    "en": "\n\nBefore\n",
+    "zh-CN": "\n\n修改前\n"
+  },
+  "native.proposed_changes": {
+    "en": "\n\nProposed changes\n",
+    "zh-CN": "\n\n拟应用内容\n"
+  },
+  "native.review_the_full_file_change_in_hermes_desktop": {
+    "en": "Review the full file change in Hermes Desktop.",
+    "zh-CN": "请在桌面端完整审阅该文件修改。"
+  },
+  "native.could_not_write_the_export_to_the_selected_file": {
+    "en": "Could not write the export to the selected file.",
+    "zh-CN": "无法写入选中的导出文件。"
+  },
+  "native.conversation_json_saved": {
+    "en": "Conversation JSON saved.",
+    "zh-CN": "会话 JSON 已保存。"
+  },
+  "native.conversation_status_is_updating_try_again_shortly": {
+    "en": "Conversation status is updating. Try again shortly.",
+    "zh-CN": "会话状态正在更新，请稍后重试。"
+  },
+  "native.submitting_the_next_message": {
+    "en": "Submitting the next message…",
+    "zh-CN": "正在提交下一条消息…"
+  },
+  "native.refresh_to_check_the_reply_in_another_conversation": {
+    "en": "Refresh to check the reply in another conversation",
+    "zh-CN": "另一个会话的回复进度待刷新"
+  },
+  "native.another_conversation_is_waiting_for_a_reply": {
+    "en": "Another conversation is waiting for a reply",
+    "zh-CN": "另一个会话正在等待回复"
+  },
+  "native.live_connection_interrupted_syncing_the_sent_message": {
+    "en": "Live connection interrupted. Syncing the sent message…",
+    "zh-CN": "实时回复连接中断，正在同步已发送的消息…"
+  },
+  "native.syncing_the_reply": {
+    "en": "Syncing the reply…",
+    "zh-CN": "正在同步回复…"
+  },
+  "native.checking_message_status": {
+    "en": "Checking message status…",
+    "zh-CN": "正在确认消息状态…"
+  },
+  "native.hermes_is_replying_and_checking_message_status": {
+    "en": "Hermes is replying and checking message status…",
+    "zh-CN": "Hermes 正在回复，正在确认消息状态…"
+  },
+  "native.hermes_is_replying": {
+    "en": "Hermes is replying…",
+    "zh-CN": "Hermes 正在回复…"
+  },
+  "native.creating_conversation": {
+    "en": "Creating conversation…",
+    "zh-CN": "正在创建会话…"
+  },
+  "native.sending": {
+    "en": "Sending…",
+    "zh-CN": "正在发送…"
+  },
+  "native.waiting_in_the_hermes_queue": {
+    "en": "Waiting in the Hermes queue…",
+    "zh-CN": "Hermes 正在排队…"
+  },
+  "native.hermes_is_temporarily_unreachable_refresh_to_check_the_reply": {
+    "en": "Hermes is temporarily unreachable. Refresh to check the reply.",
+    "zh-CN": "暂时无法连接 Hermes。刷新可继续确认回复。"
+  },
+  "native.hermes_is_still_working_refresh_to_check_progress": {
+    "en": "Hermes is still working. Refresh to check progress.",
+    "zh-CN": "Hermes 仍在处理。刷新可继续查看进度。"
+  },
+  "native.hermes_stopped_processing_this_message": {
+    "en": "Hermes stopped processing this message.",
+    "zh-CN": "Hermes 已停止处理这条消息。"
+  },
+  "native.waiting_for_the_reply_to_sync": {
+    "en": "Waiting for the reply to sync…",
+    "zh-CN": "等待同步回复…"
+  },
+  "native.waiting_for_a_reply": {
+    "en": "Waiting for a reply…",
+    "zh-CN": "等待回复…"
+  },
+  "native.the_reply_has_not_synced_yet_refresh_to_view_the": {
+    "en": "The reply has not synced yet. Refresh to view the saved history.",
+    "zh-CN": "回复尚未同步。刷新消息可查看已保存的记录。"
+  },
+  "native.your_session_expired_sign_in_to_hermes_again": {
+    "en": "Your session expired. Sign in to Hermes again.",
+    "zh-CN": "登录已失效，请重新登录 Hermes。"
+  },
+  "native.this_account_cannot_perform_this_hermes_action": {
+    "en": "This account cannot perform this Hermes action.",
+    "zh-CN": "当前账号无权执行这项 Hermes 操作。"
+  },
+  "native.could_not_verify_the_https_connection_check_the_hermes_address": {
+    "en": "Could not verify the HTTPS connection. Check the Hermes address and certificate.",
+    "zh-CN": "无法验证 HTTPS 连接。请检查 Hermes 地址和证书。"
+  },
+  "native.could_not_connect_to_hermes_check_your_network_and_the": {
+    "en": "Could not connect to Hermes. Check your network and the server address.",
+    "zh-CN": "无法连接 Hermes。请检查网络和服务地址后重试。"
+  },
+  "native.could_not_complete_the_hermes_request_refresh_and_try_again": {
+    "en": "Could not complete the Hermes request. Refresh and try again.",
+    "zh-CN": "无法完成 Hermes 请求。请刷新后重试。"
+  },
+  "native.please_review_the_attachments": {
+    "en": "Please review the attachments.",
+    "zh-CN": "请查看附件。"
+  },
+  "native.attachments": {
+    "en": "\nAttachments: %1$s",
+    "zh-CN": "\n附件：%1$s"
+  },
+  "native.enter_the_full_hermes_webapp_address_a_port_and_path": {
+    "en": "Enter the full Hermes Webapp address. A port and path are allowed.",
+    "zh-CN": "请输入完整的 Hermes Webapp 地址，可包含端口和路径。"
+  },
+  "native.http_is_available_for_private_tailscale_ip_addresses_use_https": {
+    "en": "HTTP is available for private Tailscale IP addresses. Use HTTPS for other addresses.",
+    "zh-CN": "HTTP 仅支持 Tailscale 私网 IP，请为其他地址使用 HTTPS。"
+  },
+  "native.the_request_address_does_not_match_the_sign_in_address": {
+    "en": "The request address does not match the sign-in address.",
+    "zh-CN": "请求地址与登录地址不一致。"
+  },
+  "native.could_not_save_the_credentials_check_device_storage_and_try": {
+    "en": "Could not save the credentials. Check device storage and try again.",
+    "zh-CN": "保存登录凭据失败，请检查设备存储后重试。"
+  },
+  "native.could_not_store_the_sign_in_credentials_in_the_device": {
+    "en": "Could not store the sign-in credentials in the device keystore.",
+    "zh-CN": "无法使用手机的密钥库保存登录凭据。"
+  },
+  "native.your_session_expired_sign_in_again": {
+    "en": "Your session expired. Sign in again.",
+    "zh-CN": "登录已失效，请重新登录。"
+  },
+  "native.untitled_conversation": {
+    "en": "Untitled conversation",
+    "zh-CN": "未命名会话",
+    "official": "gateway.topic.untitled_session"
+  },
+  "native.hermes_request_failed_http": {
+    "en": "Hermes request failed (HTTP %1$d).",
+    "zh-CN": "Hermes 请求失败（HTTP %1$d）。"
+  },
+  "native.enter_the_http_or_https_address_of_your_hermes_webapp": {
+    "en": "Enter the HTTP or HTTPS address of your Hermes Webapp.",
+    "zh-CN": "请输入 Hermes Webapp 的 HTTP 或 HTTPS 地址。"
+  },
+  "native.hermes_could_not_load_conversations": {
+    "en": "Hermes could not load conversations.",
+    "zh-CN": "Hermes 暂时无法读取会话。"
+  },
+  "native.invalid_conversation_settings": {
+    "en": "Invalid conversation settings.",
+    "zh-CN": "会话设置无效。"
+  },
+  "native.hermes_did_not_return_a_conversation_revision": {
+    "en": "Hermes did not return a conversation revision.",
+    "zh-CN": "Hermes 未返回会话版本。"
+  },
+  "native.could_not_confirm_the_conversation_settings_refresh_and_try_again": {
+    "en": "Could not confirm the conversation settings. Refresh and try again.",
+    "zh-CN": "暂时无法确认会话设置，请刷新。"
+  },
+  "native.hermes_returned_a_different_profile_or_conversation": {
+    "en": "Hermes returned a different profile or conversation.",
+    "zh-CN": "Hermes 返回的会话与所选档案或会话不一致。"
+  },
+  "native.hermes_did_not_return_conversation_json": {
+    "en": "Hermes did not return conversation JSON.",
+    "zh-CN": "Hermes 未返回会话 JSON。"
+  },
+  "native.hermes_did_not_return_conversation_content": {
+    "en": "Hermes did not return conversation content.",
+    "zh-CN": "Hermes 未返回会话内容。"
+  },
+  "native.the_new_conversation_request_id_is_missing": {
+    "en": "The new conversation request ID is missing.",
+    "zh-CN": "缺少新会话请求编号。"
+  },
+  "native.enter_a_message": {
+    "en": "Enter a message.",
+    "zh-CN": "请输入消息。"
+  },
+  "native.hermes_stopped_voice_mode_send_the_message_again": {
+    "en": "Hermes stopped voice mode. Send the message again.",
+    "zh-CN": "Hermes 已停止语音模式，请重新发送聊天消息。"
+  },
+  "native.delivery_could_not_be_confirmed_refresh_the_conversation_before_sending": {
+    "en": "Delivery could not be confirmed. Refresh the conversation before sending again.",
+    "zh-CN": "无法确认消息是否送达。请刷新对话后再决定是否重发。"
+  },
+  "native.hermes_could_not_attach_the_image": {
+    "en": "Hermes could not attach the image.",
+    "zh-CN": "Hermes 未能附加图片。"
+  },
+  "native.hermes_could_not_attach_the_file": {
+    "en": "Hermes could not attach the file.",
+    "zh-CN": "Hermes 未能附加文件。"
+  },
+  "native.hermes_did_not_return_a_file_upload_result": {
+    "en": "Hermes did not return a file upload result.",
+    "zh-CN": "Hermes 未返回文件上传结果。"
+  },
+  "native.hermes_did_not_return_a_file_attachment_ticket": {
+    "en": "Hermes did not return a file attachment ticket.",
+    "zh-CN": "Hermes 未返回可附加的文件凭据。"
+  },
+  "native.could_not_read_the_selected_attachment": {
+    "en": "Could not read the selected attachment.",
+    "zh-CN": "无法读取选中的附件。"
+  },
+  "native.the_attachment_exceeds": {
+    "en": "The attachment exceeds %1$d MB.",
+    "zh-CN": "附件大小超过 %1$d MB。"
+  },
+  "native.the_selected_attachment_is_empty": {
+    "en": "The selected attachment is empty.",
+    "zh-CN": "选中的附件是空文件。"
+  },
+  "native.hermes_could_not_open_this_conversation": {
+    "en": "Hermes could not open this conversation.",
+    "zh-CN": "Hermes 未打开这条会话。"
+  },
+  "native.this_conversation_action_expired_refreshing_its_status": {
+    "en": "This conversation action expired. Refreshing its status.",
+    "zh-CN": "这项会话操作已过期，正在刷新状态。"
+  },
+  "native.select_a_conversation_on_this_hermes_server_first": {
+    "en": "Select a conversation on this Hermes server first.",
+    "zh-CN": "请先选择当前 Hermes 的会话。"
+  },
+  "native.sign_in_to_hermes_first": {
+    "en": "Sign in to Hermes first.",
+    "zh-CN": "请先登录 Hermes。"
+  },
+  "native.hermes_returned_an_invalid_terminal_ticket": {
+    "en": "Hermes returned an invalid terminal ticket.",
+    "zh-CN": "Hermes 返回的终端连接凭据无效。"
+  },
+  "native.hermes_returned_an_invalid_audio_ticket": {
+    "en": "Hermes returned an invalid audio ticket.",
+    "zh-CN": "Hermes 返回的音频连接凭据无效。"
+  },
+  "native.hermes_returned_an_invalid_kanban_event_ticket": {
+    "en": "Hermes returned an invalid Kanban event ticket.",
+    "zh-CN": "Hermes 返回的看板事件票据无效。"
+  },
+  "native.hermes_returned_an_invalid_display_ticket": {
+    "en": "Hermes returned an invalid display ticket.",
+    "zh-CN": "Hermes 返回的画面连接票据无效。"
+  },
+  "native.this_route_is_not_for_hermes_media_files": {
+    "en": "This route is not for Hermes media files.",
+    "zh-CN": "当前路由不是 Hermes 媒体文件。"
+  },
+  "native.hermes_is_temporarily_unreachable_check_your_network_and_try_again": {
+    "en": "Hermes is temporarily unreachable. Check your network and try again.",
+    "zh-CN": "暂时无法连接 Hermes，请检查网络后重试。"
+  },
+  "native.this_profile_does_not_support_this_group_chat_action": {
+    "en": "This profile does not support this group chat action.",
+    "zh-CN": "当前配置档案未提供这项群聊操作。"
+  },
+  "native.the_server_cannot_add_the_selected_profile_to_this_group": {
+    "en": "The server cannot add the selected profile to this group chat.",
+    "zh-CN": "当前服务器暂不能将所选配置档案加入群聊。"
+  },
+  "native.hermes_did_not_provide_a_valid_gateway_ticket": {
+    "en": "Hermes did not provide a valid gateway ticket.",
+    "zh-CN": "Hermes 未提供有效的网关连接凭据。"
+  },
+  "native.image": {
+    "en": "[Image]",
+    "zh-CN": "[图片]"
+  },
+  "native.hermes_returned_data_that_could_not_be_read": {
+    "en": "Hermes returned data that could not be read.",
+    "zh-CN": "Hermes 返回了无法读取的数据。"
+  },
+  "native.hermes_could_not_find_this_conversation_refresh_the_conversation_list": {
+    "en": "Hermes could not find this conversation. Refresh the conversation list.",
+    "zh-CN": "Hermes 找不到这条会话，请刷新会话列表。"
+  },
+  "native.this_account_cannot_perform_this_conversation_action": {
+    "en": "This account cannot perform this conversation action.",
+    "zh-CN": "当前账号无权执行这项会话操作。"
+  },
+  "native.hermes_could_not_complete_the_request": {
+    "en": "Hermes could not complete the request (%1$s, %2$d).",
+    "zh-CN": "Hermes 未能完成请求（%1$s，%2$d）。"
+  },
+  "native.the_hermes_request_was_interrupted": {
+    "en": "The Hermes request was interrupted.",
+    "zh-CN": "Hermes 请求已中断。"
+  },
+  "native.timed_out_connecting_to_the_hermes_gateway": {
+    "en": "Timed out connecting to the Hermes gateway.",
+    "zh-CN": "连接 Hermes 网关超时。"
+  },
+  "native.hermes_did_not_accept_the_gateway_protocol": {
+    "en": "Hermes did not accept the gateway protocol.",
+    "zh-CN": "Hermes 未接受网关协议。"
+  },
+  "native.this_hermes_address_does_not_provide_the_shared_conversation_gateway": {
+    "en": "This Hermes address does not provide the shared conversation gateway.",
+    "zh-CN": "这个 Hermes 地址未提供共享会话网关。"
+  },
+  "native.the_hermes_gateway_connection_closed": {
+    "en": "The Hermes gateway connection closed (%1$d).",
+    "zh-CN": "Hermes 网关连接已关闭（%1$d）。"
+  },
+  "native.could_not_connect_to_the_hermes_gateway": {
+    "en": "Could not connect to the Hermes gateway.",
+    "zh-CN": "无法连接 Hermes 网关。"
+  },
+  "native.the_hermes_gateway_connection_was_canceled": {
+    "en": "The Hermes gateway connection was canceled.",
+    "zh-CN": "Hermes 网关连接已取消。"
+  },
+  "native.the_hermes_gateway_did_not_return_a_result": {
+    "en": "The Hermes gateway did not return a result.",
+    "zh-CN": "Hermes 网关未返回请求结果。"
+  },
+  "native.could_not_send_the_hermes_gateway_request": {
+    "en": "Could not send the Hermes gateway request.",
+    "zh-CN": "无法发送 Hermes 网关请求。"
+  },
+  "native.the_hermes_gateway_request_timed_out": {
+    "en": "The Hermes gateway request timed out.",
+    "zh-CN": "Hermes 网关请求超时。"
+  },
+  "native.this_device_cannot_provide_the_microphone_format_needed_for_live": {
+    "en": "This device cannot provide the microphone format needed for live transcription.",
+    "zh-CN": "此设备无法提供实时转录所需的麦克风格式。"
+  },
+  "native.could_not_open_the_microphone": {
+    "en": "Could not open the microphone.",
+    "zh-CN": "无法打开麦克风。"
+  },
+  "native.the_microphone_did_not_start_recording": {
+    "en": "The microphone did not start recording.",
+    "zh-CN": "麦克风未进入录音状态。"
+  },
+  "native.could_not_read_the_microphone": {
+    "en": "Could not read the microphone.",
+    "zh-CN": "读取麦克风失败。"
+  },
+  "native.this_device_does_not_support_the_audio_format_returned_by": {
+    "en": "This device does not support the audio format returned by Hermes.",
+    "zh-CN": "此设备不支持 Hermes 返回的音频格式。"
+  },
+  "native.could_not_open_the_audio_player": {
+    "en": "Could not open the audio player.",
+    "zh-CN": "无法打开音频播放器。"
+  },
+  "native.could_not_play_the_hermes_read_aloud_audio": {
+    "en": "Could not play the Hermes read-aloud audio.",
+    "zh-CN": "播放 Hermes 朗读音频失败。"
+  },
+  "native.playback_timed_out_on_this_device": {
+    "en": "Playback timed out on this device.",
+    "zh-CN": "手机音频播放超时。"
+  },
+  "native.playback_did_not_finish_on_this_device": {
+    "en": "Playback did not finish on this device.",
+    "zh-CN": "手机音频播放未能结束。"
+  },
+  "native.could_not_decode_the_hermes_read_aloud_audio": {
+    "en": "Could not decode the Hermes read-aloud audio.",
+    "zh-CN": "无法解码 Hermes 朗读音频。"
+  },
+  "native.the_bot_desktop_profile_is_invalid": {
+    "en": "The Bot Desktop profile is invalid.",
+    "zh-CN": "机器人桌面的配置档案无效。"
+  },
+  "native.open_the_workspace_before_connecting_to_kanban": {
+    "en": "Open the workspace before connecting to Kanban.",
+    "zh-CN": "请回到工作区后连接看板。"
+  },
+  "native.select_a_valid_profile_and_board": {
+    "en": "Select a valid profile and board.",
+    "zh-CN": "请选择有效的配置档案和看板。"
+  },
+  "native.could_not_read_kanban_events": {
+    "en": "Could not read Kanban events.",
+    "zh-CN": "无法读取看板事件。"
+  },
+  "native.audio_operation_canceled": {
+    "en": "Audio operation canceled.",
+    "zh-CN": "音频操作已取消。"
+  },
+  "native.choose_an_audio_file_supported_by_hermes": {
+    "en": "Choose an audio file supported by Hermes.",
+    "zh-CN": "请选择 Hermes 支持的音频文件。"
+  },
+  "native.could_not_open_the_selected_audio_file": {
+    "en": "Could not open the selected audio file.",
+    "zh-CN": "无法打开选中的音频。"
+  },
+  "native.the_audio_file_is_larger_than_25_mb": {
+    "en": "The audio file is larger than 25 MB.",
+    "zh-CN": "音频文件超过 25 MB。"
+  },
+  "native.the_selected_audio_file_is_empty": {
+    "en": "The selected audio file is empty.",
+    "zh-CN": "选中的音频文件为空。"
+  },
+  "native.hermes_returned_an_unsupported_read_aloud_format": {
+    "en": "Hermes returned an unsupported read-aloud format.",
+    "zh-CN": "Hermes 返回的朗读音频格式不受支持。"
+  },
+  "native.hermes_returned_invalid_read_aloud_audio": {
+    "en": "Hermes returned invalid read-aloud audio.",
+    "zh-CN": "Hermes 返回的朗读音频无效。"
+  },
+  "native.hermes_returned_an_invalid_read_aloud_audio_size": {
+    "en": "Hermes returned an invalid read-aloud audio size.",
+    "zh-CN": "Hermes 返回的朗读音频大小无效。"
+  },
+  "native.hermes_returned_an_invalid_audio_response": {
+    "en": "Hermes returned an invalid audio response.",
+    "zh-CN": "Hermes 返回的音频响应无效。"
+  },
+  "native.hermes_could_not_complete_the_audio_request": {
+    "en": "Hermes could not complete the audio request.",
+    "zh-CN": "Hermes 未能完成音频请求。"
+  },
+  "native.timed_out_connecting_to_the_hermes_audio_service": {
+    "en": "Timed out connecting to the Hermes audio service.",
+    "zh-CN": "连接 Hermes 音频服务超时。"
+  },
+  "native.hermes_did_not_accept_the_audio_connection_protocol": {
+    "en": "Hermes did not accept the audio connection protocol.",
+    "zh-CN": "Hermes 未接受音频连接协议。"
+  },
+  "native.the_hermes_audio_connection_closed_early": {
+    "en": "The Hermes audio connection closed early.",
+    "zh-CN": "Hermes 音频连接提前关闭。"
+  },
+  "native.could_not_connect_to_the_hermes_audio_service": {
+    "en": "Could not connect to the Hermes audio service.",
+    "zh-CN": "无法连接 Hermes 音频服务。"
+  },
+  "native.timed_out_waiting_for_the_hermes_transcription": {
+    "en": "Timed out waiting for the Hermes transcription.",
+    "zh-CN": "等待 Hermes 转录结果超时。"
+  },
+  "native.could_not_send_the_hermes_audio_request": {
+    "en": "Could not send the Hermes audio request.",
+    "zh-CN": "无法发送 Hermes 音频请求。"
+  },
+  "native.audio_upload_could_not_keep_up_with_the_microphone_check": {
+    "en": "Audio upload could not keep up with the microphone. Check the Hermes connection.",
+    "zh-CN": "音频上传跟不上麦克风，请检查 Hermes 连接。"
+  },
+  "native.this_hermes_transcription_provider_does_not_support_live_recording_you": {
+    "en": "This Hermes transcription provider does not support live recording. You can transcribe an audio file.",
+    "zh-CN": "当前 Hermes 转录服务不支持实时录音，可转录音频文件。"
+  },
+  "native.hermes_could_not_finish_live_transcription": {
+    "en": "Hermes could not finish live transcription.",
+    "zh-CN": "Hermes 未能完成实时转录。"
+  },
+  "native.read_aloud_canceled": {
+    "en": "Read-aloud canceled.",
+    "zh-CN": "朗读已取消。"
+  },
+  "native.timed_out_waiting_for_hermes_read_aloud_audio": {
+    "en": "Timed out waiting for Hermes read-aloud audio.",
+    "zh-CN": "等待 Hermes 朗读音频超时。"
+  },
+  "native.this_device_could_not_play_the_hermes_audio_in_time": {
+    "en": "This device could not play the Hermes audio in time.",
+    "zh-CN": "手机来不及播放 Hermes 音频。"
+  },
+  "native.hermes_returned_invalid_audio_data": {
+    "en": "Hermes returned invalid audio data.",
+    "zh-CN": "Hermes 返回的音频数据格式无效。"
+  },
+  "native.could_not_read_the_hermes_audio_status": {
+    "en": "Could not read the Hermes audio status.",
+    "zh-CN": "无法读取 Hermes 音频状态。"
+  },
+  "native.this_device_cannot_open_the_audio_file_picker": {
+    "en": "This device cannot open the audio file picker.",
+    "zh-CN": "此设备无法打开音频文件选择器。"
+  },
+  "native.this_screen_cannot_request_microphone_access": {
+    "en": "This screen cannot request microphone access.",
+    "zh-CN": "当前界面无法请求麦克风权限。"
+  },
+  "native.could_not_request_microphone_access": {
+    "en": "Could not request microphone access.",
+    "zh-CN": "无法请求麦克风权限。"
+  },
+  "native.enter_1_to_20_000_characters_to_read_aloud": {
+    "en": "Enter 1 to 20,000 characters to read aloud.",
+    "zh-CN": "请输入 1 到 20000 个字符用于朗读。"
+  },
+  "native.allow_microphone_access_before_recording": {
+    "en": "Allow microphone access before recording.",
+    "zh-CN": "请授权麦克风后再开始录音。"
+  },
+  "native.hermes_did_not_return_playable_audio": {
+    "en": "Hermes did not return playable audio.",
+    "zh-CN": "Hermes 没有返回可播放的音频。"
+  },
+  "native.read_aloud_exceeded_the_playback_time_limit": {
+    "en": "Read-aloud exceeded the playback time limit.",
+    "zh-CN": "朗读超过单次播放时限。"
+  },
+  "native.hermes_read_aloud_failed": {
+    "en": "Hermes read-aloud failed.",
+    "zh-CN": "Hermes 朗读失败。"
+  },
+  "native.hermes_transcription_failed": {
+    "en": "Hermes transcription failed.",
+    "zh-CN": "Hermes 转录失败。"
+  },
+  "native.finish_the_current_audio_operation_first": {
+    "en": "Finish the current audio operation first.",
+    "zh-CN": "请先结束当前音频操作。"
+  },
+  "native.use_audio_tools_in_the_foreground_workspace": {
+    "en": "Use audio tools in the foreground workspace.",
+    "zh-CN": "请在前台工作台操作音频工具。"
+  },
+  "native.this_hermes_login_does_not_have_audio_permissions": {
+    "en": "This Hermes login does not have audio permissions.",
+    "zh-CN": "当前 Hermes 登录没有音频操作权限。"
+  },
+  "native.the_audio_file_exceeds_the_hermes_size_limit": {
+    "en": "The audio file exceeds the Hermes size limit.",
+    "zh-CN": "音频文件超过 Hermes 允许的大小。"
+  },
+  "native.official_webapp_settings": {
+    "en": "Official Webapp settings",
+    "zh-CN": "官方 Webapp 设置"
+  },
+  "native.manage_hermes_settings_in_the_official_webapp": {
+    "en": "Manage Hermes settings in the official Webapp.",
+    "zh-CN": "在官方 Webapp 管理 Hermes 设置。"
+  },
+  "native.model_provider_accounts": {
+    "en": "Model provider accounts",
+    "zh-CN": "模型服务商账号"
+  },
+  "native.connect_and_manage_provider_accounts_in_settings": {
+    "en": "Connect and manage provider accounts in Settings.",
+    "zh-CN": "在设置的服务商账号页连接或管理模型账号。"
+  },
+  "native.gpt_live_voice_chat": {
+    "en": "GPT Live voice chat",
+    "zh-CN": "GPT-Live 语音会话"
+  },
+  "native.after_signing_in_open_a_conversation_and_turn_on_voice": {
+    "en": "After signing in, open a conversation and turn on voice mode in the composer. The browser microphone requires HTTPS.",
+    "zh-CN": "登录后进入对话，从输入栏开启语音模式。浏览器麦克风需要 HTTPS。"
+  },
+  "native.mcp_and_external_connectors": {
+    "en": "MCP and external connectors",
+    "zh-CN": "MCP 和外部连接器"
+  },
+  "native.select_the_mcp_server_on_the_connectors_page_and_complete": {
+    "en": "Select the MCP server on the Connectors page and complete the browser authorization.",
+    "zh-CN": "在连接器页选择对应的 MCP 服务并完成浏览器授权。"
+  },
+  "native.gateways_and_remote_connections": {
+    "en": "Gateways and remote connections",
+    "zh-CN": "网关与远程连接"
+  },
+  "native.add_or_switch_connections_on_the_official_webapp_gateways_page": {
+    "en": "Add or switch connections on the official Webapp Gateways page.",
+    "zh-CN": "在官方 Webapp 的网关页添加或切换连接。"
+  },
+  "native.messaging_platforms_and_pairing": {
+    "en": "Messaging platforms and pairing",
+    "zh-CN": "消息平台与配对"
+  },
+  "native.continue_authentication_and_pairing_on_the_official_webapp_messaging_page": {
+    "en": "Continue authentication and pairing on the official Webapp Messaging page.",
+    "zh-CN": "在官方 Webapp 的消息平台页继续身份验证和配对。"
+  },
+  "native.group_chats": {
+    "en": "Group chats",
+    "zh-CN": "群聊"
+  },
+  "native.after_signing_in_open_group_chats_in_the_chat_sidebar": {
+    "en": "After signing in, open Group Chats in the chat sidebar.",
+    "zh-CN": "登录后从聊天侧栏打开群聊。"
+  },
+  "native.manage_this_provider_authorization_in_the_official_webapp": {
+    "en": "Manage this provider authorization in the official Webapp.",
+    "zh-CN": "请在官方 Webapp 管理此服务商的授权。"
+  },
+  "native.could_not_identify_the_hermes_profile_used_for_provider_authorization": {
+    "en": "Could not identify the Hermes profile used for provider authorization.",
+    "zh-CN": "无法确认模型服务商授权所用的 Hermes 档案。"
+  },
+  "native.hermes_returned_an_unverified_authorization_address_continue_in_the_official": {
+    "en": "Hermes returned an unverified authorization address. Continue in the official Webapp.",
+    "zh-CN": "Hermes 返回了无法核对的官方授权地址。请在官方 Webapp 继续。"
+  },
+  "native.could_not_verify_the_authorization_session_returned_by_hermes": {
+    "en": "Could not verify the authorization session returned by Hermes.",
+    "zh-CN": "无法确认 Hermes 返回的授权会话。"
+  },
+  "native.your_hermes_login_changed_reload_the_authorization_status": {
+    "en": "Your Hermes login changed. Reload the authorization status.",
+    "zh-CN": "Hermes 登录已变更，请重新读取授权状态。"
+  },
+  "native.select_an_official_destination_for_this_hermes_webapp": {
+    "en": "Select an official destination for this Hermes Webapp.",
+    "zh-CN": "请选择当前 Hermes Webapp 的官方入口。"
+  },
+  "native.the_current_hermes_webapp_address_is_invalid": {
+    "en": "The current Hermes Webapp address is invalid.",
+    "zh-CN": "当前 Hermes Webapp 地址无效。"
+  },
+  "native.start_provider_authorization_from_the_foreground_workspace": {
+    "en": "Start provider authorization from the foreground workspace.",
+    "zh-CN": "请在前台工作台开始服务商授权。"
+  },
+  "native.complete_or_cancel_the_current_provider_authorization_first": {
+    "en": "Complete or cancel the current provider authorization first.",
+    "zh-CN": "请先完成或取消当前服务商授权。"
+  },
+  "native.could_not_start_provider_authorization_check_the_official_webapp": {
+    "en": "Could not start provider authorization. Check the official Webapp.",
+    "zh-CN": "无法开始服务商授权，请在官方 Webapp 检查。"
+  },
+  "native.this_provider_code_has_expired_or_is_being_canceled": {
+    "en": "This provider code has expired or is being canceled.",
+    "zh-CN": "本次服务商验证码已过期或正在取消。"
+  },
+  "native.this_authorization_is_being_canceled": {
+    "en": "This authorization is being canceled.",
+    "zh-CN": "本次授权正在取消。"
+  },
+  "native.the_authorization_status_changed": {
+    "en": "The authorization status changed.",
+    "zh-CN": "当前授权状态已更新。"
+  },
+  "native.could_not_confirm_the_provider_authorization_result_yet": {
+    "en": "Could not confirm the provider authorization result yet.",
+    "zh-CN": "暂时无法确认服务商授权结果。"
+  },
+  "native.could_not_confirm_cancellation_try_again": {
+    "en": "Could not confirm cancellation. Try again.",
+    "zh-CN": "暂时无法确认取消，请重试。"
+  },
+  "native.the_provider_is_already_connected_disconnect_it_in_the_official": {
+    "en": "The provider is already connected. Disconnect it in the official Webapp.",
+    "zh-CN": "服务商已完成授权。如需断开，请在官方 Webapp 管理。"
+  },
+  "native.open_the_official_browser_page_from_the_foreground_workspace": {
+    "en": "Open the official browser page from the foreground workspace.",
+    "zh-CN": "请从前台工作台打开官方浏览器页面。"
+  },
+  "native.this_device_cannot_open_the_browser_page": {
+    "en": "This device cannot open the browser page.",
+    "zh-CN": "此设备无法打开浏览器页面。"
+  },
+  "native.this_provider_authorization_ended_reload_the_account_status": {
+    "en": "This provider authorization ended. Reload the account status.",
+    "zh-CN": "本次服务商授权已结束，请重新读取账号状态。"
+  },
+  "native.could_not_read_the_hermes_provider_status": {
+    "en": "Could not read the Hermes provider status.",
+    "zh-CN": "无法读取 Hermes 服务商状态。"
+  },
+  "native.hermes_saved_the_provider_authorization": {
+    "en": "Hermes saved the provider authorization.",
+    "zh-CN": "Hermes 已保存服务商授权。"
+  },
+  "native.the_provider_denied_authorization": {
+    "en": "The provider denied authorization.",
+    "zh-CN": "服务商拒绝了本次授权。"
+  },
+  "native.this_code_has_expired": {
+    "en": "This code has expired.",
+    "zh-CN": "本次验证码已过期。"
+  },
+  "native.authorization_wait_canceled": {
+    "en": "Authorization wait canceled.",
+    "zh-CN": "本次等待已取消。"
+  },
+  "native.the_provider_did_not_finish_authorization_check_the_official_webapp": {
+    "en": "The provider did not finish authorization. Check the official Webapp.",
+    "zh-CN": "服务商未完成授权，请在官方 Webapp 检查。"
+  },
+  "native.this_login_cannot_perform_this_action_continue_in_the_official": {
+    "en": "This login cannot perform this action. Continue in the official Webapp.",
+    "zh-CN": "当前登录无法执行此操作，请在官方 Webapp 继续。"
+  },
+  "native.select_a_valid_hermes_profile": {
+    "en": "Select a valid Hermes profile.",
+    "zh-CN": "请选择有效的 Hermes 档案。"
+  },
+  "native.hermes_did_not_return_the_generated_profile_archive": {
+    "en": "Hermes did not return the generated profile archive.",
+    "zh-CN": "Hermes 未返回已生成的档案包。"
+  },
+  "native.enter_a_new_profile_name_importing_into_default_is_disabled": {
+    "en": "Enter a new profile name. Importing into default is disabled.",
+    "zh-CN": "请输入新档案名，不能导入到 default。"
+  },
+  "native.hermes_did_not_confirm_the_temporary_archive_location": {
+    "en": "Hermes did not confirm the temporary archive location.",
+    "zh-CN": "Hermes 未确认临时档案包的位置。"
+  },
+  "native.could_not_confirm_the_import_result_refresh_the_profile_list": {
+    "en": "Could not confirm the import result. Refresh the profile list.",
+    "zh-CN": "无法确认档案导入结果，请刷新档案列表。"
+  },
+  "native.hermes_did_not_return_an_accessible_host_archive_path": {
+    "en": "Hermes did not return an accessible host archive path.",
+    "zh-CN": "Hermes 没有返回可访问的主机档案路径。"
+  },
+  "native.the_host_archive_path_returned_by_hermes_is_unsupported": {
+    "en": "The host archive path returned by Hermes is unsupported.",
+    "zh-CN": "Hermes 返回的主机档案路径不受支持。"
+  },
+  "native.hermes_returned_an_invalid_archive_result": {
+    "en": "Hermes returned an invalid archive result.",
+    "zh-CN": "Hermes 返回的档案结果无效。"
+  },
+  "native.the_archive_includes_credentials_invalid_paths_or_unsupported_names": {
+    "en": "The archive includes credentials, invalid paths, or unsupported names.",
+    "zh-CN": "档案包包含凭据、无效路径或不受支持的文件名。"
+  },
+  "native.the_archive_includes_credential_files_use_an_archive_exported_and": {
+    "en": "The archive includes credential files. Use an archive exported and redacted by Hermes.",
+    "zh-CN": "档案包包含凭据文件，请使用 Hermes 导出的脱敏档案包。"
+  },
+  "native.choose_a_hermes_tar_gz_archive_with_one_profile_directory": {
+    "en": "Choose a Hermes tar.gz archive with one profile directory.",
+    "zh-CN": "请选择包含一个档案目录的 Hermes tar.gz 档案包。"
+  },
+  "native.the_archive_exceeds_the_mobile_limits_of_100_mib_uploaded": {
+    "en": "The archive exceeds the mobile limits of 100 MiB uploaded or 512 MiB unpacked.",
+    "zh-CN": "档案包超出手机端处理范围（上传 100 MiB，解包 512 MiB）。"
+  },
+  "native.sign_in_to_hermes_and_select_the_archive_in_the": {
+    "en": "Sign in to Hermes and select the archive in the foreground workspace.",
+    "zh-CN": "请登录 Hermes 并从前台工作台选择档案包。"
+  },
+  "native.enter_a_valid_profile_name_use_a_new_name_for": {
+    "en": "Enter a valid profile name. Use a new name for import.",
+    "zh-CN": "请输入有效的档案名，导入须使用新名称。"
+  },
+  "native.finish_the_current_profile_transfer_first": {
+    "en": "Finish the current profile transfer first.",
+    "zh-CN": "请先完成当前档案传输。"
+  },
+  "native.could_not_confirm_the_import_result_refresh_the_profile_list_2": {
+    "en": "Could not confirm the import result. Refresh the profile list. A temporary archive may remain in managed files.",
+    "zh-CN": "无法确认档案导入结果。请刷新档案列表；受管文件内可能仍有临时档案包。"
+  },
+  "native.could_not_save_the_archive_check_the_server_and_destination": {
+    "en": "Could not save the archive. Check the server and destination.",
+    "zh-CN": "无法保存档案包，请检查服务器及所选保存位置。"
+  },
+  "native.the_hermes_login_changed_the_profile_transfer_was_canceled": {
+    "en": "The Hermes login changed. The profile transfer was canceled.",
+    "zh-CN": "Hermes 登录已变更，档案传输已取消。"
+  },
+  "native.back": {
+    "en": "Back",
+    "zh-CN": "返回",
+    "official": "common.back"
+  },
+  "native.playback_position": {
+    "en": "Playback position",
+    "zh-CN": "播放进度"
+  },
+  "native.play": {
+    "en": "Play",
+    "zh-CN": "播放"
+  },
+  "native.loading_hermes_media": {
+    "en": "Loading Hermes media…",
+    "zh-CN": "正在读取 Hermes 媒体…"
+  },
+  "native.the_phone_could_not_play_this_media_or_the_file": {
+    "en": "The phone could not play this media, or the file changed.",
+    "zh-CN": "手机无法播放此媒体，或文件已变化。"
+  },
+  "native.could_not_load_hermes_media_check_the_connection_and_try": {
+    "en": "Could not load Hermes media. Check the connection and try again.",
+    "zh-CN": "无法读取 Hermes 媒体，请检查连接后重试。"
+  },
+  "native.the_phone_could_not_resume_playback": {
+    "en": "The phone could not resume playback.",
+    "zh-CN": "手机无法继续播放此媒体。"
+  },
+  "native.the_phone_could_not_play_this_media": {
+    "en": "The phone could not play this media.",
+    "zh-CN": "手机无法播放此媒体。"
+  },
+  "native.the_phone_could_not_seek_to_this_position": {
+    "en": "The phone could not seek to this position.",
+    "zh-CN": "手机无法跳转到此播放位置。"
+  },
+  "native.pause": {
+    "en": "Pause",
+    "zh-CN": "暂停",
+    "official": "commandCenter.maintenance.pause"
+  },
+  "native.replay": {
+    "en": "Replay",
+    "zh-CN": "重播"
+  },
+  "native.could_not_read_the_current_playback_position": {
+    "en": "Could not read the current playback position.",
+    "zh-CN": "无法读取当前播放进度。"
+  },
+  "native.retry": {
+    "en": "Retry",
+    "zh-CN": "重试",
+    "official": "common.retry"
+  },
+  "native.choose_a_hermes_audio_or_video_file": {
+    "en": "Choose a Hermes audio or video file.",
+    "zh-CN": "请选择 Hermes 的音频或视频文件。"
+  },
+  "native.hermes_did_not_return_a_valid_media_file_size": {
+    "en": "Hermes did not return a valid media file size.",
+    "zh-CN": "Hermes 未返回有效的媒体文件大小。"
+  },
+  "native.invalid_media_read_position": {
+    "en": "Invalid media read position.",
+    "zh-CN": "无效的媒体文件读取位置。"
+  },
+  "native.hermes_did_not_confirm_the_file_range_the_file_may": {
+    "en": "Hermes did not confirm the file range. The file may have changed.",
+    "zh-CN": "Hermes 未确认文件范围，可能是文件已变化。"
+  },
+  "native.the_media_file_changed_reopen_it": {
+    "en": "The media file changed. Reopen it.",
+    "zh-CN": "媒体文件已变化，请重新打开。"
+  },
+  "native.hermes_returned_an_invalid_media_range": {
+    "en": "Hermes returned an invalid media range.",
+    "zh-CN": "Hermes 返回的媒体文件范围无效。"
+  },
+  "native.hermes_did_not_return_the_complete_requested_media_range": {
+    "en": "Hermes did not return the complete requested media range.",
+    "zh-CN": "Hermes 未完整返回指定的媒体文件范围。"
+  },
+  "native.your_hermes_session_expired_sign_in_again": {
+    "en": "Your Hermes session expired. Sign in again.",
+    "zh-CN": "Hermes 登录已失效，请重新登录。"
+  },
+  "native.this_file_no_longer_exists_or_this_login_cannot_access": {
+    "en": "This file no longer exists, or this login cannot access it.",
+    "zh-CN": "该文件已不存在，或当前登录无法访问。"
+  },
+  "native.this_file_type_cannot_be_streamed_by_hermes": {
+    "en": "This file type cannot be streamed by Hermes.",
+    "zh-CN": "Hermes 不支持在线播放此文件类型。"
+  },
+  "native.hermes_could_not_read_the_media_file": {
+    "en": "Hermes could not read the media file (%1$d).",
+    "zh-CN": "Hermes 未能读取媒体文件（%1$d）。"
+  },
+  "native.hermes_did_not_return_playable_media": {
+    "en": "Hermes did not return playable media.",
+    "zh-CN": "Hermes 返回的内容不是可播放的媒体文件。"
+  },
+  "native.sign_in_to_hermes_and_open_media_from_the_foreground": {
+    "en": "Sign in to Hermes and open media from the foreground workspace.",
+    "zh-CN": "请登录 Hermes 并从前台工作台打开媒体。"
+  },
+  "native.the_file_path_type_or_conversation_is_invalid": {
+    "en": "The file path, type, or conversation is invalid.",
+    "zh-CN": "该文件路径、类型或会话无效。"
+  },
+  "native.could_not_open_the_device_media_player": {
+    "en": "Could not open the device media player.",
+    "zh-CN": "无法打开手机媒体播放器。"
+  },
+  "native.the_terminal_did_not_connect_try_again": {
+    "en": "The terminal did not connect. Try again.",
+    "zh-CN": "终端未能开始连接，请重试。"
+  },
+  "native.this_terminal_cannot_reconnect_yet": {
+    "en": "This terminal cannot reconnect yet.",
+    "zh-CN": "当前终端还不能重新连接。"
+  },
+  "native.could_not_reconnect_to_this_terminal": {
+    "en": "Could not reconnect to this terminal.",
+    "zh-CN": "暂时无法重新连接当前终端。"
+  },
+  "native.invalid_terminal_input": {
+    "en": "Invalid terminal input.",
+    "zh-CN": "终端输入无效。"
+  },
+  "native.the_input_was_not_sent_check_the_terminal_connection_and": {
+    "en": "The input was not sent. Check the terminal connection and try again.",
+    "zh-CN": "这段输入未发送，请检查终端连接后重试。"
+  },
+  "native.the_terminal_size_did_not_update_check_the_connection": {
+    "en": "The terminal size did not update. Check the connection.",
+    "zh-CN": "终端尺寸未更新，请检查连接。"
+  },
+  "native.the_terminal_is_changing_connection_state_try_ending_it_again": {
+    "en": "The terminal is changing connection state. Try ending it again shortly.",
+    "zh-CN": "当前终端正在切换连接状态，请稍后再结束。"
+  },
+  "native.the_terminal_produced_more_output_than_the_view_can_handle": {
+    "en": "The terminal produced more output than the view can handle. The connection stopped.",
+    "zh-CN": "终端输出超过界面处理上限，连接已停止。"
+  },
+  "native.the_terminal_view_stopped_responding_the_connection_stopped": {
+    "en": "The terminal view stopped responding. The connection stopped.",
+    "zh-CN": "终端界面长时间未响应，连接已停止。"
+  },
+  "native.hermes_rejected_the_terminal_request_check_the_host_terminal_setting": {
+    "en": "Hermes rejected the terminal request. Check the host terminal setting and sign-in permissions.",
+    "zh-CN": "Hermes 拒绝了终端请求，请检查主机终端开关和登录权限。"
+  },
+  "native.the_hermes_host_terminal_reached_its_session_limit": {
+    "en": "The Hermes host terminal reached its session limit.",
+    "zh-CN": "Hermes 主机终端已达到会话上限。"
+  },
+  "native.this_terminal_connection_was_replaced": {
+    "en": "This terminal connection was replaced.",
+    "zh-CN": "当前终端连接已被替换。"
+  },
+  "native.the_host_terminal_disconnected": {
+    "en": "The host terminal disconnected.",
+    "zh-CN": "主机终端连接已中断。"
+  },
+  "native.the_terminal_action_failed_check_the_hermes_connection_and_host": {
+    "en": "The terminal action failed. Check the Hermes connection and host settings.",
+    "zh-CN": "终端操作失败，请检查 Hermes 连接和主机设置。"
+  },
+  "native.the_hermes_login_changed_reopen_the_host_terminal": {
+    "en": "The Hermes login changed. Reopen the host terminal.",
+    "zh-CN": "Hermes 登录已变更，请重新打开主机终端。"
+  },
+  "native.sign_in_to_hermes_from_connection_settings_first": {
+    "en": "Sign in to Hermes from Connection Settings first.",
+    "zh-CN": "请先在连接设置中登录 Hermes。"
+  },
+  "native.this_host_terminal_ended_or_is_outside_the_current_login": {
+    "en": "This host terminal ended or is outside the current login.",
+    "zh-CN": "这个主机终端已结束或不在当前登录下。"
+  },
+  "native.disconnect_or_end_the_current_terminal_first": {
+    "en": "Disconnect or end the current terminal first.",
+    "zh-CN": "请先断开或结束当前连接的终端。"
+  },
+  "native.open_the_host_terminal_in_the_foreground_workspace": {
+    "en": "Open the host terminal in the foreground workspace.",
+    "zh-CN": "请在前台工作区打开主机终端。"
+  },
+  "native.this_terminal_view_expired_open_it_again": {
+    "en": "This terminal view expired. Open it again.",
+    "zh-CN": "当前终端界面已失效，请重新打开。"
+  },
+  "native.invalid_terminal_dimensions": {
+    "en": "Invalid terminal dimensions.",
+    "zh-CN": "终端的行列尺寸无效。"
+  },
+  "native.invalid_host_terminal_profile_or_working_directory": {
+    "en": "Invalid host terminal profile or working directory.",
+    "zh-CN": "主机终端的配置档案或工作目录无效。"
+  },
+  "native.the_input_exceeds_the_single_send_limit": {
+    "en": "The input exceeds the single-send limit.",
+    "zh-CN": "终端输入超过单次长度上限。"
+  },
+  "native.this_terminal_connection_is_unavailable": {
+    "en": "This terminal connection is unavailable.",
+    "zh-CN": "当前终端连接已不可用。"
+  },
+  "native.the_host_terminal_closed_reopen_the_workspace": {
+    "en": "The host terminal closed. Reopen the workspace.",
+    "zh-CN": "主机终端已关闭，请重新打开工作区。"
+  },
+  "native.no_terminal_output_to_copy": {
+    "en": "No terminal output to copy",
+    "zh-CN": "没有可复制的终端输出"
+  },
+  "native.the_selection_is_too_long_select_less_text": {
+    "en": "The selection is too long. Select less text",
+    "zh-CN": "选区较长，请缩小选择范围"
+  },
+  "native.terminal_output": {
+    "en": "Terminal output",
+    "zh-CN": "终端输出"
+  },
+  "native.the_clipboard_has_no_text": {
+    "en": "The clipboard has no text",
+    "zh-CN": "剪贴板中没有文本"
+  },
+  "native.the_clipboard_text_is_too_long_paste_it_in_parts": {
+    "en": "The clipboard text is too long. Paste it in parts",
+    "zh-CN": "粘贴内容过长，请分段粘贴"
+  },
+  "native.the_hermes_login_changed_reopen_the_workspace": {
+    "en": "The Hermes login changed. Reopen the workspace.",
+    "zh-CN": "Hermes 登录已变更，请重新打开工作区。"
+  },
+  "native.could_not_read_the_workspace_catalog": {
+    "en": "Could not read the workspace catalog.",
+    "zh-CN": "无法读取工作区目录。"
+  },
+  "native.create_a_triage_task_on_mobile_set_triage_true_to": {
+    "en": "Create a triage task on mobile. Set triage=true to save it without an assignee.",
+    "zh-CN": "手机端支持新建待整理任务。填写 triage=true 后，任务将以未分配状态保存。"
+  },
+  "native.choose_2_to_6_profiles_on_the_same_hermes_gateway": {
+    "en": "Choose 2 to 6 profiles on the same Hermes gateway for the group chat.",
+    "zh-CN": "从同一 Hermes 网关选择 2 到 6 个可加入群聊的配置档案。"
+  },
+  "native.send_a_plain_text_message_event_id_identifies_the_send": {
+    "en": "Send a plain-text message. event_id identifies the send, and payload contains thread_id and text.",
+    "zh-CN": "发送纯文本消息。event_id 标识本次发送，payload 包含 thread_id 和 text。"
+  },
+  "native.change_public_reasoning_appearance_or_voice_settings_if_a_conversation": {
+    "en": "Change public reasoning, appearance, or voice settings. If a conversation is specified, the change applies to that conversation.",
+    "zh-CN": "修改公开的推理、外观或语音设置。指定会话后按该会话应用。"
+  },
+  "native.list_browse_or_search_skills_using_action_list_browse_or": {
+    "en": "List, browse, or search skills using action list, browse, or search.",
+    "zh-CN": "列出、浏览或搜索技能，action 分别为 list、browse 或 search。"
+  },
+  "native.for_learning_frames_enter_cols_20_80_rows_10_24": {
+    "en": "For learning frames, enter cols 20–80, rows 10–24, and frames 2–12.",
+    "zh-CN": "请填写 cols 20–80、rows 10–24 和 frames 2–12 来读取学习图。"
+  },
+  "native.set_redact_true_to_export_a_redacted_conversation_as_json": {
+    "en": "Set redact=true to export a redacted conversation as json, md, or html.",
+    "zh-CN": "填写 redact=true 后导出脱敏会话文件，可用 json、md 或 html 格式。"
+  },
+  "native.hermes_returned_an_invalid_file_listing": {
+    "en": "Hermes returned an invalid file listing.",
+    "zh-CN": "Hermes 返回的文件目录格式无效。"
+  },
+  "native.return_to_the_workspace": {
+    "en": "Return to the workspace.",
+    "zh-CN": "请回到工作区。"
+  },
+  "native.this_project_conversation_lacks_a_valid_conversation_or_profile": {
+    "en": "This project conversation lacks a valid conversation or profile.",
+    "zh-CN": "项目会话缺少有效的会话或配置档案。"
+  },
+  "native.could_not_open_this_project_conversation": {
+    "en": "Could not open this project conversation.",
+    "zh-CN": "无法打开这条项目会话。"
+  },
+  "native.the_request_text_is_limited_to_256_kib_attachments_can": {
+    "en": "The request text is limited to 256 KiB. Attachments can be up to 32 MiB.",
+    "zh-CN": "请求文本最多 256 KiB。文件可通过附件上传，大小上限为 32 MiB。"
+  },
+  "native.hermes_could_not_find_the_kanban_or_achievement_resource_check": {
+    "en": "Hermes could not find the Kanban or achievement resource. Check the plugin and resource.",
+    "zh-CN": "Hermes 找不到该看板或成就资源。请检查插件和资源是否可用。"
+  },
+  "native.hermes_returned_http": {
+    "en": "Hermes returned HTTP %1$d.",
+    "zh-CN": "Hermes 返回 HTTP %1$d。"
+  },
+  "native.hermes_returned_rpc_error": {
+    "en": "Hermes returned RPC error %1$d.",
+    "zh-CN": "Hermes 返回 RPC 错误 %1$d。"
+  },
+  "native.this_action_does_not_accept_attachments": {
+    "en": "This action does not accept attachments.",
+    "zh-CN": "该操作不接受附件。"
+  },
+  "native.could_not_read_the_selected_file": {
+    "en": "Could not read the selected file.",
+    "zh-CN": "无法读取所选文件。"
+  },
+  "native.the_attachment_cannot_exceed": {
+    "en": "The attachment cannot exceed %1$d MiB.",
+    "zh-CN": "附件不能超过 %1$d MiB。"
+  },
+  "native.hermes_returned_an_invalid_provider_list": {
+    "en": "Hermes returned an invalid provider list.",
+    "zh-CN": "Hermes 返回的提供方列表格式无效。"
+  },
+  "native.this_response_cannot_be_previewed_securely_view_it_in_hermes": {
+    "en": "This response cannot be previewed securely. View it in Hermes Webapp.",
+    "zh-CN": "此响应无法安全预览，请在 Hermes Webapp 查看。"
+  },
+  "native.this_raw_text_cannot_be_previewed_securely_view_it_in": {
+    "en": "This raw text cannot be previewed securely. View it in Hermes Webapp.",
+    "zh-CN": "原始文本无法安全预览，请在 Hermes Webapp 查看。"
+  },
+  "native.hermes_returned_a_result_larger_than_256_kib_view_it": {
+    "en": "Hermes returned a result larger than 256 KiB. View it in Hermes Webapp.",
+    "zh-CN": "Hermes 已返回结果。结果超过 256 KiB，请在 Hermes Webapp 查看。"
+  },
+  "native.the_hermes_response_json_is_nested_too_deeply": {
+    "en": "The Hermes response JSON is nested too deeply.",
+    "zh-CN": "Hermes 操作的 JSON 层级过深。"
+  },
+  "native.download_the_file_again": {
+    "en": "Download the file again.",
+    "zh-CN": "请重新下载文件。"
+  },
+  "native.finish_choosing_the_current_file": {
+    "en": "Finish choosing the current file.",
+    "zh-CN": "请完成当前文件选择。"
+  },
+  "native.could_not_open_the_file_picker": {
+    "en": "Could not open the file picker.",
+    "zh-CN": "无法打开文件选择器。"
+  },
+  "native.selection_canceled": {
+    "en": "Selection canceled.",
+    "zh-CN": "已取消选择。"
+  },
+  "native.choose_a_system_document": {
+    "en": "Choose a system document.",
+    "zh-CN": "请选择系统文档。"
+  },
+  "native.could_not_save_the_file": {
+    "en": "Could not save the file.",
+    "zh-CN": "无法保存文件。"
+  },
+  "native.choose_the_attachment_again": {
+    "en": "Choose the attachment again.",
+    "zh-CN": "请重新选择附件。"
+  },
+  "native.sign_in_from_connection_settings_first": {
+    "en": "Sign in from Connection Settings first.",
+    "zh-CN": "请先在连接设置中登录。"
+  },
+  "native.invalid_hermes_action_parameters_or_response_format": {
+    "en": "Invalid Hermes action parameters or response format.",
+    "zh-CN": "Hermes 操作的参数或响应格式无效。"
+  },
+  "native.the_action_failed_check_the_parameters": {
+    "en": "The action failed. Check the parameters.",
+    "zh-CN": "操作失败，请检查参数。"
+  },
+  "native.the_action_failed_check_the_connection_or_file_permissions": {
+    "en": "The action failed. Check the connection or file permissions.",
+    "zh-CN": "操作失败，请检查连接或文件访问权限。"
+  },
+  "native.the_workspace_closed_open_it_again": {
+    "en": "The workspace closed. Open it again.",
+    "zh-CN": "工作区已关闭，请重新打开。"
+  },
+  "native.sign_in_was_interrupted_open_browser_sign_in_again": {
+    "en": "Sign-in was interrupted. Open browser sign-in again.",
+    "zh-CN": "登录已中断，请重新打开浏览器登录。"
+  },
+  "native.sign_in_to_hermes": {
+    "en": "Sign in to Hermes",
+    "zh-CN": "登录 Hermes"
+  },
+  "native.sign_in_again": {
+    "en": "Sign in again",
+    "zh-CN": "重新登录"
+  },
+  "native.cancel": {
+    "en": "Cancel",
+    "zh-CN": "取消",
+    "official": "common.cancel"
+  },
+  "native.preparing_sign_in": {
+    "en": "Preparing sign-in…",
+    "zh-CN": "正在准备登录…"
+  },
+  "native.verifying_authorization": {
+    "en": "Verifying authorization…",
+    "zh-CN": "正在确认授权…"
+  },
+  "native.after_authorizing_in_your_browser_return_to": {
+    "en": "After authorizing in your browser, return to %1$s.",
+    "zh-CN": "在浏览器完成授权后，返回 %1$s。"
+  },
+  "native.could_not_open_the_system_browser_make_sure_a_browser": {
+    "en": "Could not open the system browser. Make sure a browser is installed and enabled.",
+    "zh-CN": "无法打开系统浏览器。请确认手机已安装并启用浏览器。"
+  },
+  "native.sign_in_failed_try_again": {
+    "en": "Sign-in failed. Try again.",
+    "zh-CN": "登录失败，请重试。",
+    "official": "onboarding.signInFailed"
+  },
+  "native.could_not_start_the_local_browser_callback_try_again": {
+    "en": "Could not start the local browser callback. Try again.",
+    "zh-CN": "无法启动手机上的浏览器回调，请重试。"
+  },
+  "native.sign_in_canceled": {
+    "en": "Sign-in canceled.",
+    "zh-CN": "登录已取消。"
+  },
+  "native.sign_in_timed_out_return_to_the_app_and_sign": {
+    "en": "Sign-in timed out. Return to the app and sign in again.",
+    "zh-CN": "登录等待超时。请回到应用后重新登录。"
+  },
+  "native.login_callback_complete_html": {
+    "en": "<!doctype html><html lang=\"%1$s\"><meta charset=utf-8><meta name=viewport content='width=device-width'><title>HermesLink</title><h1>Authorization received</h1><p>Return to HermesLink to finish signing in.</p></html>",
+    "zh-CN": "<!doctype html><html lang=\"%1$s\"><meta charset=utf-8><meta name=viewport content='width=device-width'><title>HermesLink</title><h1>授权已返回</h1><p>请回到 HermesLink完成登录。</p></html>"
+  },
+  "native.login_callback_invalid_html": {
+    "en": "<!doctype html><html lang=\"%1$s\"><meta charset=utf-8><title>HermesLink</title><p>This callback is invalid. Return to HermesLink to check your sign-in status.</p></html>",
+    "zh-CN": "<!doctype html><html lang=\"%1$s\"><meta charset=utf-8><title>HermesLink</title><p>这次回调无效。请回到 HermesLink查看登录状态。</p>"
+  },
+  "native.sign_in_to_the_same_hermes_as_the_workspace_and": {
+    "en": "Sign in to the same Hermes as the workspace and select the full conversation.",
+    "zh-CN": "请先登录与工作台相同的 Hermes，并选择完整的会话。"
+  },
+  "native.sign_in_was_not_completed_try_again": {
+    "en": "Sign-in was not completed. Try again.",
+    "zh-CN": "登录未完成，请重试。"
+  },
+  "native.sign_in_to_load_conversations": {
+    "en": "Sign in to load conversations.",
+    "zh-CN": "请登录后读取会话。"
+  },
+  "native.back_to": {
+    "en": "Back to %1$s",
+    "zh-CN": "返回 %1$s"
+  },
+  "native.connection_settings": {
+    "en": "Connection settings",
+    "zh-CN": "连接设置",
+    "official": "updates.connectionSettings"
+  },
+  "native.hermes_webapp_address": {
+    "en": "Hermes Webapp address",
+    "zh-CN": "Hermes Webapp 地址"
+  },
+  "native.https_your_hermes_address": {
+    "en": "https://your-hermes-address",
+    "zh-CN": "https://你的 Hermes 地址"
+  },
+  "native.connect_and_sign_in": {
+    "en": "Connect and sign in",
+    "zh-CN": "连接并登录"
+  },
+  "native.sign_out": {
+    "en": "Sign out",
+    "zh-CN": "退出登录",
+    "official": "settings.gateway.signOut"
+  },
+  "native.refresh_conversations": {
+    "en": "Refresh conversations",
+    "zh-CN": "刷新会话"
+  },
+  "native.conversations": {
+    "en": "Conversations",
+    "zh-CN": "会话",
+    "official": "sidebar.sessions"
+  },
+  "native.new_conversation": {
+    "en": "New conversation",
+    "zh-CN": "新对话",
+    "official": "keybinds.actions.session.new"
+  },
+  "native.search_conversations": {
+    "en": "Search conversations",
+    "zh-CN": "搜索会话",
+    "official": "sidebar.searchAria"
+  },
+  "native.load_more_conversations": {
+    "en": "Load more conversations",
+    "zh-CN": "加载更多会话",
+    "official": "sidebar.loadMore"
+  },
+  "native.rename": {
+    "en": "Rename",
+    "zh-CN": "重命名",
+    "official": "fileMenu.renameTitle"
+  },
+  "native.unpin": {
+    "en": "Unpin",
+    "zh-CN": "取消置顶",
+    "official": "sidebar.row.unpin"
+  },
+  "native.pin": {
+    "en": "Pin",
+    "zh-CN": "置顶",
+    "official": "sidebar.row.pin"
+  },
+  "native.unarchive": {
+    "en": "Unarchive",
+    "zh-CN": "取消归档",
+    "official": "sidebar.row.unarchive"
+  },
+  "native.archive": {
+    "en": "Archive",
+    "zh-CN": "归档",
+    "official": "sidebar.row.archive"
+  },
+  "native.export_conversation_json": {
+    "en": "Export conversation JSON",
+    "zh-CN": "导出会话 JSON"
+  },
+  "native.rename_conversation": {
+    "en": "Rename conversation",
+    "zh-CN": "重命名会话",
+    "official": "sidebar.row.renameTitle"
+  },
+  "native.save": {
+    "en": "Save",
+    "zh-CN": "保存",
+    "official": "common.save"
+  },
+  "native.enter_a_conversation_name": {
+    "en": "Enter a conversation name.",
+    "zh-CN": "请输入会话名称"
+  },
+  "native.this_device_cannot_open_the_file_saver": {
+    "en": "This device cannot open the file saver.",
+    "zh-CN": "此设备无法打开文件保存器。"
+  },
+  "native.back_to_conversations": {
+    "en": "Back to conversations",
+    "zh-CN": "返回会话"
+  },
+  "native.refresh_messages": {
+    "en": "Refresh messages",
+    "zh-CN": "刷新消息"
+  },
+  "native.stop_reply": {
+    "en": "Stop reply",
+    "zh-CN": "停止回复",
+    "official": "composer.stop"
+  },
+  "native.jump_to_latest": {
+    "en": "Jump to latest",
+    "zh-CN": "回到最新"
+  },
+  "native.add_attachment": {
+    "en": "Add attachment",
+    "zh-CN": "添加附件",
+    "official": "composer.attachLabel"
+  },
+  "native.enter_a_message_2": {
+    "en": "Enter a message",
+    "zh-CN": "输入消息"
+  },
+  "native.send_message": {
+    "en": "Send message",
+    "zh-CN": "发送消息",
+    "official": "keybinds.actions.composer.send"
+  },
+  "native.this_device_cannot_open_the_file_picker": {
+    "en": "This device cannot open the file picker.",
+    "zh-CN": "此设备无法打开文件选择器。"
+  },
+  "native.attachment": {
+    "en": "Attachment",
+    "zh-CN": "附件",
+    "official": "platform.telegram.media.kind_attachment"
+  },
+  "native.add_attachments_in_the_original_conversation_up_to_four_per": {
+    "en": "Add attachments in the original conversation. Up to four per message.",
+    "zh-CN": "请在原会话添加附件，每条消息最多四个。"
+  },
+  "native.refresh": {
+    "en": "Refresh",
+    "zh-CN": "刷新",
+    "official": "common.refresh"
+  },
+  "native.show_recent_conversations": {
+    "en": "Show recent conversations",
+    "zh-CN": "返回最近"
+  },
+  "native.show_archived_conversations": {
+    "en": "Show archived conversations",
+    "zh-CN": "查看归档"
+  },
+  "native.opening_workspace_conversation": {
+    "en": "Opening workspace conversation…",
+    "zh-CN": "正在打开工作台会话…"
+  },
+  "native.exporting_conversation": {
+    "en": "Exporting conversation…",
+    "zh-CN": "正在导出会话…"
+  },
+  "native.no_matching_conversations": {
+    "en": "No matching conversations",
+    "zh-CN": "未找到匹配会话"
+  },
+  "native.no_archived_conversations_yet": {
+    "en": "No archived conversations yet",
+    "zh-CN": "还没有归档会话"
+  },
+  "native.no_conversations_yet": {
+    "en": "No conversations yet",
+    "zh-CN": "还没有会话"
+  },
+  "native.loading_conversations": {
+    "en": "Loading conversations…",
+    "zh-CN": "正在读取会话…"
+  },
+  "native.could_not_load_conversations": {
+    "en": "Could not load conversations",
+    "zh-CN": "暂时无法读取会话"
+  },
+  "native.enter_your_first_message": {
+    "en": "Enter your first message",
+    "zh-CN": "输入第一条消息"
+  },
+  "native.loading_messages": {
+    "en": "Loading messages…",
+    "zh-CN": "正在读取消息…"
+  },
+  "native.no_messages_yet": {
+    "en": "No messages yet",
+    "zh-CN": "暂无消息"
+  },
+  "native.could_not_load_messages": {
+    "en": "Could not load messages",
+    "zh-CN": "暂时无法读取消息"
+  },
+  "native.enter_a_message_and_send_it": {
+    "en": "Enter a message and send it.",
+    "zh-CN": "输入消息并发送。"
+  },
+  "native.enter_the_next_message": {
+    "en": "Enter the next message",
+    "zh-CN": "输入下一条消息",
+    "official": "composer.placeholderFollowUp"
+  },
+  "native.queue_message": {
+    "en": "Queue message",
+    "zh-CN": "排队发送消息"
+  },
+  "native.tool_activity_count": {
+    "en": "Tool activity (%1$d)",
+    "zh-CN": "工具活动 %1$d"
+  },
+  "native.tool_running": {
+    "en": "Tool running · %1$s",
+    "zh-CN": "工具运行中 · %1$s"
+  },
+  "native.finished_1f_s": {
+    "en": "Finished · %.1f s",
+    "zh-CN": "已结束 · %.1f 秒"
+  },
+  "native.finished": {
+    "en": "Finished",
+    "zh-CN": "已结束"
+  },
+  "native.ended_with_this_turn": {
+    "en": "Ended with this turn",
+    "zh-CN": "随本轮结束"
+  },
+  "native.tool_running_percent": {
+    "en": "Running · %1$d%%",
+    "zh-CN": "运行中 · %1$d%%"
+  },
+  "native.tool_running_status": {
+    "en": "Running",
+    "zh-CN": "运行中",
+    "official": "assistant.tool.statusRunning"
+  },
+  "native.tool_activity": {
+    "en": "Tool activity",
+    "zh-CN": "工具活动"
+  },
+  "native.close": {
+    "en": "Close",
+    "zh-CN": "关闭",
+    "official": "common.close"
+  },
+  "native.remove": {
+    "en": "Remove",
+    "zh-CN": "移除",
+    "official": "common.remove"
+  },
+  "native.remove_attachment": {
+    "en": "Remove attachment %1$s",
+    "zh-CN": "移除附件 %1$s",
+    "official": "composer.removeAttachment"
+  },
+  "native.queue": {
+    "en": "Queue %1$d",
+    "zh-CN": "队列 %1$d",
+    "official": "composer.queued"
+  },
+  "native.pending": {
+    "en": "Pending %1$d",
+    "zh-CN": "待处理 %1$d"
+  },
+  "native.stop_the_current_reply": {
+    "en": "Stop the current reply?",
+    "zh-CN": "停止当前回复？"
+  },
+  "native.hermes_will_interrupt_the_current_turn_in_this_conversation": {
+    "en": "Hermes will interrupt the current turn in this conversation.",
+    "zh-CN": "Hermes 会中断本会话正在运行的这一轮。"
+  },
+  "native.stop": {
+    "en": "Stop",
+    "zh-CN": "停止",
+    "official": "composer.stop"
+  },
+  "native.queued_messages": {
+    "en": "Queued messages",
+    "zh-CN": "排队消息"
+  },
+  "native.add_to_current_reply": {
+    "en": "Add to current reply",
+    "zh-CN": "补充到当前回复"
+  },
+  "native.withdraw_queued_message": {
+    "en": "Withdraw queued message",
+    "zh-CN": "撤回排队消息"
+  },
+  "native.manage_queued_message": {
+    "en": "Manage queued message",
+    "zh-CN": "处理排队消息"
+  },
+  "native.approval_request": {
+    "en": "Approval request",
+    "zh-CN": "审批请求"
+  },
+  "native.pending_requests": {
+    "en": "Pending requests",
+    "zh-CN": "待处理请求"
+  },
+  "native.deny": {
+    "en": "Deny",
+    "zh-CN": "拒绝",
+    "official": "gateway.exec_approval.action_deny"
+  },
+  "native.allow_once": {
+    "en": "Allow once",
+    "zh-CN": "仅允许这次",
+    "official": "gateway.exec_approval.action_once"
+  },
+  "native.skip": {
+    "en": "Skip",
+    "zh-CN": "跳过",
+    "official": "common.skip"
+  },
+  "native.other": {
+    "en": "Other",
+    "zh-CN": "其他"
+  },
+  "native.submit": {
+    "en": "Submit",
+    "zh-CN": "提交"
+  },
+  "native.enter_an_answer": {
+    "en": "Enter an answer",
+    "zh-CN": "输入回答"
+  },
+  "native.enter_an_answer_2": {
+    "en": "Enter an answer.",
+    "zh-CN": "请输入回答"
+  },
+  "native.syncing": {
+    "en": "Syncing…",
+    "zh-CN": "正在同步…"
+  },
+  "native.pinned": {
+    "en": "Pinned · %1$s",
+    "zh-CN": "置顶 · %1$s"
+  },
+  "native.in_progress": {
+    "en": "In progress",
+    "zh-CN": "进行中",
+    "official": "sidebar.statusDivider.working"
+  },
+  "native.you": {
+    "en": "You",
+    "zh-CN": "你",
+    "official": "sessionImport.you"
+  },
+  "native.could_not_check_how_this_hermes_webapp_signs_users_in": {
+    "en": "Could not check how this Hermes Webapp signs users in",
+    "zh-CN": "无法读取 Hermes Webapp 的登录方式"
+  },
+  "native.this_hermes_webapp_does_not_offer_native_sign_in_enable": {
+    "en": "This Hermes Webapp does not offer native sign-in. Enable password or browser sign-in and check that your version supports native sign-in.",
+    "zh-CN": "此 Hermes Webapp 未提供原生登录。请确认已开启密码或浏览器登录，并使用支持原生登录的版本。"
+  },
+  "native.could_not_build_the_sign_in_request": {
+    "en": "Could not build the sign-in request.",
+    "zh-CN": "无法生成登录请求。"
+  },
+  "native.hermes_did_not_accept_the_browser_authorization": {
+    "en": "Hermes did not accept the browser authorization",
+    "zh-CN": "Hermes 未接受这次浏览器授权"
+  },
+  "native.hermes_did_not_confirm_the_sign_in": {
+    "en": "Hermes did not confirm the sign-in",
+    "zh-CN": "Hermes 未确认登录"
+  },
+  "native.hermes_returned_a_different_sign_in_identity_sign_in_again": {
+    "en": "Hermes returned a different sign-in identity. Sign in again.",
+    "zh-CN": "Hermes 返回的登录身份不一致，请重新登录。"
+  },
+  "native.could_not_build_the_token_refresh_request": {
+    "en": "Could not build the token-refresh request.",
+    "zh-CN": "无法生成登录续期请求。"
+  },
+  "native.hermes_could_not_refresh_sign_in_right_now": {
+    "en": "Hermes could not refresh sign-in right now",
+    "zh-CN": "Hermes 暂时无法续期"
+  },
+  "native.hermes_returned_expired_credentials_check_the_device_and_server_clocks": {
+    "en": "Hermes returned expired credentials. Check the device and server clocks.",
+    "zh-CN": "Hermes 返回了已到期的凭据，请检查手机和服务器的时间。"
+  },
+  "native.hermes_returned_unusable_credentials_sign_in_again": {
+    "en": "Hermes returned unusable credentials. Sign in again.",
+    "zh-CN": "Hermes 返回了无法使用的登录凭据，请重新登录。"
+  },
+  "native.check_the_https_certificate": {
+    "en": "%1$s. Check the HTTPS certificate.",
+    "zh-CN": "%1$s。请检查 HTTPS 证书。"
+  },
+  "native.check_your_network_and_the_server_address": {
+    "en": "%1$s. Check your network and the server address.",
+    "zh-CN": "%1$s。请确认网络和服务器地址。"
+  },
+  "native.the_hermes_api_catalog_is_too_large": {
+    "en": "The Hermes API catalog is too large.",
+    "zh-CN": "Hermes API 目录过大。"
+  },
+  "native.could_not_read_the_bundled_hermes_api_catalog": {
+    "en": "Could not read the bundled Hermes API catalog.",
+    "zh-CN": "无法读取内置 Hermes API 目录。"
+  },
+  "native.invalid_attachment_name_or_size": {
+    "en": "Invalid attachment name or size.",
+    "zh-CN": "附件名称或大小无效。"
+  },
+  "native.confirm_this_hermes_action_first": {
+    "en": "Confirm this Hermes action first.",
+    "zh-CN": "请先确认这项 Hermes 操作。"
+  },
+  "native.create_a_triage_task_on_mobile_set_triage_true_and": {
+    "en": "Create a triage task on mobile. Set triage=true and leave assignee empty.",
+    "zh-CN": "手机端支持新建待整理任务。请填写 triage=true 并留空 assignee。"
+  },
+  "native.the_request_body_exceeds_32_mib": {
+    "en": "The request body exceeds 32 MiB.",
+    "zh-CN": "请求正文超过 32 MiB。"
+  },
+  "native.invalid_hermes_json_parameters_or_response": {
+    "en": "Invalid Hermes JSON parameters or response.",
+    "zh-CN": "Hermes 操作的 JSON 参数或响应无效。"
+  },
+  "native.the_file_directory_changed_go_back_and_reopen_it": {
+    "en": "The file directory changed. Go back and reopen it.",
+    "zh-CN": "文件目录已变更，请返回后重新打开。"
+  },
+  "native.invalid_file_path": {
+    "en": "Invalid file path.",
+    "zh-CN": "文件路径无效。"
+  },
+  "native.hermes_returned_an_invalid_file_preview": {
+    "en": "Hermes returned an invalid file preview.",
+    "zh-CN": "Hermes 返回的文件预览响应无效。"
+  },
+  "native.hermes_returned_an_incomplete_file_preview": {
+    "en": "Hermes returned an incomplete file preview.",
+    "zh-CN": "Hermes 返回的文件预览不完整。"
+  },
+  "native.enter_a_valid_hermes_webapp_address": {
+    "en": "Enter a valid Hermes Webapp address.",
+    "zh-CN": "请输入有效的 Hermes Webapp 地址。"
+  },
+  "native.invalid_path_in_the_hermes_address": {
+    "en": "Invalid path in the Hermes address.",
+    "zh-CN": "Hermes 地址的路径无效。"
+  },
+  "native.http_connections_require_a_private_tailscale_address": {
+    "en": "HTTP connections require a private Tailscale address.",
+    "zh-CN": "HTTP 连接仅支持 Tailscale 私网地址。"
+  },
+  "native.this_action_is_unavailable_on_mobile": {
+    "en": "This action is unavailable on mobile.",
+    "zh-CN": "该操作当前无法在手机上执行。"
+  },
+  "native.this_endpoint_may_return_credentials": {
+    "en": "This endpoint may return credentials.",
+    "zh-CN": "此接口返回的数据可能包含凭据。"
+  },
+  "native.this_gateway_action_requires_a_dedicated_connection": {
+    "en": "This gateway action requires a dedicated connection.",
+    "zh-CN": "该网关操作需要专用连接。"
+  },
+  "native.import_or_export_from_the_profiles_page_using_the_system": {
+    "en": "Import or export from the Profiles page using the system file picker.",
+    "zh-CN": "请在档案页通过系统文件选择器导入或导出。"
+  },
+  "native.this_endpoint_handles_credentials_or_authorization": {
+    "en": "This endpoint handles credentials or authorization.",
+    "zh-CN": "此接口涉及凭据或授权流程。"
+  },
+  "native.the_full_configuration_may_contain_credentials": {
+    "en": "The full configuration may contain credentials.",
+    "zh-CN": "完整配置可能包含凭据。"
+  },
+  "native.this_action_requires_a_dedicated_connection": {
+    "en": "This action requires a dedicated connection.",
+    "zh-CN": "该操作需要专用连接。"
+  },
+  "native.on_mobile_you_can_change_model_reasoning_appearance_and_voice": {
+    "en": "On mobile, you can change model reasoning, appearance, and voice settings.",
+    "zh-CN": "手机端可修改模型推理、外观和语音设置。"
+  },
+  "native.this_entry_point_supports_listing_browsing_and_searching_skills": {
+    "en": "This entry point supports listing, browsing, and searching skills.",
+    "zh-CN": "此入口支持列出、浏览和搜索技能。"
+  },
+  "native.learning_frames_require_explicit_dimensions_of_20_80_cols_10": {
+    "en": "Learning frames require explicit dimensions of 20–80 cols, 10–24 rows, and 2–12 frames.",
+    "zh-CN": "学习图需要明确指定列数 20–80、行数 10–24 和 2–12 帧。"
+  },
+  "native.select_redact_true_to_export_a_conversation": {
+    "en": "Select redact=true to export a conversation.",
+    "zh-CN": "会话导出需要选择 redact=true。"
+  },
+  "native.choose_an_installed_pet_thumbnail": {
+    "en": "Choose an installed pet thumbnail.",
+    "zh-CN": "请选择已安装的宠物缩略图。"
+  },
+  "native.this_entry_point_reads_a_profile_avatar": {
+    "en": "This entry point reads a profile avatar.",
+    "zh-CN": "此入口支持读取配置档案的头像。"
+  },
+  "native.a_group_chat_requires_2_to_6_profiles": {
+    "en": "A group chat requires 2 to 6 profiles.",
+    "zh-CN": "群聊需要 2 到 6 个配置档案。"
+  },
+  "native.choose_valid_group_members_on_the_same_gateway": {
+    "en": "Choose valid group members on the same gateway.",
+    "zh-CN": "请选择同一网关的有效群聊成员。"
+  },
+  "native.group_chats_support_plain_text_provide_a_message_and_thread": {
+    "en": "Group chats support plain text. Provide a message and thread ID.",
+    "zh-CN": "群聊支持纯文本消息，请提供消息与线程标识。"
+  },
+  "native.attachments_together_exceed": {
+    "en": "Attachments together exceed %1$d MiB.",
+    "zh-CN": "附件总大小超过 %1$d MiB。"
+  },
+  "native.invalid_attachment_field": {
+    "en": "Invalid attachment field: %1$s",
+    "zh-CN": "附件字段无效：%1$s"
+  },
+  "native.missing_or_invalid_parameter": {
+    "en": "Missing or invalid parameter: %1$s",
+    "zh-CN": "参数缺少或无效：%1$s"
+  },
+  "native.the_request_contains_parameters_not_defined_in_the_hermes_catalog": {
+    "en": "The request contains parameters not defined in the Hermes catalog.",
+    "zh-CN": "请求包含 Hermes 目录未声明的参数。"
+  },
+  "native.parameter_cannot_be_empty": {
+    "en": "Parameter cannot be empty: %1$s",
+    "zh-CN": "参数不能为空：%1$s"
+  },
+  "native.incorrect_parameter_type": {
+    "en": "Incorrect parameter type: %1$s",
+    "zh-CN": "参数类型不正确：%1$s"
+  },
+  "native.the_parameters_are_nested_too_deeply": {
+    "en": "The parameters are nested too deeply.",
+    "zh-CN": "参数层级过深。"
+  },
+  "native.parameter_value_is_not_allowed_by_hermes": {
+    "en": "Parameter value is not allowed by Hermes: %1$s",
+    "zh-CN": "参数不在 Hermes 允许的选项中：%1$s"
+  },
+  "native.the_address_parameter_must_share_the_current_hermes_origin": {
+    "en": "The address parameter must share the current Hermes origin.",
+    "zh-CN": "地址参数必须与当前 Hermes 服务同源。"
+  },
+  "native.the_hermes_catalog_contains_a_route_that_cannot_be_called": {
+    "en": "The Hermes catalog contains a route that cannot be called.",
+    "zh-CN": "Hermes 目录存在无法执行的路径。"
+  },
+  "native.invalid_hermes_path_parameter": {
+    "en": "Invalid Hermes path parameter.",
+    "zh-CN": "Hermes 路径参数无效。"
+  },
+  "native.invalid_path_or_name": {
+    "en": "Invalid path or name.",
+    "zh-CN": "路径或名称无效。"
+  },
+  "native.this_path_or_name_is_unavailable_on_mobile": {
+    "en": "This path or name is unavailable on mobile.",
+    "zh-CN": "该路径或名称无法在手机上访问。"
+  },
+  "native.this_action_does_not_accept_a_request_body": {
+    "en": "This action does not accept a request body.",
+    "zh-CN": "该操作不接受请求正文。"
+  },
+  "native.the_request_form_is_empty": {
+    "en": "The request form is empty.",
+    "zh-CN": "请求表单为空。"
+  },
+  "native.this_request_body_requires_a_dedicated_transport": {
+    "en": "This request body requires a dedicated transport.",
+    "zh-CN": "该请求正文需要专用传输。"
+  },
+  "native.form_and_query_parameters_must_be_strings_numbers_or_booleans": {
+    "en": "Form and query parameters must be strings, numbers, or booleans.",
+    "zh-CN": "表单或查询参数必须是文本、数值或布尔值。"
+  },
+  "native.this_action_requires_a_live_event_connection": {
+    "en": "This action requires a live event connection.",
+    "zh-CN": "该操作需要实时事件连接。"
+  },
+  "native.the_hermes_response_exceeds_32_mib": {
+    "en": "The Hermes response exceeds 32 MiB.",
+    "zh-CN": "Hermes 响应超过 32 MiB。"
+  },
+  "native.hermes_returned_an_invalid_conversation_export": {
+    "en": "Hermes returned an invalid conversation export.",
+    "zh-CN": "Hermes 返回的会话导出格式无效。"
+  },
+  "native.hermes_returned_an_invalid_file": {
+    "en": "Hermes returned an invalid file.",
+    "zh-CN": "Hermes 返回的文件格式无效。"
+  },
+  "native.the_hermes_group_attachment_failed_verification": {
+    "en": "The Hermes group attachment failed verification.",
+    "zh-CN": "Hermes 返回的群聊附件校验失败。"
+  },
+  "native.hermes_returned_an_invalid_image": {
+    "en": "Hermes returned an invalid image.",
+    "zh-CN": "Hermes 返回的图像格式无效。"
+  },
+  "native.this_action_was_already_submitted_wait_or_refresh_the_result": {
+    "en": "This action was already submitted. Wait or refresh the result.",
+    "zh-CN": "此操作已提交，请等待或先刷新结果。"
+  },
+  "native.workspace": {
+    "en": "Workspace",
+    "zh-CN": "工作区",
+    "official": "settings.sections.workspace"
+  },
+  "native.workspace_unavailable": {
+    "en": "The workspace is unavailable.",
+    "zh-CN": "暂时无法打开工作区。"
+  },
+  "native.http_failure_format": {
+    "en": "%1$s (HTTP %2$d).",
+    "zh-CN": "%1$s（HTTP %2$d）。"
+  },
+  "native.list_separator": {
+    "en": ", ",
+    "zh-CN": "、"
+  },
+  "native.more_actions": {
+    "en": "More actions",
+    "zh-CN": "更多操作",
+    "official": "assistant.thread.moreActions"
+  },
+  "native.pinned_group": {
+    "en": "Pinned",
+    "zh-CN": "已置顶",
+    "official": "sidebar.pinned"
+  },
+  "native.archived_group": {
+    "en": "Archived",
+    "zh-CN": "已归档",
+    "official": "sidebar.filter.archived"
+  },
+  "native.official_webapp_address_needed": {
+    "en": "Set the address of your Hermes Webapp.",
+    "zh-CN": "请先配置 Hermes Webapp 地址。"
+  },
+  "native.official_webapp_open": {
+    "en": "Open Hermes Webapp",
+    "zh-CN": "打开 Hermes Webapp"
+  },
+  "native.official_webapp_open_browser": {
+    "en": "Open in browser",
+    "zh-CN": "在浏览器打开"
+  },
+  "native.official_webapp_open_legacy": {
+    "en": "Open native interface",
+    "zh-CN": "打开原生界面"
+  },
+  "native.official_webapp_loading_error": {
+    "en": "Could not load the official Webapp. Check your network and the server address.",
+    "zh-CN": "无法加载官方 Webapp，请检查网络和服务器地址。"
+  },
+  "native.official_webapp_sign_in_failed": {
+    "en": "Hermes sign-in could not be completed. Return to the sign-in page to try again.",
+    "zh-CN": "Hermes 登录未完成，请返回登录页重试。",
+    "zh-Hant": "Hermes 登入未完成，請返回登入頁重試。"
+  },
+  "native.official_webapp_return_to_sign_in": {
+    "en": "Return to Hermes sign-in",
+    "zh-CN": "返回 Hermes 登录页",
+    "zh-Hant": "返回 Hermes 登入頁"
+  },
+  "native.official_webapp_microphone": {
+    "en": "microphone",
+    "zh-CN": "麦克风"
+  },
+  "native.official_webapp_camera": {
+    "en": "camera",
+    "zh-CN": "摄像头"
+  },
+  "native.official_webapp_microphone_and_camera": {
+    "en": "microphone and camera",
+    "zh-CN": "麦克风和摄像头"
+  },
+  "native.official_webapp_allow_media": {
+    "en": "Allow the %1$s in Hermes Webapp?",
+    "zh-CN": "允许 Hermes Webapp 使用%1$s？"
+  }
+}

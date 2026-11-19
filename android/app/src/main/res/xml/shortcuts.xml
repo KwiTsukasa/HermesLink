@@ -1,0 +1,12 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="official_browser" android:enabled="true"
+        android:shortcutShortLabel="@string/shortcut_open_in_browser">
+        <intent android:action="cn.xhs.hermespocket.OPEN_OFFICIAL_BROWSER"
+            android:targetPackage="cn.xhs.hermespocket" android:targetClass="cn.xhs.hermespocket.OfficialWebappActivity"/>
+    </shortcut>
+    <shortcut android:shortcutId="native_interface" android:enabled="true"
+        android:shortcutShortLabel="@string/shortcut_native_interface">
+        <intent android:action="cn.xhs.hermespocket.OPEN_NATIVE_SHORTCUT"
+            android:targetPackage="cn.xhs.hermespocket" android:targetClass="cn.xhs.hermespocket.OfficialWebappActivity"/>
+    </shortcut>
+</shortcuts>

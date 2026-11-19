@@ -1,0 +1,3406 @@
+{
+  "mobile.botDesktop.connectingToTheBotDesktop": {
+    "en": "Connecting to the bot desktop",
+    "zh-CN": "正在连接机器人桌面"
+  },
+  "mobile.botDesktop.connectedWaitingForTheFirstFrame": {
+    "en": "Connected, waiting for the first frame",
+    "zh-CN": "已连接，等待画面"
+  },
+  "mobile.botDesktop.viewingPaused": {
+    "en": "Viewing paused",
+    "zh-CN": "已暂停观看"
+  },
+  "mobile.botDesktop.theDesktopImageIsUnavailableCheckThatThe": {
+    "en": "The desktop image is unavailable. Check that the bot desktop is running in Hermes.",
+    "zh-CN": "画面不可用。请在 Hermes 中确认机器人桌面已运行。"
+  },
+  "mobile.botDesktop.yourLoginHasExpiredSignInToHermes": {
+    "en": "Your login has expired. Sign in to Hermes again.",
+    "zh-CN": "登录已失效，请重新登录 Hermes。"
+  },
+  "mobile.botDesktop.theBotDesktopDidNotSendAFrame": {
+    "en": "The bot desktop did not send a frame in time.",
+    "zh-CN": "等待机器人桌面画面超时。"
+  },
+  "mobile.botDesktop.theServerDisplayProtocolOrResolutionExceedsThe": {
+    "en": "The server display protocol or resolution exceeds the app's supported range.",
+    "zh-CN": "服务器画面协议或分辨率超出 App 支持范围。"
+  },
+  "mobile.botDesktop.couldNotConnectToTheBotDesktop": {
+    "en": "Could not connect to the bot desktop.",
+    "zh-CN": "无法连接机器人桌面。"
+  },
+  "mobile.botDesktop.theDisplayConnectionClosed": {
+    "en": "The display connection closed.",
+    "zh-CN": "画面连接已断开。"
+  },
+  "mobile.botDesktop.botDesktop": {
+    "en": "Bot desktop",
+    "zh-CN": "机器人桌面"
+  },
+  "mobile.botDesktop.viewOnly": {
+    "en": "{v1} · View only",
+    "zh-CN": "{v1} · 仅观看"
+  },
+  "mobile.botDesktop.viewOnly2": {
+    "en": "View only",
+    "zh-CN": "仅观看"
+  },
+  "mobile.live.waitingToConnect": {
+    "en": "Waiting to connect",
+    "zh-CN": "等待连接"
+  },
+  "mobile.live.connectingToTheBoard": {
+    "en": "Connecting to the board",
+    "zh-CN": "正在连接看板"
+  },
+  "mobile.live.connectionInterruptedReconnectToResume": {
+    "en": "Connection interrupted. Reconnect to resume.",
+    "zh-CN": "连接中断，可以重新连接"
+  },
+  "mobile.live.hermesReturnedInvalidBoardEvents": {
+    "en": "Hermes returned invalid board events",
+    "zh-CN": "Hermes 返回的看板事件格式无效"
+  },
+  "mobile.live.receivingBoardEvents": {
+    "en": "Receiving board events",
+    "zh-CN": "正在接收看板事件"
+  },
+  "mobile.live.yourLoginHasExpiredSignInToHermes": {
+    "en": "Your login has expired. Sign in to Hermes again",
+    "zh-CN": "登录已失效，请重新登录 Hermes"
+  },
+  "mobile.live.boardSubscriptionUnavailableCheckThePluginAndBoard": {
+    "en": "Board subscription unavailable. Check the plugin and board status.",
+    "zh-CN": "看板订阅不可用，请检查插件和看板状态"
+  },
+  "mobile.live.newTask": {
+    "en": "New task",
+    "zh-CN": "新建任务"
+  },
+  "mobile.live.taskUpdated": {
+    "en": "Task updated",
+    "zh-CN": "更新任务"
+  },
+  "mobile.live.taskReady": {
+    "en": "Task ready",
+    "zh-CN": "任务就绪"
+  },
+  "mobile.live.taskClaimed": {
+    "en": "Task claimed",
+    "zh-CN": "领取任务"
+  },
+  "mobile.live.taskCompleted": {
+    "en": "Task completed",
+    "zh-CN": "完成任务"
+  },
+  "mobile.live.taskBlocked": {
+    "en": "Task blocked",
+    "zh-CN": "任务受阻"
+  },
+  "mobile.live.taskFailed": {
+    "en": "Task failed",
+    "zh-CN": "任务失败"
+  },
+  "mobile.live.taskArchived": {
+    "en": "Task archived",
+    "zh-CN": "归档任务"
+  },
+  "mobile.live.commentAdded": {
+    "en": "Comment added",
+    "zh-CN": "添加评论"
+  },
+  "mobile.live.liveBoard": {
+    "en": "Live board",
+    "zh-CN": "实时看板"
+  },
+  "mobile.live.serverStatus": {
+    "en": "Server status",
+    "zh-CN": "服务器状态"
+  },
+  "mobile.live.gatewayRunning": {
+    "en": "Gateway running",
+    "zh-CN": "网关运行中"
+  },
+  "mobile.live.gatewayStopped": {
+    "en": "Gateway stopped",
+    "zh-CN": "网关未运行"
+  },
+  "mobile.live.waitingForServerStatus": {
+    "en": "Waiting for server status",
+    "zh-CN": "等待服务器状态"
+  },
+  "mobile.live.botDesktopRunning": {
+    "en": "Bot desktop running",
+    "zh-CN": "机器人桌面运行中"
+  },
+  "mobile.live.botDesktopStopped": {
+    "en": "Bot desktop stopped",
+    "zh-CN": "机器人桌面未启动"
+  },
+  "mobile.live.thisServerDoesNotSupportTheBotDesktop": {
+    "en": "This server does not support the bot desktop",
+    "zh-CN": "此服务器不支持机器人桌面"
+  },
+  "mobile.live.viewBotDesktop": {
+    "en": "View bot desktop",
+    "zh-CN": "观看机器人桌面"
+  },
+  "mobile.live.refreshServerStatusAndBoards": {
+    "en": "Refresh server status and boards",
+    "zh-CN": "刷新状态和看板"
+  },
+  "mobile.live.loadingBoards": {
+    "en": "Loading boards",
+    "zh-CN": "正在读取看板"
+  },
+  "mobile.live.noBoardsAreAvailable": {
+    "en": "No boards are available",
+    "zh-CN": "当前没有可用看板"
+  },
+  "mobile.live.kanban": {
+    "en": "Kanban",
+    "zh-CN": "看板"
+  },
+  "mobile.live.tasks": {
+    "en": "tasks",
+    "zh-CN": "个任务"
+  },
+  "mobile.live.running": {
+    "en": " · {v1} running",
+    "zh-CN": " · {v1} 个进行中"
+  },
+  "mobile.live.running.one": {
+    "en": " · {v1} running",
+    "zh-CN": " · {v1} 个进行中"
+  },
+  "mobile.live.manageThisBoard": {
+    "en": "Manage this board",
+    "zh-CN": "管理当前看板"
+  },
+  "mobile.live.stopSubscription": {
+    "en": "Stop subscription",
+    "zh-CN": "停止订阅"
+  },
+  "mobile.live.connectToBoard": {
+    "en": "Connect to board",
+    "zh-CN": "连接看板"
+  },
+  "mobile.live.boardChangesAppearHere": {
+    "en": "Board changes appear here",
+    "zh-CN": "看板有新变化时会显示在这里"
+  },
+  "mobile.profileArchiveActions.profileArchiveSaved": {
+    "en": "Profile archive saved.",
+    "zh-CN": "档案包已保存。"
+  },
+  "mobile.profileArchiveActions.importedAsANewProfile": {
+    "en": "Imported as a new profile.",
+    "zh-CN": "已导入为新档案。"
+  },
+  "mobile.profileArchiveActions.profileArchiveTransferFailed": {
+    "en": "Profile archive transfer failed.",
+    "zh-CN": "档案包传输失败。"
+  },
+  "mobile.profileArchiveActions.preparingProfileArchive": {
+    "en": "Preparing profile archive…",
+    "zh-CN": "正在准备档案包…"
+  },
+  "mobile.profileArchiveActions.exportProfileArchive": {
+    "en": "Export profile archive",
+    "zh-CN": "导出档案包"
+  },
+  "mobile.profileArchiveActions.newProfileName": {
+    "en": "New profile name",
+    "zh-CN": "新档案名"
+  },
+  "mobile.profileArchiveActions.newProfileNameSuchAsResearch": {
+    "en": "New profile name, such as research",
+    "zh-CN": "新档案名，如 research"
+  },
+  "mobile.profileArchiveActions.importingProfileArchive": {
+    "en": "Importing profile archive…",
+    "zh-CN": "正在导入档案包…"
+  },
+  "mobile.profileArchiveActions.selectATarGzProfileArchive": {
+    "en": "Select a tar.gz profile archive",
+    "zh-CN": "选择 tar.gz 档案包"
+  },
+  "mobile.profileArchiveActions.importProfileArchive": {
+    "en": "Import profile archive",
+    "zh-CN": "导入档案包"
+  },
+  "mobile.resourcePlaybackButton.playOnline": {
+    "en": "Play online",
+    "zh-CN": "在线播放"
+  },
+  "mobile.resourcePlaybackButton.couldNotPlayTheHermesMedia": {
+    "en": "Could not play the Hermes media.",
+    "zh-CN": "无法播放 Hermes 媒体。"
+  },
+  "mobile.terminal.enter": {
+    "en": "Enter",
+    "zh-CN": "回车"
+  },
+  "mobile.terminal.loadingTerminalSessions": {
+    "en": "Loading terminal sessions",
+    "zh-CN": "正在读取终端会话"
+  },
+  "mobile.terminal.terminalDisconnected": {
+    "en": "Terminal disconnected",
+    "zh-CN": "终端未连接"
+  },
+  "mobile.terminal.restoringTerminalHistory": {
+    "en": "Restoring terminal history",
+    "zh-CN": "正在恢复终端历史"
+  },
+  "mobile.terminal.detaching": {
+    "en": "Detaching",
+    "zh-CN": "正在暂离"
+  },
+  "mobile.terminal.endingSession": {
+    "en": "Ending session",
+    "zh-CN": "正在结束会话"
+  },
+  "mobile.terminal.detachFromTheTerminal": {
+    "en": "Detach from the terminal?",
+    "zh-CN": "暂离终端？"
+  },
+  "mobile.terminal.theSessionKeepsRunningAndCanBeResumed": {
+    "en": "The session keeps running and can be resumed from the workspace.",
+    "zh-CN": "会话会继续运行，可以从工作区续接。"
+  },
+  "mobile.terminal.detachAndGoBack": {
+    "en": "Detach and go back",
+    "zh-CN": "暂离并返回"
+  },
+  "mobile.terminal.terminal": {
+    "en": "Terminal {v1}",
+    "zh-CN": "终端 {v1}"
+  },
+  "mobile.terminal.end": {
+    "en": "End {v1}?",
+    "zh-CN": "结束{v1}？"
+  },
+  "mobile.terminal.endingThisShellSessionPreventsResumingItLater": {
+    "en": "Ending this shell session prevents resuming it later.",
+    "zh-CN": "当前 Shell 会话将结束，之后无法续接。"
+  },
+  "mobile.terminal.endSession": {
+    "en": "End session",
+    "zh-CN": "结束会话"
+  },
+  "mobile.terminal.detachedReadyToResume": {
+    "en": "Detached · Ready to resume",
+    "zh-CN": "已暂离 · 可以续接"
+  },
+  "mobile.terminal.detach": {
+    "en": "Detach",
+    "zh-CN": "暂离"
+  },
+  "mobile.terminal.resume": {
+    "en": "Resume",
+    "zh-CN": "续接"
+  },
+  "mobile.terminal.refreshSessions": {
+    "en": "Refresh sessions",
+    "zh-CN": "刷新会话"
+  },
+  "mobile.terminal.couldNotLoadTheTerminal": {
+    "en": "Could not load the terminal.",
+    "zh-CN": "终端界面加载失败。"
+  },
+  "mobile.terminal.resumeTheSessionToSeeTerminalOutput": {
+    "en": "Resume the session to see terminal output",
+    "zh-CN": "续接后查看终端输出"
+  },
+  "mobile.terminal.keyboard": {
+    "en": "Keyboard",
+    "zh-CN": "键盘"
+  },
+  "mobile.terminal.clearScreen": {
+    "en": "Clear screen",
+    "zh-CN": "清屏"
+  },
+  "mobile.terminal.theCurrentTerminalWillDetachANewTerminal": {
+    "en": "The current terminal will detach. A new terminal will open separately.",
+    "zh-CN": "当前终端将暂离，新终端会单独打开。"
+  },
+  "mobile.terminal.leaveThisBlankToUseTheServerDefaults": {
+    "en": "Leave this blank to use the server defaults.",
+    "zh-CN": "留空时使用服务端的默认设置。"
+  },
+  "mobile.terminal.profileOptional": {
+    "en": "Profile (optional)",
+    "zh-CN": "配置档案（选填）"
+  },
+  "mobile.terminal.workingDirectory": {
+    "en": "Working directory",
+    "zh-CN": "起始目录"
+  },
+  "mobile.terminal.workingDirectoryOptional": {
+    "en": "Working directory (optional)",
+    "zh-CN": "起始目录（选填）"
+  },
+  "mobile.terminalSurface.terminalOutputAndKeyboardInput": {
+    "en": "Terminal output and keyboard input",
+    "zh-CN": "终端输出及键盘输入"
+  },
+  "mobile.useTerminalSession.theShellExited": {
+    "en": "The shell exited.",
+    "zh-CN": "Shell 已退出。"
+  },
+  "mobile.useTerminalSession.theTerminalSessionEnded": {
+    "en": "The terminal session ended.",
+    "zh-CN": "终端会话已结束。"
+  },
+  "mobile.useTerminalSession.theTerminalDisconnected": {
+    "en": "The terminal disconnected.",
+    "zh-CN": "终端已断开。"
+  },
+  "mobile.useTerminalSession.theServerEndedThisSessionOpenANew": {
+    "en": "The server ended this session. Open a new terminal to continue.",
+    "zh-CN": "服务端已结束此会话，可新建终端。"
+  },
+  "mobile.useTerminalSession.couldNotLoadTerminalSessionsTryAgain": {
+    "en": "Could not load terminal sessions. Try again.",
+    "zh-CN": "无法读取终端会话，请重试。"
+  },
+  "mobile.useTerminalSession.yourLoginHasExpiredReturnToChatAnd": {
+    "en": "Your login has expired. Return to Chat and sign in again.",
+    "zh-CN": "登录已失效，请返回聊天重新登录。"
+  },
+  "mobile.useTerminalSession.earlierOutputIsOutsideTheRetainedHistory": {
+    "en": "Earlier output is outside the retained history.",
+    "zh-CN": "较早的输出已超过保留范围。"
+  },
+  "mobile.useTerminalSession.disconnectedTheSessionCanBeResumed": {
+    "en": "Disconnected. The session can be resumed.",
+    "zh-CN": "连接已断开，可以续接。"
+  },
+  "mobile.useTerminalSession.theTerminalConnectionClosed": {
+    "en": "The terminal connection closed.",
+    "zh-CN": "终端连接已关闭。"
+  },
+  "mobile.useTerminalSession.detachedTheTerminalIsStillRunningOnThe": {
+    "en": "Detached. The terminal is still running on the server.",
+    "zh-CN": "已暂离，终端仍在服务端运行。"
+  },
+  "mobile.useTerminalSession.couldNotConnectToTheTerminal": {
+    "en": "Could not connect to the terminal.",
+    "zh-CN": "无法连接终端。"
+  },
+  "mobile.useTerminalSession.couldNotDetachFromTheTerminal": {
+    "en": "Could not detach from the terminal.",
+    "zh-CN": "无法暂离终端。"
+  },
+  "mobile.useTerminalSession.couldNotEndTheTerminalSessionTryAgain": {
+    "en": "Could not end the terminal session. Try again.",
+    "zh-CN": "无法结束终端，请重试。"
+  },
+  "mobile.useTerminalSession.couldNotResizeTheTerminal": {
+    "en": "Could not resize the terminal.",
+    "zh-CN": "未能更新终端尺寸。"
+  },
+  "mobile.useTerminalSession.couldNotSendTerminalInput": {
+    "en": "Could not send terminal input.",
+    "zh-CN": "未能发送输入。"
+  },
+  "mobile.actionStatus.exitCode": {
+    "en": "Exit code {v1}",
+    "zh-CN": "退出码 {v1}"
+  },
+  "mobile.actionStatus.submittedToTheServer": {
+    "en": "Submitted to the server",
+    "zh-CN": "已提交到服务器"
+  },
+  "mobile.actionStatus.executionStatus": {
+    "en": "Execution status",
+    "zh-CN": "执行状态"
+  },
+  "mobile.actionStatus.theServerReturnedADifferentExecutionRecord": {
+    "en": "The server returned a different execution record",
+    "zh-CN": "服务器返回的是另一次执行记录"
+  },
+  "mobile.actionStatus.recentOutput": {
+    "en": "Recent output",
+    "zh-CN": "最近输出"
+  },
+  "mobile.actionStatus.refreshExecutionStatus": {
+    "en": "Refresh execution status",
+    "zh-CN": "刷新执行状态"
+  },
+  "mobile.detailContent.loading": {
+    "en": "Loading {v1}",
+    "zh-CN": "正在读取{v1}"
+  },
+  "mobile.detailContent.couldNotLoad": {
+    "en": "Could not load {v1} · {v2}",
+    "zh-CN": "{v1}读取失败 · {v2}"
+  },
+  "mobile.workspaceTabs.featureCatalog": {
+    "en": "Feature catalog",
+    "zh-CN": "功能目录"
+  },
+  "mobile.useConfirmedAction.succeeded": {
+    "en": "{v1} succeeded",
+    "zh-CN": "{v1}成功"
+  },
+  "mobile.useConfirmedAction.failed": {
+    "en": "{v1} failed · {v2}",
+    "zh-CN": "{v1}失败 · {v2}"
+  },
+  "mobile.useConfirmedAction.confirm": {
+    "en": "Confirm {v1}",
+    "zh-CN": "确认{v1}"
+  },
+  "mobile.useOperation.confirmExecution": {
+    "en": "Confirm execution",
+    "zh-CN": "确认执行"
+  },
+  "mobile.useOperation.run": {
+    "en": "Run",
+    "zh-CN": "执行"
+  },
+  "mobile.achievements.sessionBadges": {
+    "en": "Session badges",
+    "zh-CN": "会话徽章"
+  },
+  "mobile.achievements.achievements": {
+    "en": "Achievements",
+    "zh-CN": "成就"
+  },
+  "mobile.achievements.achievementSummary": {
+    "en": "Achievement summary",
+    "zh-CN": "成就概况"
+  },
+  "mobile.achievements.theServerIsScanningSessionHistory": {
+    "en": "The server is scanning session history.",
+    "zh-CN": "服务器正在扫描会话记录。"
+  },
+  "mobile.achievements.scanFailed": {
+    "en": "Scan failed",
+    "zh-CN": "扫描失败"
+  },
+  "mobile.achievements.refreshAndTryAgain": {
+    "en": "Refresh and try again",
+    "zh-CN": "请刷新后重试"
+  },
+  "mobile.achievements.recentUnlocks": {
+    "en": "Recent unlocks",
+    "zh-CN": "最近解锁"
+  },
+  "mobile.achievements.searchAchievements": {
+    "en": "Search achievements",
+    "zh-CN": "搜索成就"
+  },
+  "mobile.achievements.secretAchievement": {
+    "en": "Secret achievement",
+    "zh-CN": "隐藏成就"
+  },
+  "mobile.achievements.undiscovered": {
+    "en": "Undiscovered",
+    "zh-CN": "尚未发现"
+  },
+  "mobile.achievements.locked": {
+    "en": "Locked",
+    "zh-CN": "未解锁"
+  },
+  "mobile.achievements.description": {
+    "en": "Description",
+    "zh-CN": "说明"
+  },
+  "mobile.achievements.tier": {
+    "en": "Tier",
+    "zh-CN": "等级"
+  },
+  "mobile.achievements.nextTier": {
+    "en": "Next tier",
+    "zh-CN": "下一级"
+  },
+  "mobile.achievements.progress": {
+    "en": "Progress",
+    "zh-CN": "进度"
+  },
+  "mobile.achievements.unlockedAt": {
+    "en": "Unlocked at",
+    "zh-CN": "解锁时间"
+  },
+  "mobile.achievements.thisSessionHasNoBadgesYet": {
+    "en": "This session has no badges yet",
+    "zh-CN": "此会话暂无徽章"
+  },
+  "mobile.achievements.noMatchingAchievements": {
+    "en": "No matching achievements",
+    "zh-CN": "没有符合条件的成就"
+  },
+  "mobile.artifacts.couldNotVerifyWhichProfileOwnsTheReturned": {
+    "en": "Could not verify which profile owns the returned session.",
+    "zh-CN": "服务器返回的会话归属无法核对。"
+  },
+  "mobile.artifacts.theSessionChangedRefreshToReloadItsArtifacts": {
+    "en": "The session changed. Refresh to reload its artifacts.",
+    "zh-CN": "会话已更新，请刷新后重新读取产物。"
+  },
+  "mobile.artifacts.theServerDidNotReturnADownloadableFile": {
+    "en": "The server did not return a downloadable file",
+    "zh-CN": "服务器未返回可保存的文件"
+  },
+  "mobile.artifacts.fileSaved": {
+    "en": "File saved",
+    "zh-CN": "文件已保存"
+  },
+  "mobile.artifacts.artifactDetails": {
+    "en": "Artifact details",
+    "zh-CN": "产物详情"
+  },
+  "mobile.artifacts.sourceSession": {
+    "en": "Source session",
+    "zh-CN": "来源会话"
+  },
+  "mobile.artifacts.openInBrowser": {
+    "en": "Open in browser",
+    "zh-CN": "在浏览器打开"
+  },
+  "mobile.artifacts.saveToPhone": {
+    "en": "Save to phone",
+    "zh-CN": "保存到手机"
+  },
+  "mobile.artifacts.openSourceSession": {
+    "en": "Open source session",
+    "zh-CN": "打开来源会话"
+  },
+  "mobile.artifacts.saveTheImageToOpenItOnYour": {
+    "en": "Save the image to open it on your phone.",
+    "zh-CN": "可保存图片并在手机上打开。"
+  },
+  "mobile.artifacts.filePreview": {
+    "en": "File preview",
+    "zh-CN": "文件预览"
+  },
+  "mobile.artifacts.textPreview": {
+    "en": "Text preview",
+    "zh-CN": "文本开头"
+  },
+  "mobile.artifacts.textContent": {
+    "en": "Text content",
+    "zh-CN": "文本内容"
+  },
+  "mobile.artifacts.saveTheFileToOpenItOnYour": {
+    "en": "Save the file to open it on your phone.",
+    "zh-CN": "可保存文件并在手机上打开。"
+  },
+  "mobile.artifacts.sessionArtifacts": {
+    "en": "Session artifacts",
+    "zh-CN": "会话产物"
+  },
+  "mobile.artifacts.filterSessionArtifacts": {
+    "en": "Filter session artifacts",
+    "zh-CN": "筛选当前会话产物"
+  },
+  "mobile.artifacts.searchRecentSessions": {
+    "en": "Search recent sessions",
+    "zh-CN": "搜索最近会话"
+  },
+  "mobile.artifacts.sessionHistory": {
+    "en": "Session history",
+    "zh-CN": "会话记录"
+  },
+  "mobile.artifacts.recentSessions": {
+    "en": "Recent sessions",
+    "zh-CN": "最近会话"
+  },
+  "mobile.artifacts.viewSessionBadges": {
+    "en": "View session badges",
+    "zh-CN": "查看会话徽章"
+  },
+  "mobile.artifacts.keepLooking": {
+    "en": "Keep looking",
+    "zh-CN": "继续查找"
+  },
+  "mobile.artifacts.noMatchesInTheMessagesLoadedSoFar": {
+    "en": "No matches in the messages loaded so far. Load more to continue.",
+    "zh-CN": "已读取的消息里没有匹配的产物，可继续查找。"
+  },
+  "mobile.artifacts.noMatchingArtifacts": {
+    "en": "No matching artifacts.",
+    "zh-CN": "没有找到匹配的产物。"
+  },
+  "mobile.artifacts.selectARecentSessionToSeeFilesImages": {
+    "en": "Select a recent session to see files, images, and links from the assistant and tools.",
+    "zh-CN": "选择最近的会话，查看助手和工具输出的文件、图片及链接。"
+  },
+  "mobile.businessForm.enter": {
+    "en": "Enter {v1}",
+    "zh-CN": "请填写{v1}"
+  },
+  "mobile.businessForm.selectAFile": {
+    "en": "Select a file",
+    "zh-CN": "请选择文件"
+  },
+  "mobile.businessForm.chooseAFileFromYourPhone": {
+    "en": "Choose a file from your phone",
+    "zh-CN": "从手机选择文件"
+  },
+  "mobile.businessForm.submitting": {
+    "en": "Submitting…",
+    "zh-CN": "正在提交…"
+  },
+  "mobile.catalog.searchFeaturesOrEndpointPaths": {
+    "en": "Search features or endpoint paths",
+    "zh-CN": "搜索功能或接口路径"
+  },
+  "mobile.catalog.requestForms": {
+    "en": "Request forms",
+    "zh-CN": "可填请求表单"
+  },
+  "mobile.catalog.allEndpoints": {
+    "en": "All endpoints",
+    "zh-CN": "全部接口"
+  },
+  "mobile.catalog.noMatchingFeatures": {
+    "en": "No matching features",
+    "zh-CN": "没有匹配的功能"
+  },
+  "mobile.catalog.requestForms2": {
+    "en": "{v1} request forms",
+    "zh-CN": "{v1} 个请求表单"
+  },
+  "mobile.catalog.requestForms2.one": {
+    "en": "{v1} request form",
+    "zh-CN": "{v1} 个请求表单"
+  },
+  "mobile.catalog.entriesRequestForms": {
+    "en": "Entries: {v1} · Request forms: {v2}",
+    "zh-CN": "{v1} 项 · {v2} 个请求表单"
+  },
+  "mobile.catalog.readOnly": {
+    "en": "Read only · ",
+    "zh-CN": "仅查看 · "
+  },
+  "mobile.catalog.requestForm": {
+    "en": "Request form · ",
+    "zh-CN": "请求表单 · "
+  },
+  "mobile.fileBrowser.rootFolder": {
+    "en": "Root folder",
+    "zh-CN": "文件根目录"
+  },
+  "mobile.fileBrowser.newTextFile": {
+    "en": "New text file",
+    "zh-CN": "新建文本文件"
+  },
+  "mobile.fileBrowser.uploadFile": {
+    "en": "Upload file",
+    "zh-CN": "上传文件"
+  },
+  "mobile.fileBrowser.fileName": {
+    "en": "File name",
+    "zh-CN": "文件名"
+  },
+  "mobile.fileBrowser.leaveBlankToUseTheOriginalFileName": {
+    "en": "Leave blank to use the original file name",
+    "zh-CN": "留空使用原文件名"
+  },
+  "mobile.fileBrowser.content": {
+    "en": "Content",
+    "zh-CN": "文件内容"
+  },
+  "mobile.fileBrowser.editTextFile": {
+    "en": "Edit text file",
+    "zh-CN": "编辑文本文件"
+  },
+  "mobile.fileBrowser.saveFile": {
+    "en": "Save file",
+    "zh-CN": "保存文件"
+  },
+  "mobile.fileBrowser.theFileChangedOnTheServerGoBack": {
+    "en": "The file changed on the server. Go back and reload it.",
+    "zh-CN": "服务器上的文件已变化，请返回重新读取"
+  },
+  "mobile.fileBrowser.deleteFolder": {
+    "en": "Delete folder",
+    "zh-CN": "删除文件夹"
+  },
+  "mobile.fileBrowser.deleteServerFile": {
+    "en": "Delete server file",
+    "zh-CN": "删除服务器文件"
+  },
+  "mobile.fileBrowser.recursiveDeletionRemovesEverythingInThisFolder": {
+    "en": "{v1}\nRecursive deletion removes everything in this folder.",
+    "zh-CN": "{v1}\n递归删除会移除这个文件夹下的全部文件。"
+  },
+  "mobile.fileBrowser.deletionScope": {
+    "en": "Deletion scope",
+    "zh-CN": "删除范围"
+  },
+  "mobile.fileBrowser.emptyFolderOnly": {
+    "en": "Empty folder only",
+    "zh-CN": "仅空文件夹"
+  },
+  "mobile.fileBrowser.includeAllContents": {
+    "en": "Include all contents",
+    "zh-CN": "同时删除全部内容"
+  },
+  "mobile.fileBrowser.searchThisFolder": {
+    "en": "Search this folder",
+    "zh-CN": "搜索当前文件夹"
+  },
+  "mobile.fileBrowser.newTextFile2": {
+    "en": "New text file",
+    "zh-CN": "新建文本"
+  },
+  "mobile.fileBrowser.deleteThisFolder": {
+    "en": "Delete this folder",
+    "zh-CN": "删除此文件夹"
+  },
+  "mobile.fileBrowser.loadingFolder": {
+    "en": "Loading folder",
+    "zh-CN": "正在读取文件夹"
+  },
+  "mobile.fileBrowser.noMatchingFilesOrFolders": {
+    "en": "No matching files or folders",
+    "zh-CN": "没有匹配的文件或文件夹"
+  },
+  "mobile.fileBrowser.thisFolderHasNoBrowsableFiles": {
+    "en": "This folder has no browsable files",
+    "zh-CN": "此文件夹没有可浏览的文件"
+  },
+  "mobile.fileBrowser.file": {
+    "en": "File · {v1}",
+    "zh-CN": "文件 · {v1}"
+  },
+  "mobile.fileBrowser.backTo": {
+    "en": "Back to {v1}",
+    "zh-CN": "返回{v1}"
+  },
+  "mobile.filePreview.thisGatewayDoesNotSupportSavingFiles": {
+    "en": "This gateway does not support saving files",
+    "zh-CN": "当前网关不支持保存文件"
+  },
+  "mobile.filePreview.preparingDownload": {
+    "en": "Preparing download…",
+    "zh-CN": "正在准备保存…"
+  },
+  "mobile.filePreview.editText": {
+    "en": "Edit text",
+    "zh-CN": "编辑文本"
+  },
+  "mobile.filePreview.deleteFile": {
+    "en": "Delete file",
+    "zh-CN": "删除文件"
+  },
+  "mobile.filePreview.theMobileLimitIs32MibPerSaved": {
+    "en": "The mobile limit is 32 MiB per saved file",
+    "zh-CN": "手机端单个文件保存上限为 32 MiB"
+  },
+  "mobile.filePreview.savedToTheSelectedLocation": {
+    "en": "Saved to the selected location",
+    "zh-CN": "已保存到所选位置"
+  },
+  "mobile.filePreview.loadingFilePreview": {
+    "en": "Loading file preview",
+    "zh-CN": "正在读取文件预览"
+  },
+  "mobile.filePreview.thisFileCannotBePreviewedAsText": {
+    "en": "This file cannot be previewed as text",
+    "zh-CN": "此文件无法预览为文本"
+  },
+  "mobile.filePreview.saveThisFileAndOpenItInAnother": {
+    "en": "Save this file and open it in another app.",
+    "zh-CN": "此文件无法预览为文本，可保存后用其他应用打开"
+  },
+  "mobile.filePreview.thisFileIsEmpty": {
+    "en": "This file is empty",
+    "zh-CN": "这是一个空文件"
+  },
+  "mobile.filePreview.showingOnlyTheBeginningOfTheFile": {
+    "en": "Showing only the beginning of the file",
+    "zh-CN": "仅显示文件开头的内容"
+  },
+  "mobile.gateways.sharedGateway": {
+    "en": "Shared gateway",
+    "zh-CN": "共享网关"
+  },
+  "mobile.gateways.singleGateway": {
+    "en": "Single gateway",
+    "zh-CN": "单网关"
+  },
+  "mobile.gateways.multipleIndependentGateways": {
+    "en": "Multiple independent gateways",
+    "zh-CN": "多个独立网关"
+  },
+  "mobile.gateways.noRunningGateways": {
+    "en": "No running gateways",
+    "zh-CN": "没有运行中的网关"
+  },
+  "mobile.gateways.gatewayConnections": {
+    "en": "Gateway connections",
+    "zh-CN": "网关连接"
+  },
+  "mobile.gateways.hostGateway": {
+    "en": "Host gateway",
+    "zh-CN": "主机网关"
+  },
+  "mobile.gateways.currentService": {
+    "en": "Current service",
+    "zh-CN": "当前服务"
+  },
+  "mobile.gateways.hermesVersion": {
+    "en": "Hermes version",
+    "zh-CN": "Hermes 版本"
+  },
+  "mobile.gateways.gatewayMode": {
+    "en": "Gateway mode",
+    "zh-CN": "网关模式"
+  },
+  "mobile.gateways.parkedProfiles": {
+    "en": "Parked profiles",
+    "zh-CN": "暂停服务的档案"
+  },
+  "mobile.gateways.visibleProfiles": {
+    "en": "Visible profiles",
+    "zh-CN": "可见档案"
+  },
+  "mobile.gateways.checkCurrentConnection": {
+    "en": "Check current connection",
+    "zh-CN": "检测当前连接"
+  },
+  "mobile.gateways.manageGatewaysAndAuthorizationInTheWebapp": {
+    "en": "Manage gateways and authorization in the Webapp",
+    "zh-CN": "在官方页管理网关和授权"
+  },
+  "mobile.gateways.gatewayRespondedToTheHeartbeat": {
+    "en": "Gateway responded to the heartbeat",
+    "zh-CN": "已收到网关心跳确认"
+  },
+  "mobile.gateways.gatewayCapabilities": {
+    "en": "Gateway capabilities",
+    "zh-CN": "网关能力"
+  },
+  "mobile.gateways.sessionSubmission": {
+    "en": "Session submission",
+    "zh-CN": "会话提交"
+  },
+  "mobile.gateways.theGatewayLimitsConcurrentSubmissionsToOnePer": {
+    "en": "The gateway limits concurrent submissions to one per session",
+    "zh-CN": "网关限制同一会话并发提交"
+  },
+  "mobile.gateways.exclusiveSubmissionIsDisabled": {
+    "en": "Exclusive submission is disabled",
+    "zh-CN": "网关未启用独占提交"
+  },
+  "mobile.gateways.runningGateways": {
+    "en": "Running gateways",
+    "zh-CN": "运行中的网关"
+  },
+  "mobile.gateways.gatewayProfile": {
+    "en": "Gateway profile",
+    "zh-CN": "网关所在档案"
+  },
+  "mobile.gateways.servedProfiles": {
+    "en": "Served profiles",
+    "zh-CN": "服务中的档案"
+  },
+  "mobile.gateways.platformPorts": {
+    "en": "Platform ports",
+    "zh-CN": "平台端口"
+  },
+  "mobile.gateways.savedConnections2": {
+    "en": "Saved connections",
+    "zh-CN": "保存的连接"
+  },
+  "mobile.gateways.type": {
+    "en": "Type",
+    "zh-CN": "类型"
+  },
+  "mobile.gateways.primaryConnection": {
+    "en": "Primary connection",
+    "zh-CN": "主连接"
+  },
+  "mobile.gateways.noSavedConnections": {
+    "en": "No saved connections",
+    "zh-CN": "当前没有保存的连接"
+  },
+  "mobile.gateways.hideMigrationCheck": {
+    "en": "Hide migration check",
+    "zh-CN": "收起合并检查"
+  },
+  "mobile.gateways.checkGatewayMigration": {
+    "en": "Check gateway migration",
+    "zh-CN": "检查网关合并条件"
+  },
+  "mobile.gateways.gatewayMigrationEligibility": {
+    "en": "Gateway migration eligibility",
+    "zh-CN": "网关合并条件"
+  },
+  "mobile.gateways.checkResult": {
+    "en": "Check result",
+    "zh-CN": "检查结果"
+  },
+  "mobile.gateways.alreadyUsingASharedGateway": {
+    "en": "Already using a shared gateway",
+    "zh-CN": "已使用共享网关"
+  },
+  "mobile.gateways.currentIndependentGatewaysCanBeMerged": {
+    "en": "Current independent gateways can be merged",
+    "zh-CN": "可合并当前独立网关"
+  },
+  "mobile.gateways.automaticMigrationRequirementsAreUnmet": {
+    "en": "Automatic migration requirements are unmet",
+    "zh-CN": "当前不符合自动合并条件"
+  },
+  "mobile.gateways.participatingProfiles": {
+    "en": "Participating profiles",
+    "zh-CN": "参与档案"
+  },
+  "mobile.gateways.blockers": {
+    "en": "Blockers",
+    "zh-CN": "阻塞项"
+  },
+  "mobile.gateways.serverDetails": {
+    "en": "Server details",
+    "zh-CN": "服务端说明"
+  },
+  "mobile.groups.running": {
+    "en": "Running",
+    "zh-CN": "执行中"
+  },
+  "mobile.groups.stopping": {
+    "en": "Stopping",
+    "zh-CN": "停止中"
+  },
+  "mobile.groups.member": {
+    "en": "Member",
+    "zh-CN": "成员"
+  },
+  "mobile.groups.renameGroup": {
+    "en": "Rename group",
+    "zh-CN": "修改群名"
+  },
+  "mobile.groups.updateGroupContext": {
+    "en": "Update group context",
+    "zh-CN": "更新群组说明"
+  },
+  "mobile.groups.stopTasks": {
+    "en": "Stop tasks",
+    "zh-CN": "停止任务"
+  },
+  "mobile.groups.theGroupStateOrManagingGatewayChangedRefresh": {
+    "en": "The group state or managing gateway changed. Refresh and try again.",
+    "zh-CN": "群组状态或管理网关已变化，请刷新后重试"
+  },
+  "mobile.groups.createGroup": {
+    "en": "Create group",
+    "zh-CN": "创建群组"
+  },
+  "mobile.groups.members": {
+    "en": "{v1}\nMembers: {v2}",
+    "zh-CN": "{v1}\n成员：{v2}"
+  },
+  "mobile.groups.theServerDidNotConfirmTheNewGroup": {
+    "en": "The server did not confirm the new group and its members",
+    "zh-CN": "服务器未确认新群组及成员"
+  },
+  "mobile.groups.saveGroupName": {
+    "en": "Save group name",
+    "zh-CN": "保存群名"
+  },
+  "mobile.groups.saveGroupContext": {
+    "en": "Save group context",
+    "zh-CN": "保存群组说明"
+  },
+  "mobile.groups.sendToGroup": {
+    "en": "Send to group",
+    "zh-CN": "向群组发送"
+  },
+  "mobile.groups.profile": {
+    "en": "Profile: {v1}",
+    "zh-CN": "配置档案：{v1}"
+  },
+  "mobile.groups.currentGateway": {
+    "en": "Current gateway",
+    "zh-CN": "当前网关"
+  },
+  "mobile.groups.members2": {
+    "en": "Members: {v1}",
+    "zh-CN": "成员：{v1}"
+  },
+  "mobile.groups.groupPurpose": {
+    "en": "Group purpose",
+    "zh-CN": "群组目的"
+  },
+  "mobile.groups.sharedNotes": {
+    "en": "Shared notes",
+    "zh-CN": "共享说明"
+  },
+  "mobile.groups.newGroupName": {
+    "en": "New group name",
+    "zh-CN": "新群名"
+  },
+  "mobile.groups.messagesCanBeUpTo64Kib": {
+    "en": "Messages can be up to 64 KiB",
+    "zh-CN": "消息超过服务器允许的 64 KiB"
+  },
+  "mobile.groups.theGroupDetailsChangedWhileYouWereEditing": {
+    "en": "The group details changed while you were editing",
+    "zh-CN": "所编辑的群组信息已变化"
+  },
+  "mobile.groups.theServerDidNotConfirmTheGroupAction": {
+    "en": "The server did not confirm the group action",
+    "zh-CN": "服务器未确认所选群组操作"
+  },
+  "mobile.groups.disbandGroup": {
+    "en": "Disband group",
+    "zh-CN": "解散群组"
+  },
+  "mobile.groups.stopGroupTasks": {
+    "en": "Stop group tasks",
+    "zh-CN": "停止群组任务"
+  },
+  "mobile.groups.theServerWillCloseTheGroupStopIts": {
+    "en": "The server will close the group, stop its tasks, and revoke peer connections.",
+    "zh-CN": "服务器将结束群组、停止任务并撤销对等连接。"
+  },
+  "mobile.groups.theServerWillCancelQueuedAndRunningTasks": {
+    "en": "The server will cancel queued and running tasks.",
+    "zh-CN": "服务器将取消已有的排队和运行任务。"
+  },
+  "mobile.groups.theServerDidNotConfirmThatTheGroup": {
+    "en": "The server did not confirm that the group was disbanded",
+    "zh-CN": "服务器未确认解散"
+  },
+  "mobile.groups.groupDisbanded": {
+    "en": "Group disbanded",
+    "zh-CN": "群组已解散"
+  },
+  "mobile.groups.theServerDidNotConfirmThatTasksWere": {
+    "en": "The server did not confirm that tasks were stopped",
+    "zh-CN": "服务器未确认停止任务"
+  },
+  "mobile.groups.theServerCanceledTasks": {
+    "en": "The server canceled {v1} tasks",
+    "zh-CN": "服务器取消了 {v1} 个任务"
+  },
+  "mobile.groups.theServerCanceledTasks.one": {
+    "en": "The server canceled {v1} task",
+    "zh-CN": "服务器取消了 {v1} 个任务"
+  },
+  "mobile.groups.newGroup": {
+    "en": "New group",
+    "zh-CN": "新建群组"
+  },
+  "mobile.groups.profilesAvailableToJoinTheGroup": {
+    "en": "Profiles available to join the group",
+    "zh-CN": "可加入群组的档案"
+  },
+  "mobile.groups.groupName": {
+    "en": "Group name",
+    "zh-CN": "群组名称"
+  },
+  "mobile.groups.select2To6MemberProfiles": {
+    "en": "Select 2 to 6 member profiles",
+    "zh-CN": "选择 2 至 6 个成员档案"
+  },
+  "mobile.groups.selected": {
+    "en": "Selected",
+    "zh-CN": "已选择"
+  },
+  "mobile.groups.tapToAdd": {
+    "en": "Tap to add",
+    "zh-CN": "点按添加"
+  },
+  "mobile.groups.groupDetails": {
+    "en": "Group details",
+    "zh-CN": "群组详情"
+  },
+  "mobile.groups.groupChat": {
+    "en": "Group chat",
+    "zh-CN": "群组协作"
+  },
+  "mobile.groups.groupCapabilities": {
+    "en": "Group capabilities",
+    "zh-CN": "群组能力"
+  },
+  "mobile.groups.activeGroupsOnly": {
+    "en": "Active groups only",
+    "zh-CN": "仅查看活跃群组"
+  },
+  "mobile.groups.includeDisbandedGroups": {
+    "en": "Include disbanded groups",
+    "zh-CN": "包含已解散"
+  },
+  "mobile.groups.manageGroupsInTheWebapp": {
+    "en": "Manage groups in the Webapp",
+    "zh-CN": "在官方页面管理群组"
+  },
+  "mobile.groups.groups": {
+    "en": "Groups",
+    "zh-CN": "群组列表"
+  },
+  "mobile.groups.members3": {
+    "en": "{v1} members{v2}",
+    "zh-CN": "{v1} 位成员{v2}"
+  },
+  "mobile.groups.members3.one": {
+    "en": "{v1} member{v2}",
+    "zh-CN": "{v1} 位成员{v2}"
+  },
+  "mobile.groups.disbanded": {
+    "en": " · Disbanded",
+    "zh-CN": " · 已解散"
+  },
+  "mobile.groups.noGroups": {
+    "en": "No groups",
+    "zh-CN": "当前没有群组"
+  },
+  "mobile.groups.previousPage": {
+    "en": "Previous page",
+    "zh-CN": "返回上一页"
+  },
+  "mobile.groups.nextPage": {
+    "en": "Next page",
+    "zh-CN": "查看下一页"
+  },
+  "mobile.groups.groupStatus": {
+    "en": "Group status",
+    "zh-CN": "群组状态"
+  },
+  "mobile.groups.disbanded2": {
+    "en": "Disbanded",
+    "zh-CN": "已解散"
+  },
+  "mobile.groups.tasksRunning": {
+    "en": "Tasks running",
+    "zh-CN": "任务执行中"
+  },
+  "mobile.groups.needsAttention": {
+    "en": "Needs attention",
+    "zh-CN": "等待处理"
+  },
+  "mobile.groups.available": {
+    "en": "Available",
+    "zh-CN": "可用"
+  },
+  "mobile.groups.preparationError": {
+    "en": "Preparation error",
+    "zh-CN": "准备错误"
+  },
+  "mobile.groups.editDescription": {
+    "en": "Edit description",
+    "zh-CN": "编辑说明"
+  },
+  "mobile.groups.openWebappChatHome": {
+    "en": "Open Webapp chat home",
+    "zh-CN": "打开官方聊天首页"
+  },
+  "mobile.groups.groupHistory": {
+    "en": "Group history",
+    "zh-CN": "群组记录"
+  },
+  "mobile.groups.nextPageOfHistory": {
+    "en": "Next page of history",
+    "zh-CN": "下一段记录"
+  },
+  "mobile.groups.viewEarlierHistory": {
+    "en": "View earlier history",
+    "zh-CN": "向前查看"
+  },
+  "mobile.groups.backToRecentHistory": {
+    "en": "Back to recent history",
+    "zh-CN": "回到最近记录"
+  },
+  "mobile.jobDetails.schedulingError": {
+    "en": "Scheduling error",
+    "zh-CN": "调度异常"
+  },
+  "mobile.jobDetails.waitingToRun": {
+    "en": "Waiting to run",
+    "zh-CN": "等待运行"
+  },
+  "mobile.jobDetails.success": {
+    "en": "Success",
+    "zh-CN": "成功"
+  },
+  "mobile.jobDetails.canceled": {
+    "en": "Canceled",
+    "zh-CN": "已取消"
+  },
+  "mobile.jobDetails.missed": {
+    "en": "Missed",
+    "zh-CN": "已错过"
+  },
+  "mobile.jobDetails.resumeJob": {
+    "en": "Resume job",
+    "zh-CN": "恢复任务"
+  },
+  "mobile.jobDetails.pauseJob": {
+    "en": "Pause job",
+    "zh-CN": "暂停任务"
+  },
+  "mobile.jobDetails.profile": {
+    "en": "{v1}\nProfile: {v2}",
+    "zh-CN": "{v1}\n配置档案：{v2}"
+  },
+  "mobile.jobDetails.theJobStatusOrOwnerChangedRefreshAnd": {
+    "en": "The job status or owner changed. Refresh and try again.",
+    "zh-CN": "任务状态或归属已变化，请刷新后重试"
+  },
+  "mobile.jobDetails.theGatewayDidNotConfirmTheJobStatus": {
+    "en": "The gateway did not confirm the job status",
+    "zh-CN": "网关未确认所选任务的状态"
+  },
+  "mobile.jobDetails.stopThisRun": {
+    "en": "Stop this run",
+    "zh-CN": "停止本次运行"
+  },
+  "mobile.jobDetails.deleteCronJob": {
+    "en": "Delete cron job",
+    "zh-CN": "删除定时任务"
+  },
+  "mobile.jobDetails.runThisJobNowTheServerMayResume": {
+    "en": "Run this job now. The server may resume its paused schedule.",
+    "zh-CN": "立即执行此任务，服务器可能恢复暂停中的计划。"
+  },
+  "mobile.jobDetails.theServerWillRunTheJobPromptImmediately": {
+    "en": "The server will run the job prompt immediately.",
+    "zh-CN": "服务器将立即执行任务指令。"
+  },
+  "mobile.jobDetails.stopTheCurrentExecutionAndKeepTheSchedule": {
+    "en": "Stop the current execution and keep the schedule.",
+    "zh-CN": "停止已开始的执行，保留任务计划。"
+  },
+  "mobile.jobDetails.theServerWillDeleteThisJobSchedule": {
+    "en": "The server will delete this job schedule.",
+    "zh-CN": "服务器将删除此任务计划。"
+  },
+  "mobile.jobDetails.profile2": {
+    "en": "{v1}\nProfile: {v2}\n{v3}",
+    "zh-CN": "{v1}\n配置档案：{v2}\n{v3}"
+  },
+  "mobile.jobDetails.theServerDidNotConfirmTheStopRequest": {
+    "en": "The server did not confirm the stop request for this job",
+    "zh-CN": "服务器未确认所选任务的停止请求"
+  },
+  "mobile.jobDetails.theServerAcceptedTheStopRequest": {
+    "en": "The server accepted the stop request",
+    "zh-CN": "服务器已接收停止请求"
+  },
+  "mobile.jobDetails.thisJobHasNoActiveRunsToStop": {
+    "en": "This job has no active runs to stop",
+    "zh-CN": "当前没有运行中的任务可停止"
+  },
+  "mobile.jobDetails.theServerDidNotConfirmJobDeletion": {
+    "en": "The server did not confirm job deletion",
+    "zh-CN": "服务器未确认任务删除"
+  },
+  "mobile.jobDetails.theServerDidNotConfirmTheRunRequest": {
+    "en": "The server did not confirm the run request for this job",
+    "zh-CN": "服务器未确认所选任务的执行请求"
+  },
+  "mobile.jobDetails.theServerReportedThatThisRunFailed": {
+    "en": "The server reported that this run failed",
+    "zh-CN": "服务器报告本次运行失败"
+  },
+  "mobile.jobDetails.thisRunStopped": {
+    "en": "This run stopped",
+    "zh-CN": "本次运行已停止"
+  },
+  "mobile.jobDetails.thisRunCompleted": {
+    "en": "This run completed",
+    "zh-CN": "本次运行已完成"
+  },
+  "mobile.jobDetails.theServerProcessedTheRunRequestSeeRecent": {
+    "en": "The server processed the run request. See recent runs for the result.",
+    "zh-CN": "服务器已执行触发请求，请查看最近运行"
+  },
+  "mobile.jobDetails.cronJobDetails": {
+    "en": "Cron job details",
+    "zh-CN": "定时任务详情"
+  },
+  "mobile.jobDetails.taskDetails": {
+    "en": "Task details",
+    "zh-CN": "任务详情"
+  },
+  "mobile.jobDetails.thisJobIsMissingAnIdentifiableId": {
+    "en": "This job is missing an identifiable ID",
+    "zh-CN": "此任务缺少可识别的 ID"
+  },
+  "mobile.jobDetails.theJobWasNotFoundInThisProfile": {
+    "en": "The job was not found in this profile",
+    "zh-CN": "找不到所选配置档案中的任务"
+  },
+  "mobile.jobDetails.profileNotReturned": {
+    "en": "Profile not returned",
+    "zh-CN": "配置档案未返回"
+  },
+  "mobile.jobDetails.unknownStatus": {
+    "en": "Unknown status",
+    "zh-CN": "状态未知"
+  },
+  "mobile.jobDetails.jobId": {
+    "en": "Job ID",
+    "zh-CN": "任务 ID"
+  },
+  "mobile.jobDetails.schedule": {
+    "en": "Schedule",
+    "zh-CN": "运行计划"
+  },
+  "mobile.jobDetails.scheduleTimeZone": {
+    "en": "Schedule time zone",
+    "zh-CN": "计划时区"
+  },
+  "mobile.jobDetails.nextRun": {
+    "en": "Next run",
+    "zh-CN": "下次运行"
+  },
+  "mobile.jobDetails.lastRun": {
+    "en": "Last run",
+    "zh-CN": "上次运行"
+  },
+  "mobile.jobDetails.lastRunError": {
+    "en": "Last run error",
+    "zh-CN": "上次运行错误"
+  },
+  "mobile.jobDetails.lastDeliveryError": {
+    "en": "Last delivery error",
+    "zh-CN": "上次投递错误"
+  },
+  "mobile.jobDetails.pauseReason": {
+    "en": "Pause reason",
+    "zh-CN": "暂停原因"
+  },
+  "mobile.jobDetails.running": {
+    "en": "Running…",
+    "zh-CN": "正在执行…"
+  },
+  "mobile.jobDetails.deleteJob": {
+    "en": "Delete job",
+    "zh-CN": "删除任务"
+  },
+  "mobile.jobDetails.jobPrompt": {
+    "en": "Job prompt",
+    "zh-CN": "任务指令"
+  },
+  "mobile.jobDetails.recentRuns": {
+    "en": "Recent runs",
+    "zh-CN": "最近运行"
+  },
+  "mobile.jobDetails.couldNotDetermineTheJobOwner": {
+    "en": "Could not determine the job owner",
+    "zh-CN": "缺少任务归属，无法读取运行记录"
+  },
+  "mobile.jobDetails.noRecordedRuns": {
+    "en": "No recorded runs",
+    "zh-CN": "暂无运行记录"
+  },
+  "mobile.jobDetails.jobRun": {
+    "en": "Job run",
+    "zh-CN": "任务运行"
+  },
+  "mobile.jobDetails.unknownTime": {
+    "en": "Unknown time",
+    "zh-CN": "时间未知"
+  },
+  "mobile.jobEditor.thisGatewayDoesNotOfferThisOperation": {
+    "en": "This gateway does not offer this operation",
+    "zh-CN": "当前网关未提供此操作"
+  },
+  "mobile.jobEditor.deliveryTargets": {
+    "en": "Delivery targets",
+    "zh-CN": "投递目的地"
+  },
+  "mobile.jobEditor.saveOnServerOnly": {
+    "en": "Save on server only",
+    "zh-CN": "仅保存到服务器"
+  },
+  "mobile.jobEditor.keepCurrent": {
+    "en": "Keep current · {v1}",
+    "zh-CN": "保留当前 · {v1}"
+  },
+  "mobile.jobEditor.jobName": {
+    "en": "Job name",
+    "zh-CN": "任务名称"
+  },
+  "mobile.jobEditor.ianaTimeZone": {
+    "en": "IANA time zone",
+    "zh-CN": "IANA 时区"
+  },
+  "mobile.jobEditor.leaveBlankToUseTheProfileTimeZone": {
+    "en": "Leave blank to use the profile time zone, such as Asia/Shanghai",
+    "zh-CN": "留空使用档案时区，例如 Asia/Shanghai"
+  },
+  "mobile.jobEditor.initialStatus": {
+    "en": "Initial status",
+    "zh-CN": "初始状态"
+  },
+  "mobile.jobEditor.startPaused": {
+    "en": "Start paused",
+    "zh-CN": "先暂停"
+  },
+  "mobile.jobEditor.enableAfterCreation": {
+    "en": "Enable after creation",
+    "zh-CN": "创建后启用"
+  },
+  "mobile.jobEditor.createJob": {
+    "en": "Create job",
+    "zh-CN": "创建任务"
+  },
+  "mobile.jobEditor.saveJob": {
+    "en": "Save job",
+    "zh-CN": "保存任务"
+  },
+  "mobile.jobEditor.noChangesToThisJob": {
+    "en": "No changes to this job",
+    "zh-CN": "任务没有改动"
+  },
+  "mobile.jobEditor.theFieldsYouEditedHaveChangedGoBack": {
+    "en": "The fields you edited have changed. Go back and reload the job.",
+    "zh-CN": "所编辑的任务字段已变化，请返回详情重新读取"
+  },
+  "mobile.jobEditor.theServerDidNotConfirmTheSelectedCron": {
+    "en": "The server did not confirm the selected cron job",
+    "zh-CN": "服务器未确认所选定时任务"
+  },
+  "mobile.kanban.triage": {
+    "en": "Triage",
+    "zh-CN": "待整理"
+  },
+  "mobile.kanban.todo": {
+    "en": "Todo",
+    "zh-CN": "待办"
+  },
+  "mobile.kanban.ready": {
+    "en": "Ready",
+    "zh-CN": "已就绪"
+  },
+  "mobile.kanban.blocked": {
+    "en": "Blocked",
+    "zh-CN": "受阻"
+  },
+  "mobile.kanban.scheduled": {
+    "en": "Scheduled",
+    "zh-CN": "已排期"
+  },
+  "mobile.kanban.inReview": {
+    "en": "In review",
+    "zh-CN": "待审核"
+  },
+  "mobile.kanban.newBoard": {
+    "en": "New board",
+    "zh-CN": "新建看板"
+  },
+  "mobile.kanban.editBoard": {
+    "en": "Edit board",
+    "zh-CN": "编辑看板"
+  },
+  "mobile.kanban.createBoard": {
+    "en": "Create board",
+    "zh-CN": "创建看板"
+  },
+  "mobile.kanban.saveBoard": {
+    "en": "Save board",
+    "zh-CN": "保存看板"
+  },
+  "mobile.kanban.boardSlug": {
+    "en": "Board slug",
+    "zh-CN": "看板标识"
+  },
+  "mobile.kanban.forExampleTeamNotes": {
+    "en": "For example, team-notes",
+    "zh-CN": "例如 team-notes"
+  },
+  "mobile.kanban.boardName": {
+    "en": "Board name",
+    "zh-CN": "看板名称"
+  },
+  "mobile.kanban.theBoardNameOrDescriptionChangedRefreshAnd": {
+    "en": "The board name or description changed. Refresh and try again.",
+    "zh-CN": "看板名称或说明已变化，请刷新后重试"
+  },
+  "mobile.kanban.theGatewayDidNotConfirmTheChangesOr": {
+    "en": "The gateway did not confirm the changes, or this slug is already taken",
+    "zh-CN": "网关未确认看板变更，或此标识已被占用"
+  },
+  "mobile.kanban.newTriageTask": {
+    "en": "New triage task",
+    "zh-CN": "新建待整理任务"
+  },
+  "mobile.kanban.createTriageTask": {
+    "en": "Create triage task",
+    "zh-CN": "创建待整理任务"
+  },
+  "mobile.kanban.board": {
+    "en": "Board: {v1}",
+    "zh-CN": "看板：{v1}"
+  },
+  "mobile.kanban.taskTitle": {
+    "en": "Task title",
+    "zh-CN": "任务标题"
+  },
+  "mobile.kanban.taskDescription": {
+    "en": "Task description",
+    "zh-CN": "任务说明"
+  },
+  "mobile.kanban.tenantOptional": {
+    "en": "Tenant (optional)",
+    "zh-CN": "租户（可选）"
+  },
+  "mobile.kanban.theGatewayDidNotConfirmTheTriageTask": {
+    "en": "The gateway did not confirm the triage task",
+    "zh-CN": "网关未确认待整理任务"
+  },
+  "mobile.kanban.archiveBoard": {
+    "en": "Archive board",
+    "zh-CN": "归档看板"
+  },
+  "mobile.kanban.setAsServerDefaultBoard": {
+    "en": "Set as server default board",
+    "zh-CN": "设为服务器默认看板"
+  },
+  "mobile.kanban.theBoardIsStillListedAsActiveRefresh": {
+    "en": "The board is still listed as active. Refresh and check again.",
+    "zh-CN": "看板仍在活动列表中，请刷新核对"
+  },
+  "mobile.kanban.theGatewayDidNotConfirmTheDefaultBoard": {
+    "en": "The gateway did not confirm the default board",
+    "zh-CN": "网关未确认默认看板"
+  },
+  "mobile.kanban.boards": {
+    "en": "Boards",
+    "zh-CN": "看板列表"
+  },
+  "mobile.kanban.setAsDefaultBoard": {
+    "en": "Set as default board",
+    "zh-CN": "设为默认看板"
+  },
+  "mobile.kanban.searchTasksTenantsOrAssignees": {
+    "en": "Search tasks, tenants, or assignees",
+    "zh-CN": "搜索任务、租户或负责人"
+  },
+  "mobile.kanban.allStatuses": {
+    "en": "All statuses",
+    "zh-CN": "全部状态"
+  },
+  "mobile.kanban.hideArchivedTasks": {
+    "en": "Hide archived tasks",
+    "zh-CN": "隐藏归档任务"
+  },
+  "mobile.kanban.includeArchivedTasks": {
+    "en": "Include archived tasks",
+    "zh-CN": "包含归档任务"
+  },
+  "mobile.kanban.allTenants": {
+    "en": "All tenants",
+    "zh-CN": "全部租户"
+  },
+  "mobile.kanban.boardTasks": {
+    "en": "Board tasks",
+    "zh-CN": "看板任务"
+  },
+  "mobile.kanban.comments": {
+    "en": "{v1} comments",
+    "zh-CN": "{v1} 条评论"
+  },
+  "mobile.kanban.comments.one": {
+    "en": "{v1} comment",
+    "zh-CN": "{v1} 条评论"
+  },
+  "mobile.kanban.showMoreTasks": {
+    "en": "Show more tasks",
+    "zh-CN": "继续显示任务"
+  },
+  "mobile.kanban.noMatchingTasks": {
+    "en": "No matching tasks",
+    "zh-CN": "没有匹配的任务"
+  },
+  "mobile.kanban.defaultBoard": {
+    "en": "Default board",
+    "zh-CN": "默认看板"
+  },
+  "mobile.kanban.tasks": {
+    "en": "{v1} tasks",
+    "zh-CN": "{v1} 个任务"
+  },
+  "mobile.kanban.tasks.one": {
+    "en": "{v1} task",
+    "zh-CN": "{v1} 个任务"
+  },
+  "mobile.kanban.noBoards": {
+    "en": "No boards",
+    "zh-CN": "当前没有看板"
+  },
+  "mobile.kanbanTask.theTaskChangedOnTheGatewayRefreshTo": {
+    "en": "The task changed on the gateway. Refresh to reload it.",
+    "zh-CN": "网关返回的任务已变化，请刷新"
+  },
+  "mobile.kanbanTask.editTask": {
+    "en": "Edit task",
+    "zh-CN": "编辑任务"
+  },
+  "mobile.kanbanTask.board": {
+    "en": "{v1}\nBoard: {v2}",
+    "zh-CN": "{v1}\n看板：{v2}"
+  },
+  "mobile.kanbanTask.theTitleOrDescriptionChangedRefreshBeforeEditing": {
+    "en": "The title or description changed. Refresh before editing.",
+    "zh-CN": "标题或说明已被修改，请刷新后再编辑"
+  },
+  "mobile.kanbanTask.theServerDidNotConfirmTheTaskChanges": {
+    "en": "The server did not confirm the task changes",
+    "zh-CN": "服务器未确认任务变更"
+  },
+  "mobile.kanbanTask.changingStatusMayEndTheCurrentRun": {
+    "en": "Changing status may end the current run.",
+    "zh-CN": "切换状态可能结束当前执行。"
+  },
+  "mobile.kanbanTask.enteringThisStatusMayStartExecutionIfThe": {
+    "en": "Entering this status may start execution if the task is assigned.",
+    "zh-CN": "已分派的任务进入该状态后可能开始执行。"
+  },
+  "mobile.kanbanTask.moveTask": {
+    "en": "Move task",
+    "zh-CN": "移动任务"
+  },
+  "mobile.kanbanTask.theTaskStatusOrAssigneeChangedRefreshTo": {
+    "en": "The task status or assignee changed. Refresh to reload it.",
+    "zh-CN": "任务状态或负责人已变化，请刷新"
+  },
+  "mobile.kanbanTask.theServerDidNotConfirmTheTaskStatus": {
+    "en": "The server did not confirm the task status",
+    "zh-CN": "服务器未确认任务状态"
+  },
+  "mobile.kanbanTask.theTaskIsNow": {
+    "en": "The task is now “{v1}”",
+    "zh-CN": "任务现在处于「{v1}」"
+  },
+  "mobile.kanbanTask.addATaskComment": {
+    "en": "Add a task comment",
+    "zh-CN": "添加任务评论"
+  },
+  "mobile.kanbanTask.postComment": {
+    "en": "Post comment",
+    "zh-CN": "发送评论"
+  },
+  "mobile.kanbanTask.comments": {
+    "en": "Comments",
+    "zh-CN": "评论"
+  },
+  "mobile.kanbanTask.theServerDidNotConfirmTheComment": {
+    "en": "The server did not confirm the comment",
+    "zh-CN": "服务器未确认评论"
+  },
+  "mobile.kanbanTask.addATaskAttachment": {
+    "en": "Add a task attachment",
+    "zh-CN": "添加任务附件"
+  },
+  "mobile.kanbanTask.uploadAttachment": {
+    "en": "Upload attachment",
+    "zh-CN": "上传附件"
+  },
+  "mobile.kanbanTask.theServerDidNotConfirmTheAttachment": {
+    "en": "The server did not confirm the attachment",
+    "zh-CN": "服务器未确认任务附件"
+  },
+  "mobile.kanbanTask.theServerDidNotReturnADownload": {
+    "en": "The server did not return a download",
+    "zh-CN": "服务器未返回下载文件"
+  },
+  "mobile.kanbanTask.attachmentSaved": {
+    "en": "Attachment saved",
+    "zh-CN": "附件已保存"
+  },
+  "mobile.kanbanTask.deleteTaskAttachment": {
+    "en": "Delete task attachment",
+    "zh-CN": "删除任务附件"
+  },
+  "mobile.kanbanTask.taskBoard": {
+    "en": "{v1}\nTask: {v2}\nBoard: {v3}",
+    "zh-CN": "{v1}\n任务：{v2}\n看板：{v3}"
+  },
+  "mobile.kanbanTask.thisTaskAttachmentWasNotFound": {
+    "en": "This task attachment was not found",
+    "zh-CN": "找不到此任务的附件"
+  },
+  "mobile.kanbanTask.theServerDidNotConfirmAttachmentDeletion": {
+    "en": "The server did not confirm attachment deletion",
+    "zh-CN": "服务器未确认删除附件"
+  },
+  "mobile.kanbanTask.assignee": {
+    "en": "Assignee",
+    "zh-CN": "负责人"
+  },
+  "mobile.kanbanTask.unassigned": {
+    "en": "Unassigned",
+    "zh-CN": "未分派"
+  },
+  "mobile.kanbanTask.tenant": {
+    "en": "Tenant",
+    "zh-CN": "租户"
+  },
+  "mobile.kanbanTask.priority": {
+    "en": "Priority",
+    "zh-CN": "优先级"
+  },
+  "mobile.kanbanTask.result": {
+    "en": "Result",
+    "zh-CN": "结果"
+  },
+  "mobile.kanbanTask.hideStatusOptions": {
+    "en": "Hide status options",
+    "zh-CN": "收起状态选项"
+  },
+  "mobile.kanbanTask.noComments": {
+    "en": "No comments",
+    "zh-CN": "暂无评论"
+  },
+  "mobile.kanbanTask.addAnAttachmentFromYourPhone": {
+    "en": "Add an attachment from your phone",
+    "zh-CN": "从手机添加附件"
+  },
+  "mobile.kanbanTask.bytes": {
+    "en": "{v1} bytes",
+    "zh-CN": "{v1} 字节"
+  },
+  "mobile.kanbanTask.bytes.one": {
+    "en": "{v1} byte",
+    "zh-CN": "{v1} 字节"
+  },
+  "mobile.kanbanTask.deleteAttachment": {
+    "en": "Delete attachment",
+    "zh-CN": "删除附件"
+  },
+  "mobile.kanbanTask.noAttachments": {
+    "en": "No attachments",
+    "zh-CN": "暂无附件"
+  },
+  "mobile.kanbanTask.recentRuns": {
+    "en": "Recent runs",
+    "zh-CN": "最近执行"
+  },
+  "mobile.knowledge.knowledgeResources": {
+    "en": "Knowledge resources",
+    "zh-CN": "知识资料"
+  },
+  "mobile.knowledge.searchBuiltInMemory": {
+    "en": "Search built-in memory",
+    "zh-CN": "搜索本机记忆"
+  },
+  "mobile.knowledge.longTermMemory": {
+    "en": "Long-term memory",
+    "zh-CN": "长期记忆"
+  },
+  "mobile.knowledge.userInformation": {
+    "en": "User information",
+    "zh-CN": "用户资料"
+  },
+  "mobile.knowledge.hideStorageStatus": {
+    "en": "Hide storage status",
+    "zh-CN": "收起存储状态"
+  },
+  "mobile.knowledge.storageAndMaintenance": {
+    "en": "Storage and maintenance",
+    "zh-CN": "存储与维护"
+  },
+  "mobile.knowledge.memoryStorage": {
+    "en": "Memory storage",
+    "zh-CN": "记忆存储"
+  },
+  "mobile.knowledge.currentProvider": {
+    "en": "Current provider",
+    "zh-CN": "当前提供方"
+  },
+  "mobile.knowledge.builtInMemory": {
+    "en": "Built-in memory",
+    "zh-CN": "内置记忆"
+  },
+  "mobile.knowledge.skillMaintenance": {
+    "en": "Skill maintenance",
+    "zh-CN": "技能维护"
+  },
+  "mobile.knowledge.disabled": {
+    "en": "Disabled",
+    "zh-CN": "未启用"
+  },
+  "mobile.knowledge.interval": {
+    "en": "Interval",
+    "zh-CN": "周期"
+  },
+  "mobile.knowledge.hours": {
+    "en": "{v1} hours",
+    "zh-CN": "{v1} 小时"
+  },
+  "mobile.knowledge.hours.one": {
+    "en": "{v1} hour",
+    "zh-CN": "{v1} 小时"
+  },
+  "mobile.knowledge.noMatchingBuiltInMemories": {
+    "en": "No matching built-in memories",
+    "zh-CN": "没有匹配的本机记忆"
+  },
+  "mobile.maintenance.pruneOldCheckpoints": {
+    "en": "Prune old checkpoints",
+    "zh-CN": "清理旧检查点"
+  },
+  "mobile.maintenance.profileTheServerWillPruneEligibleCheckpointsUnder": {
+    "en": "Profile: {v1}\nThe server will prune eligible checkpoints under its current retention policy.",
+    "zh-CN": "配置档案：{v1}\n服务器将按现有保留策略清理可移除的检查点。"
+  },
+  "mobile.maintenance.theServerDidNotReturnTheCurrentProfile": {
+    "en": "The server did not return the current profile",
+    "zh-CN": "服务器未返回当前配置档案"
+  },
+  "mobile.maintenance.theServerDidNotConfirmThePruneRequest": {
+    "en": "The server did not confirm the prune request",
+    "zh-CN": "服务器未确认清理请求"
+  },
+  "mobile.maintenance.theServerAcceptedThePruneRequest": {
+    "en": "The server accepted the prune request",
+    "zh-CN": "服务器已接收清理请求"
+  },
+  "mobile.maintenance.eventHooks": {
+    "en": "Event hooks",
+    "zh-CN": "事件钩子"
+  },
+  "mobile.maintenance.checkpointStorage": {
+    "en": "Checkpoint storage",
+    "zh-CN": "检查点占用"
+  },
+  "mobile.maintenance.sessions": {
+    "en": "Sessions",
+    "zh-CN": "会话数"
+  },
+  "mobile.maintenance.storageUsed": {
+    "en": "Storage used",
+    "zh-CN": "占用"
+  },
+  "mobile.maintenance.noCheckpoints": {
+    "en": "No checkpoints",
+    "zh-CN": "当前没有检查点"
+  },
+  "mobile.maintenance.searchEventsOrCommands": {
+    "en": "Search events or commands",
+    "zh-CN": "搜索事件或命令"
+  },
+  "mobile.maintenance.matcher": {
+    "en": "Matcher",
+    "zh-CN": "匹配条件"
+  },
+  "mobile.maintenance.authorization": {
+    "en": "Authorization",
+    "zh-CN": "授权"
+  },
+  "mobile.maintenance.approved": {
+    "en": "Approved",
+    "zh-CN": "已批准"
+  },
+  "mobile.maintenance.awaitingApproval": {
+    "en": "Awaiting approval",
+    "zh-CN": "待批准"
+  },
+  "mobile.maintenance.noMatchingEventHooks": {
+    "en": "No matching event hooks",
+    "zh-CN": "没有匹配的事件钩子"
+  },
+  "mobile.mcp.addHttpMcpServer": {
+    "en": "Add HTTP MCP server",
+    "zh-CN": "添加 HTTP MCP"
+  },
+  "mobile.mcp.addLocalMcpServer": {
+    "en": "Add local MCP server",
+    "zh-CN": "添加本地 MCP"
+  },
+  "mobile.mcp.addServer": {
+    "en": "Add server",
+    "zh-CN": "添加服务"
+  },
+  "mobile.mcp.theAppSupportsHttpEndpointsOnTheSame": {
+    "en": "{v1}\nThe app supports HTTP endpoints on the same origin as Hermes.",
+    "zh-CN": "{v1}\nApp 支持与 Hermes 同源的 HTTP 地址。"
+  },
+  "mobile.mcp.theServerProcessRunsOnTheHermesHost": {
+    "en": "{v1}\nThe server process runs on the Hermes host.",
+    "zh-CN": "{v1}\n服务进程运行在 Hermes 主机上。"
+  },
+  "mobile.mcp.serverName": {
+    "en": "Server name",
+    "zh-CN": "服务名"
+  },
+  "mobile.mcp.httpUrl": {
+    "en": "HTTP URL",
+    "zh-CN": "HTTP 地址"
+  },
+  "mobile.mcp.bearerTokenOptional": {
+    "en": "Bearer token (optional)",
+    "zh-CN": "Bearer 令牌（可选）"
+  },
+  "mobile.mcp.argumentsOnePerLine": {
+    "en": "Arguments (one per line)",
+    "zh-CN": "参数（每行一个）"
+  },
+  "mobile.mcp.theServerDidNotConfirmTheMcpConfiguration": {
+    "en": "The server did not confirm the MCP configuration",
+    "zh-CN": "服务器未确认 MCP 配置"
+  },
+  "mobile.mcp.disableMcpServer": {
+    "en": "Disable MCP server",
+    "zh-CN": "停用 MCP"
+  },
+  "mobile.mcp.enableMcpServer": {
+    "en": "Enable MCP server",
+    "zh-CN": "启用 MCP"
+  },
+  "mobile.mcp.deleteMcpConfiguration": {
+    "en": "Delete MCP configuration",
+    "zh-CN": "删除 MCP 配置"
+  },
+  "mobile.mcp.theServerDidNotConfirmThisOperation": {
+    "en": "The server did not confirm this operation",
+    "zh-CN": "服务器未确认此操作"
+  },
+  "mobile.mcp.installMcpServer": {
+    "en": "Install MCP server",
+    "zh-CN": "安装 MCP"
+  },
+  "mobile.mcp.theServerDidNotConfirmTheMcpInstallation": {
+    "en": "The server did not confirm the MCP installation",
+    "zh-CN": "服务器未确认 MCP 安装"
+  },
+  "mobile.mcp.configureAndInstallMcpServer": {
+    "en": "Configure and install MCP server",
+    "zh-CN": "配置并安装 MCP"
+  },
+  "mobile.mcp.mcpServerDetails": {
+    "en": "MCP server details",
+    "zh-CN": "MCP 服务详情"
+  },
+  "mobile.mcp.officialMcpCatalog": {
+    "en": "Official MCP catalog",
+    "zh-CN": "MCP 官方目录"
+  },
+  "mobile.mcp.mcpServers": {
+    "en": "MCP servers",
+    "zh-CN": "MCP 服务"
+  },
+  "mobile.mcp.mcpCatalog": {
+    "en": "MCP catalog",
+    "zh-CN": "MCP 目录"
+  },
+  "mobile.mcp.connectionMethod": {
+    "en": "Connection method",
+    "zh-CN": "连接方式"
+  },
+  "mobile.mcp.hostCommand": {
+    "en": "Host command",
+    "zh-CN": "主机命令"
+  },
+  "mobile.mcp.installationSource": {
+    "en": "Installation source",
+    "zh-CN": "安装来源"
+  },
+  "mobile.mcp.installationSteps": {
+    "en": "Installation steps",
+    "zh-CN": "安装步骤"
+  },
+  "mobile.mcp.installationNotes": {
+    "en": "Installation notes",
+    "zh-CN": "安装提示"
+  },
+  "mobile.mcp.disabled": {
+    "en": "Disabled",
+    "zh-CN": "已停用"
+  },
+  "mobile.mcp.authorizeInBrowser": {
+    "en": "Authorize in browser",
+    "zh-CN": "在浏览器授权"
+  },
+  "mobile.mcp.disable": {
+    "en": "Disable",
+    "zh-CN": "停用"
+  },
+  "mobile.mcp.deleteConfiguration": {
+    "en": "Delete configuration",
+    "zh-CN": "删除配置"
+  },
+  "mobile.mcp.connectionTest": {
+    "en": "Connection test",
+    "zh-CN": "连接测试"
+  },
+  "mobile.mcp.toolsPromptsResources": {
+    "en": "Tools / prompts / resources",
+    "zh-CN": "工具 / 提示 / 资源"
+  },
+  "mobile.mcp.thisServerIsUnavailable": {
+    "en": "This server is unavailable",
+    "zh-CN": "该服务不可用"
+  },
+  "mobile.mcp.searchMcpServers": {
+    "en": "Search MCP servers",
+    "zh-CN": "搜索 MCP 服务"
+  },
+  "mobile.mcp.officialCatalog": {
+    "en": "Official catalog",
+    "zh-CN": "官方目录"
+  },
+  "mobile.mcp.addHttpServer": {
+    "en": "Add HTTP server",
+    "zh-CN": "添加 HTTP"
+  },
+  "mobile.mcp.addLocalServer": {
+    "en": "Add local server",
+    "zh-CN": "添加本地服务"
+  },
+  "mobile.mcp.noMatchingServers": {
+    "en": "No matching servers",
+    "zh-CN": "没有匹配的服务"
+  },
+  "mobile.mcp.noMcpServers": {
+    "en": "No MCP servers",
+    "zh-CN": "当前没有 MCP 服务"
+  },
+  "mobile.messaging.configurePlatform": {
+    "en": "Configure platform",
+    "zh-CN": "配置消息平台"
+  },
+  "mobile.messaging.saveSettings": {
+    "en": "Save settings",
+    "zh-CN": "保存设置"
+  },
+  "mobile.messaging.theServerDidNotConfirmThePlatformConfiguration": {
+    "en": "The server did not confirm the platform configuration",
+    "zh-CN": "服务器未确认所选平台配置"
+  },
+  "mobile.messaging.thePlatformDidNotConfirmASuccessfulConnection": {
+    "en": "The platform did not confirm a successful connection",
+    "zh-CN": "平台未确认连接成功"
+  },
+  "mobile.messaging.platformConnectionTestPassed": {
+    "en": "Platform connection test passed",
+    "zh-CN": "平台连接测试通过"
+  },
+  "mobile.messaging.theServerDidNotConfirmThePlatformAction": {
+    "en": "The server did not confirm the platform action",
+    "zh-CN": "服务器未确认所选消息平台操作"
+  },
+  "mobile.messaging.pairingRequest": {
+    "en": "Pairing request",
+    "zh-CN": "配对申请"
+  },
+  "mobile.messaging.authorizedAccount": {
+    "en": "Authorized account",
+    "zh-CN": "已授权账号"
+  },
+  "mobile.messaging.platformAccountId": {
+    "en": "Platform account ID",
+    "zh-CN": "平台账号 ID"
+  },
+  "mobile.messaging.approvePairing": {
+    "en": "Approve pairing",
+    "zh-CN": "同意配对"
+  },
+  "mobile.messaging.revokeAuthorization": {
+    "en": "Revoke authorization",
+    "zh-CN": "撤销授权"
+  },
+  "mobile.messaging.platformDetails": {
+    "en": "Platform details",
+    "zh-CN": "消息平台详情"
+  },
+  "mobile.messaging.platformStatus": {
+    "en": "Platform status",
+    "zh-CN": "平台状态"
+  },
+  "mobile.messaging.configurationStatus": {
+    "en": "Configuration status",
+    "zh-CN": "配置状态"
+  },
+  "mobile.messaging.setupRequired": {
+    "en": "Setup required",
+    "zh-CN": "待配置"
+  },
+  "mobile.messaging.defaultDeliveryChannel": {
+    "en": "Default delivery channel",
+    "zh-CN": "默认投递频道"
+  },
+  "mobile.messaging.testResult": {
+    "en": "Test result",
+    "zh-CN": "测试结果"
+  },
+  "mobile.messaging.testPlatformConnection": {
+    "en": "Test platform connection",
+    "zh-CN": "测试平台连接"
+  },
+  "mobile.messaging.disablePlatform": {
+    "en": "Disable platform",
+    "zh-CN": "停用平台"
+  },
+  "mobile.messaging.enablePlatform": {
+    "en": "Enable platform",
+    "zh-CN": "启用平台"
+  },
+  "mobile.messaging.connectionSettings": {
+    "en": "Connection settings",
+    "zh-CN": "连接设置"
+  },
+  "mobile.messaging.pairingAndAuthorization": {
+    "en": "Pairing and authorization",
+    "zh-CN": "配对与授权"
+  },
+  "mobile.messaging.pairing": {
+    "en": "Pairing",
+    "zh-CN": "配对"
+  },
+  "mobile.messaging.noPendingOrAuthorizedAccounts": {
+    "en": "No pending or authorized accounts",
+    "zh-CN": "当前没有待配对或已授权的账号"
+  },
+  "mobile.messaging.thisMessagingPlatformIsUnavailable": {
+    "en": "This messaging platform is unavailable",
+    "zh-CN": "该消息平台不可用"
+  },
+  "mobile.messaging.sharedBotAccounts": {
+    "en": "Shared bot accounts",
+    "zh-CN": "共享机器人账号"
+  },
+  "mobile.messaging.viewAndManageLinkedTeamGatewayAccounts": {
+    "en": "View and manage linked Team Gateway accounts",
+    "zh-CN": "查看和管理 Team Gateway 账号关联"
+  },
+  "mobile.messaging.noMessagingPlatformsAreAvailable": {
+    "en": "No messaging platforms are available",
+    "zh-CN": "没有可用的消息平台"
+  },
+  "mobile.modelDetails.connectModelProvider": {
+    "en": "Connect model provider",
+    "zh-CN": "连接模型提供方"
+  },
+  "mobile.modelDetails.saveApiKey": {
+    "en": "Save API key",
+    "zh-CN": "保存 API 密钥"
+  },
+  "mobile.modelDetails.theServerDidNotConfirmTheSelectedProvider": {
+    "en": "The server did not confirm the selected provider",
+    "zh-CN": "服务器未确认所选提供方"
+  },
+  "mobile.modelDetails.disconnectModelProvider": {
+    "en": "Disconnect model provider",
+    "zh-CN": "断开模型提供方"
+  },
+  "mobile.modelDetails.profileTheServerWillRemoveThisProviderS": {
+    "en": "{v1}\nProfile: {v2}\nThe server will remove this provider's keys and authorization records.",
+    "zh-CN": "{v1}\n配置档案：{v2}\n服务器将删除此提供方的密钥及授权记录。"
+  },
+  "mobile.modelDetails.theServerDidNotConfirmThatTheProvider": {
+    "en": "The server did not confirm that the provider disconnected",
+    "zh-CN": "服务器未确认断开所选提供方"
+  },
+  "mobile.modelDetails.setAuxiliaryModel": {
+    "en": "Set auxiliary model",
+    "zh-CN": "设置辅助模型"
+  },
+  "mobile.modelDetails.switchMainModel": {
+    "en": "Switch main model",
+    "zh-CN": "切换主模型"
+  },
+  "mobile.modelDetails.automatic": {
+    "en": "Automatic",
+    "zh-CN": "自动选择"
+  },
+  "mobile.modelDetails.task": {
+    "en": "Task: {v1}",
+    "zh-CN": "任务：{v1}"
+  },
+  "mobile.modelDetails.newChatsWillUseThisModel": {
+    "en": "New chats will use this model.",
+    "zh-CN": "新对话使用此模型。"
+  },
+  "mobile.modelDetails.theServerRequiresConfirmationOfModelPricing": {
+    "en": "The server requires confirmation of model pricing",
+    "zh-CN": "服务器要求确认模型费用"
+  },
+  "mobile.modelDetails.confirmTheModelCost": {
+    "en": "Confirm the model cost",
+    "zh-CN": "请确认模型费用"
+  },
+  "mobile.modelDetails.theServerDidNotConfirmTheModelChange": {
+    "en": "The server did not confirm the model change",
+    "zh-CN": "服务器未确认模型切换"
+  },
+  "mobile.modelDetails.modelOptions": {
+    "en": "Model options",
+    "zh-CN": "模型选项"
+  },
+  "mobile.modelDetails.currentProfile": {
+    "en": "Current profile",
+    "zh-CN": "当前配置档案"
+  },
+  "mobile.modelDetails.mainModel": {
+    "en": "· Main model",
+    "zh-CN": "· 主模型"
+  },
+  "mobile.modelDetails.notConfigured": {
+    "en": "Not configured",
+    "zh-CN": "尚未配置"
+  },
+  "mobile.modelDetails.showConnectedOnly": {
+    "en": "Show connected only",
+    "zh-CN": "仅查看已连接"
+  },
+  "mobile.modelDetails.manageProviders": {
+    "en": "Manage providers",
+    "zh-CN": "管理提供方"
+  },
+  "mobile.modelDetails.hideAuxiliaryTasks": {
+    "en": "Hide auxiliary tasks",
+    "zh-CN": "收起辅助任务"
+  },
+  "mobile.modelDetails.auxiliaryTaskModels": {
+    "en": "Auxiliary task models",
+    "zh-CN": "辅助任务模型"
+  },
+  "mobile.modelDetails.chooseATaskToConfigure": {
+    "en": "Choose a task to configure",
+    "zh-CN": "选择要配置的任务"
+  },
+  "mobile.modelDetails.currentAuxiliaryModel": {
+    "en": "Current auxiliary model",
+    "zh-CN": "当前辅助模型"
+  },
+  "mobile.modelDetails.restoreAutomaticSelection": {
+    "en": "Restore automatic selection",
+    "zh-CN": "恢复自动选择"
+  },
+  "mobile.modelDetails.selectedModel": {
+    "en": "Selected model",
+    "zh-CN": "所选模型"
+  },
+  "mobile.modelDetails.confirmCostAndSwitch": {
+    "en": "Confirm cost and switch",
+    "zh-CN": "确认费用并切换"
+  },
+  "mobile.modelDetails.noMatchingProvidersOrModels": {
+    "en": "No matching providers or models",
+    "zh-CN": "没有匹配的提供方或模型"
+  },
+  "mobile.modelDetails.noModelProvidersAvailable": {
+    "en": "No model providers available",
+    "zh-CN": "暂无可用的模型提供方"
+  },
+  "mobile.modelDetails.models": {
+    "en": "{v1} models",
+    "zh-CN": "{v1} 个模型"
+  },
+  "mobile.modelDetails.models.one": {
+    "en": "{v1} model",
+    "zh-CN": "{v1} 个模型"
+  },
+  "mobile.modelDetails.disconnected": {
+    "en": "Disconnected",
+    "zh-CN": "未连接"
+  },
+  "mobile.modelDetails.configureApiKey": {
+    "en": "Configure API key",
+    "zh-CN": "配置密钥"
+  },
+  "mobile.modelDetails.disconnectProvider": {
+    "en": "Disconnect provider",
+    "zh-CN": "断开授权"
+  },
+  "mobile.modelDetails.thisProviderHasNoModelOptions": {
+    "en": "This provider has no model options",
+    "zh-CN": "此提供方暂无模型选项"
+  },
+  "mobile.operation.query": {
+    "en": "Query",
+    "zh-CN": "查询"
+  },
+  "mobile.operation.requestBody": {
+    "en": "Request body",
+    "zh-CN": "请求正文"
+  },
+  "mobile.operation.chooseFile": {
+    "en": "Choose file{v1}",
+    "zh-CN": "选择文件{v1}"
+  },
+  "mobile.operation.running": {
+    "en": "Running…",
+    "zh-CN": "执行中…"
+  },
+  "mobile.operation.runOperation": {
+    "en": "Run operation",
+    "zh-CN": "执行操作"
+  },
+  "mobile.operation.save": {
+    "en": "Save {v1}",
+    "zh-CN": "保存 {v1}"
+  },
+  "mobile.operation.outputTruncated": {
+    "en": "{v1}\n…Output truncated",
+    "zh-CN": "{v1}\n…内容已截断"
+  },
+  "mobile.ops.theServerDidNotConfirmTheRequest": {
+    "en": "The server did not confirm the request",
+    "zh-CN": "服务器未确认操作请求"
+  },
+  "mobile.ops.serverLogs": {
+    "en": "Server logs",
+    "zh-CN": "服务器日志"
+  },
+  "mobile.ops.searchLogs": {
+    "en": "Search logs",
+    "zh-CN": "搜索日志内容"
+  },
+  "mobile.ops.filter": {
+    "en": "Filter",
+    "zh-CN": "筛选"
+  },
+  "mobile.ops.allLevels": {
+    "en": "All levels",
+    "zh-CN": "全部级别"
+  },
+  "mobile.ops.warningAndAbove": {
+    "en": "Warning and above",
+    "zh-CN": "警告以上"
+  },
+  "mobile.ops.errorAndAbove": {
+    "en": "Error and above",
+    "zh-CN": "错误以上"
+  },
+  "mobile.ops.noMatchingLogs": {
+    "en": "No matching logs",
+    "zh-CN": "当前没有匹配的日志"
+  },
+  "mobile.ops.serverOperations": {
+    "en": "Server operations",
+    "zh-CN": "服务器运维"
+  },
+  "mobile.ops.gatewayStatus": {
+    "en": "Gateway status",
+    "zh-CN": "网关状态"
+  },
+  "mobile.ops.requestAccepted": {
+    "en": "Request accepted",
+    "zh-CN": "请求已接收"
+  },
+  "mobile.ops.messagingGateway": {
+    "en": "Messaging gateway",
+    "zh-CN": "消息网关"
+  },
+  "mobile.ops.stopped": {
+    "en": "Stopped",
+    "zh-CN": "未运行"
+  },
+  "mobile.ops.activeAgents": {
+    "en": "Active agents",
+    "zh-CN": "活动 Agent"
+  },
+  "mobile.ops.activeChats": {
+    "en": "Active chats",
+    "zh-CN": "活动对话"
+  },
+  "mobile.ops.lastExitReason": {
+    "en": "Last exit reason",
+    "zh-CN": "上次退出原因"
+  },
+  "mobile.ops.startGateway": {
+    "en": "Start gateway",
+    "zh-CN": "启动网关"
+  },
+  "mobile.ops.activeChatsAndMessagingServicesMayDisconnectTemporarily": {
+    "en": "Active chats and messaging services may disconnect temporarily.",
+    "zh-CN": "运行中的聊天和消息服务可能暂时断开。"
+  },
+  "mobile.ops.stopGateway": {
+    "en": "Stop gateway",
+    "zh-CN": "停止网关"
+  },
+  "mobile.ops.theGatewayWillStopReceivingNewMessages": {
+    "en": "The gateway will stop receiving new messages.",
+    "zh-CN": "网关将停止接收新消息。"
+  },
+  "mobile.ops.checkTopologyConnectionsAndAuthorization": {
+    "en": "Check topology, connections, and authorization",
+    "zh-CN": "检查运行拓扑、连接与授权"
+  },
+  "mobile.ops.readLogsBySourceAndLevel": {
+    "en": "Read logs by source and level",
+    "zh-CN": "按来源和级别读取日志"
+  },
+  "mobile.ops.viewPlatformConfigurationAndPairingRequests": {
+    "en": "View platform configuration and pairing requests",
+    "zh-CN": "查看配置状态与配对申请"
+  },
+  "mobile.ops.createAndManageWebhookSubscriptions": {
+    "en": "Create and manage webhook subscriptions",
+    "zh-CN": "创建及管理接收订阅"
+  },
+  "mobile.ops.viewCheckpointStorageAndPruneByRetentionPolicy": {
+    "en": "View checkpoint storage and prune by retention policy",
+    "zh-CN": "查看会话快照占用并按策略清理"
+  },
+  "mobile.ops.viewExistingHooksMatchersAndAuthorization": {
+    "en": "View existing hooks, matchers, and authorization",
+    "zh-CN": "查看现有钩子、匹配与授权状态"
+  },
+  "mobile.ops.diagnosticCommands": {
+    "en": "Diagnostic commands",
+    "zh-CN": "诊断命令"
+  },
+  "mobile.ops.runHermesDoctor": {
+    "en": "Run Hermes Doctor",
+    "zh-CN": "运行 Hermes Doctor"
+  },
+  "mobile.ops.runConfigurationCheck": {
+    "en": "Run configuration check",
+    "zh-CN": "运行配置检查"
+  },
+  "mobile.ops.measurePromptSize": {
+    "en": "Measure prompt size",
+    "zh-CN": "测量提示词占用"
+  },
+  "mobile.overview.loadingCurrentModel": {
+    "en": "Loading current model",
+    "zh-CN": "正在读取当前模型"
+  },
+  "mobile.overview.mainModel": {
+    "en": "{v1} · Main model",
+    "zh-CN": "{v1} · 主模型"
+  },
+  "mobile.overview.currentMainModel": {
+    "en": "Current main model",
+    "zh-CN": "当前主模型"
+  },
+  "mobile.overview.noModelConfigured": {
+    "en": "No model configured",
+    "zh-CN": "未配置模型"
+  },
+  "mobile.overview.chooseAWorkspaceProfileAndManageServerProfiles": {
+    "en": "Choose a workspace profile and manage server profiles",
+    "zh-CN": "选择工作区、管理服务器配置档案"
+  },
+  "mobile.overview.setTheMainModelAndAuxiliaryTaskModels": {
+    "en": "Set the main model and auxiliary task models",
+    "zh-CN": "设置主模型与辅助任务模型"
+  },
+  "mobile.overview.browseUploadEditAndSaveHermesFiles": {
+    "en": "Browse, upload, edit, and save Hermes files",
+    "zh-CN": "浏览、上传、编辑和保存 Hermes 文件"
+  },
+  "mobile.overview.findAssistantFilesImagesAndLinksBySession": {
+    "en": "Find assistant files, images, and links by session",
+    "zh-CN": "按会话查找助手生成的文件、图片和链接"
+  },
+  "mobile.overview.connectToTheHermesHostShell": {
+    "en": "Connect to the Hermes host shell",
+    "zh-CN": "连接到 Hermes 主机的 Shell"
+  },
+  "mobile.overview.seeCallsAndTokenUsageByModel": {
+    "en": "See calls and token usage by model",
+    "zh-CN": "按模型查看调用次数与 Token 用量"
+  },
+  "mobile.overview.manageProjectsFoldersAndLinkedChats": {
+    "en": "Manage projects, folders, and linked chats",
+    "zh-CN": "管理项目、目录和关联会话"
+  },
+  "mobile.overview.installConfigureAndTestToolServers": {
+    "en": "Install, configure, and test tool servers",
+    "zh-CN": "安装、配置和测试工具服务"
+  },
+  "mobile.overview.gatewayLogsMessagingPlatformsAndWebhooks": {
+    "en": "Gateway, logs, messaging platforms, and webhooks",
+    "zh-CN": "网关、日志、消息平台和 Webhook"
+  },
+  "mobile.overview.voiceAndWebapp": {
+    "en": "Voice and Webapp",
+    "zh-CN": "语音与官方页面"
+  },
+  "mobile.overview.transcriptionSpeechAndBrowserAuthorization": {
+    "en": "Transcription, speech, and browser authorization",
+    "zh-CN": "转写、朗读和浏览器授权"
+  },
+  "mobile.overview.liveBoardActivity": {
+    "en": "Live board activity",
+    "zh-CN": "看板实时动态"
+  },
+  "mobile.overview.viewProjectBoardsAndServerEvents": {
+    "en": "View project boards and server events",
+    "zh-CN": "查看项目看板和服务器事件"
+  },
+  "mobile.overview.browseBoardsTaskStatusesCommentsAndAttachments": {
+    "en": "Browse boards, task statuses, comments, and attachments",
+    "zh-CN": "查看看板、任务状态、评论和附件"
+  },
+  "mobile.overview.viewGroupChatsMembersAndWorkStatus": {
+    "en": "View group chats, members, and work status",
+    "zh-CN": "查看群组对话、成员和任务状态"
+  },
+  "mobile.overview.exploreLearningRecordsAndTheirRelationships": {
+    "en": "Explore learning records and their relationships",
+    "zh-CN": "浏览学习记录及其关联"
+  },
+  "mobile.overview.searchBuiltInMemoryAndUserInformation": {
+    "en": "Search built-in memory and user information",
+    "zh-CN": "搜索本机记忆和用户资料"
+  },
+  "mobile.overview.viewUnlockedBadgesAndProgress": {
+    "en": "View unlocked badges and progress",
+    "zh-CN": "查看已解锁徽章和进度"
+  },
+  "mobile.profiles.profile": {
+    "en": "Profile {v1}",
+    "zh-CN": "配置档案 {v1}"
+  },
+  "mobile.profiles.createProfile": {
+    "en": "Create profile",
+    "zh-CN": "创建档案"
+  },
+  "mobile.profiles.profileName": {
+    "en": "Profile name",
+    "zh-CN": "档案名"
+  },
+  "mobile.profiles.forExampleResearch": {
+    "en": "For example, research",
+    "zh-CN": "例如 research"
+  },
+  "mobile.profiles.copyFrom": {
+    "en": "Copy from",
+    "zh-CN": "复制来源"
+  },
+  "mobile.profiles.createBlankProfile": {
+    "en": "Create blank profile",
+    "zh-CN": "新建空白档案"
+  },
+  "mobile.profiles.setAsServerDefaultProfile": {
+    "en": "Set as server default profile",
+    "zh-CN": "设为服务器默认档案"
+  },
+  "mobile.profiles.usedForFutureCliAndGatewayLaunchesOn": {
+    "en": "{v1}\nUsed for future CLI and gateway launches on the server.",
+    "zh-CN": "{v1}\n用于服务器后续默认启动的 CLI 和网关。"
+  },
+  "mobile.profiles.theServerDidNotConfirmTheDefaultProfile": {
+    "en": "The server did not confirm the default profile",
+    "zh-CN": "服务器未确认默认档案"
+  },
+  "mobile.profiles.deleteProfile": {
+    "en": "Delete profile",
+    "zh-CN": "删除配置档案"
+  },
+  "mobile.profiles.theServerWillRemoveTheProfileFolderAnd": {
+    "en": "{v1}\nThe server will remove the profile folder and all data it contains.",
+    "zh-CN": "{v1}\n服务器会删除该档案目录及其中的数据。"
+  },
+  "mobile.profiles.theServerDidNotConfirmDeletion": {
+    "en": "The server did not confirm deletion",
+    "zh-CN": "服务器未确认删除"
+  },
+  "mobile.profiles.profileDeleted": {
+    "en": "Profile deleted",
+    "zh-CN": "档案已删除"
+  },
+  "mobile.profiles.theServerIsFinishingIdentityCleanupForThis": {
+    "en": "The server is finishing identity cleanup for this profile.",
+    "zh-CN": "服务器正在完成该档案的身份清理。"
+  },
+  "mobile.profiles.profileDetails": {
+    "en": "Profile details",
+    "zh-CN": "配置档案详情"
+  },
+  "mobile.profiles.activeProfile": {
+    "en": "Active profile",
+    "zh-CN": "活动档案"
+  },
+  "mobile.profiles.phoneWorkspace": {
+    "en": "Phone workspace",
+    "zh-CN": "手机工作区"
+  },
+  "mobile.profiles.followCurrentGateway": {
+    "en": "Follow current gateway",
+    "zh-CN": "跟随当前网关"
+  },
+  "mobile.profiles.serverDefault": {
+    "en": "Server default",
+    "zh-CN": "服务器默认"
+  },
+  "mobile.profiles.newProfile2": {
+    "en": "New profile",
+    "zh-CN": "新建档案"
+  },
+  "mobile.profiles.selectedForWorkspace": {
+    "en": "Selected for workspace",
+    "zh-CN": "工作区已选"
+  },
+  "mobile.profiles.noProfilesAvailable": {
+    "en": "No profiles available",
+    "zh-CN": "当前没有可用档案"
+  },
+  "mobile.profiles.useInPhoneWorkspace": {
+    "en": "Use in phone workspace",
+    "zh-CN": "用于手机工作区"
+  },
+  "mobile.profiles.setServerDefault": {
+    "en": "Set server default",
+    "zh-CN": "设为服务器默认"
+  },
+  "mobile.profiles.renameProfile": {
+    "en": "Rename profile",
+    "zh-CN": "重命名档案"
+  },
+  "mobile.profiles.displayName": {
+    "en": "Display name",
+    "zh-CN": "显示名"
+  },
+  "mobile.profiles.editProfileDescription": {
+    "en": "Edit profile description",
+    "zh-CN": "编辑档案说明"
+  },
+  "mobile.profiles.profileInstructions": {
+    "en": "Profile instructions",
+    "zh-CN": "档案指令"
+  },
+  "mobile.profiles.thisProfileHasNoSoulMd": {
+    "en": "This profile has no SOUL.md",
+    "zh-CN": "该档案还没有 SOUL.md"
+  },
+  "mobile.profiles.deleteProfile2": {
+    "en": "Delete profile",
+    "zh-CN": "删除档案"
+  },
+  "mobile.profiles.thisProfileNoLongerExists": {
+    "en": "This profile no longer exists",
+    "zh-CN": "该配置档案已不存在"
+  },
+  "mobile.projects.editProject": {
+    "en": "Edit project",
+    "zh-CN": "编辑项目"
+  },
+  "mobile.projects.saveProject": {
+    "en": "Save project",
+    "zh-CN": "保存项目"
+  },
+  "mobile.projects.createProject": {
+    "en": "Create project",
+    "zh-CN": "创建项目"
+  },
+  "mobile.projects.projectName": {
+    "en": "Project name",
+    "zh-CN": "项目名"
+  },
+  "mobile.projects.hostFoldersOnePerLine": {
+    "en": "Host folders (one per line)",
+    "zh-CN": "主机目录（每行一个）"
+  },
+  "mobile.projects.theServerDidNotConfirmTheProject": {
+    "en": "The server did not confirm the project",
+    "zh-CN": "服务器未确认所选项目"
+  },
+  "mobile.projects.linkProjectFolder": {
+    "en": "Link project folder",
+    "zh-CN": "关联项目目录"
+  },
+  "mobile.projects.addFolder": {
+    "en": "Add folder",
+    "zh-CN": "添加目录"
+  },
+  "mobile.projects.hostFolder": {
+    "en": "Host folder",
+    "zh-CN": "主机目录"
+  },
+  "mobile.projects.folderNameOptional": {
+    "en": "Folder name (optional)",
+    "zh-CN": "目录名称（可选）"
+  },
+  "mobile.projects.theServerDidNotConfirmTheProjectAction": {
+    "en": "The server did not confirm the project action",
+    "zh-CN": "服务器未确认项目操作"
+  },
+  "mobile.projects.projectDetails": {
+    "en": "Project details",
+    "zh-CN": "项目详情"
+  },
+  "mobile.projects.projects": {
+    "en": "Projects",
+    "zh-CN": "项目列表"
+  },
+  "mobile.projects.activeProject": {
+    "en": "Active project",
+    "zh-CN": "当前项目"
+  },
+  "mobile.projects.primaryFolder": {
+    "en": "Primary folder",
+    "zh-CN": "主目录"
+  },
+  "mobile.projects.clearActiveProject": {
+    "en": "Clear active project",
+    "zh-CN": "取消当前项目"
+  },
+  "mobile.projects.setAsActiveProject": {
+    "en": "Set as active project",
+    "zh-CN": "设为当前项目"
+  },
+  "mobile.projects.restoreProject": {
+    "en": "Restore project",
+    "zh-CN": "恢复项目"
+  },
+  "mobile.projects.archiveProject": {
+    "en": "Archive project",
+    "zh-CN": "归档项目"
+  },
+  "mobile.projects.deleteProject": {
+    "en": "Delete project",
+    "zh-CN": "删除项目"
+  },
+  "mobile.projects.theServerWillRemoveTheProjectAndIts": {
+    "en": "The server will remove the project and its folder links.",
+    "zh-CN": "服务器将删除项目及其目录关联。"
+  },
+  "mobile.projects.linkedFolders": {
+    "en": "Linked folders",
+    "zh-CN": "关联目录"
+  },
+  "mobile.projects.setAsPrimaryFolder": {
+    "en": "Set as primary folder",
+    "zh-CN": "设为主目录"
+  },
+  "mobile.projects.unlinkFolder": {
+    "en": "Unlink folder",
+    "zh-CN": "取消目录关联"
+  },
+  "mobile.projects.projectChats": {
+    "en": "Project chats",
+    "zh-CN": "项目会话"
+  },
+  "mobile.projects.noProjectChats": {
+    "en": "No project chats",
+    "zh-CN": "当前没有项目会话"
+  },
+  "mobile.projects.theSelectedProjectWasNotFound": {
+    "en": "The selected project was not found",
+    "zh-CN": "找不到所选项目"
+  },
+  "mobile.projects.hideArchived": {
+    "en": "Hide archived",
+    "zh-CN": "隐藏归档"
+  },
+  "mobile.projects.includeArchived": {
+    "en": "Include archived",
+    "zh-CN": "包含归档"
+  },
+  "mobile.projects.noMatchingProjects": {
+    "en": "No matching projects",
+    "zh-CN": "没有匹配的项目"
+  },
+  "mobile.projects.noProjectsYet": {
+    "en": "No projects yet",
+    "zh-CN": "当前没有项目"
+  },
+  "mobile.relayAccounts.unlinkAccount": {
+    "en": "Unlink account",
+    "zh-CN": "解除账号关联"
+  },
+  "mobile.relayAccounts.accountId": {
+    "en": "{v1}\n{v2}\nAccount ID: {v3}",
+    "zh-CN": "{v1}\n{v2}\n账号 ID：{v3}"
+  },
+  "mobile.relayAccounts.theAccountLinkChangedRefreshToReloadIt": {
+    "en": "The account link changed. Refresh to reload it.",
+    "zh-CN": "此账号的关联状态已变化，请刷新"
+  },
+  "mobile.relayAccounts.theServerDidNotConfirmThatTheAccount": {
+    "en": "The server did not confirm that the account was unlinked",
+    "zh-CN": "服务器未确认账号解除关联"
+  },
+  "mobile.relayAccounts.manageLinksInTheWebapp": {
+    "en": "Manage links in the Webapp",
+    "zh-CN": "在官方页面管理关联"
+  },
+  "mobile.relayAccounts.accountLinksForThisInstanceAreManagedBy": {
+    "en": "Account links for this instance are managed by the Nous Portal.",
+    "zh-CN": "此实例的账号关联由 Nous Portal 管理。"
+  },
+  "mobile.relayAccounts.noLinkedAccounts": {
+    "en": "No linked accounts",
+    "zh-CN": "当前没有已关联账号"
+  },
+  "mobile.relayAccounts.unlink": {
+    "en": "Unlink",
+    "zh-CN": "解除关联"
+  },
+  "mobile.relayAccounts.thisGatewayHasNoSharedBotPlatformsConfigured": {
+    "en": "This gateway has no shared bot platforms configured.",
+    "zh-CN": "当前网关没有配置共享机器人平台。"
+  },
+  "mobile.skillDetails.disableSkill": {
+    "en": "Disable skill",
+    "zh-CN": "停用技能"
+  },
+  "mobile.skillDetails.enableSkill": {
+    "en": "Enable skill",
+    "zh-CN": "启用技能"
+  },
+  "mobile.skillDetails.theGatewayDidNotConfirmTheSkillStatus": {
+    "en": "The gateway did not confirm the skill status",
+    "zh-CN": "网关未确认技能状态"
+  },
+  "mobile.skillDetails.lockSkill": {
+    "en": "Lock skill",
+    "zh-CN": "锁定技能"
+  },
+  "mobile.skillDetails.unlockSkill": {
+    "en": "Unlock skill",
+    "zh-CN": "解锁技能"
+  },
+  "mobile.skillDetails.theServerDidNotConfirmTheSkillLock": {
+    "en": "The server did not confirm the skill lock status",
+    "zh-CN": "服务器未确认技能锁定状态"
+  },
+  "mobile.skillDetails.skillDetails": {
+    "en": "Skill details",
+    "zh-CN": "技能详情"
+  },
+  "mobile.skillDetails.skillStatus": {
+    "en": "Skill status",
+    "zh-CN": "技能状态"
+  },
+  "mobile.skillDetails.editSkillMd": {
+    "en": "Edit SKILL.md",
+    "zh-CN": "编辑 SKILL.md"
+  },
+  "mobile.skillDetails.saveSkill": {
+    "en": "Save skill",
+    "zh-CN": "保存技能"
+  },
+  "mobile.skillDetails.skillContent": {
+    "en": "Skill content",
+    "zh-CN": "技能正文"
+  },
+  "mobile.skillDetails.couldNotLoadAnEditableSkillStatus": {
+    "en": "Could not load an editable skill status",
+    "zh-CN": "未找到可管理的技能状态"
+  },
+  "mobile.skillDetails.skillInstructions": {
+    "en": "Skill instructions",
+    "zh-CN": "技能说明"
+  },
+  "mobile.skillDetails.theGatewayDidNotReturnSkillInstructions": {
+    "en": "The gateway did not return skill instructions",
+    "zh-CN": "网关未返回技能说明"
+  },
+  "mobile.skillDetails.noSkillInstructions": {
+    "en": "No skill instructions",
+    "zh-CN": "暂无技能说明"
+  },
+  "mobile.skillHub.theServerDidNotReturnASkillExecution": {
+    "en": "The server did not return a skill execution record",
+    "zh-CN": "服务器未返回技能操作的执行记录"
+  },
+  "mobile.skillHub.hubSkillDetails": {
+    "en": "Hub skill details",
+    "zh-CN": "技能中心详情"
+  },
+  "mobile.skillHub.installSkill": {
+    "en": "Install skill",
+    "zh-CN": "安装技能"
+  },
+  "mobile.skillHub.submitted": {
+    "en": "Submitted",
+    "zh-CN": "已提交"
+  },
+  "mobile.skillHub.skillPreview": {
+    "en": "Skill preview",
+    "zh-CN": "技能预览"
+  },
+  "mobile.skillHub.identifier": {
+    "en": "Identifier",
+    "zh-CN": "标识"
+  },
+  "mobile.skillHub.securityScan": {
+    "en": "Security scan",
+    "zh-CN": "安全扫描"
+  },
+  "mobile.skillHub.scanResults": {
+    "en": "Scan results",
+    "zh-CN": "扫描结果"
+  },
+  "mobile.skillHub.verdict": {
+    "en": "Verdict",
+    "zh-CN": "判定"
+  },
+  "mobile.skillHub.policy": {
+    "en": "Policy",
+    "zh-CN": "策略"
+  },
+  "mobile.skillHub.scanAgain": {
+    "en": "Scan again",
+    "zh-CN": "重新扫描"
+  },
+  "mobile.skillHub.scanSkill": {
+    "en": "Scan skill",
+    "zh-CN": "扫描技能"
+  },
+  "mobile.skillHub.uninstallSkill": {
+    "en": "Uninstall skill",
+    "zh-CN": "卸载技能"
+  },
+  "mobile.skillHub.searchSkillsHub": {
+    "en": "Search Skills Hub",
+    "zh-CN": "搜索技能中心"
+  },
+  "mobile.skillHub.hideUpdates": {
+    "en": "Hide updates",
+    "zh-CN": "收起更新"
+  },
+  "mobile.skillHub.checkForUpdates": {
+    "en": "Check for updates",
+    "zh-CN": "检查更新"
+  },
+  "mobile.skillHub.updatesForInstalledSkills": {
+    "en": "Updates for installed skills",
+    "zh-CN": "已安装技能的更新"
+  },
+  "mobile.skillHub.updates": {
+    "en": "Updates",
+    "zh-CN": "更新列表"
+  },
+  "mobile.skillHub.noUpdatesAvailable": {
+    "en": "No updates available",
+    "zh-CN": "没有可用更新"
+  },
+  "mobile.skillHub.updateInstalledSkills": {
+    "en": "Update installed skills",
+    "zh-CN": "更新已安装技能"
+  },
+  "mobile.skillHub.updateSkills": {
+    "en": "Update skills",
+    "zh-CN": "更新技能"
+  },
+  "mobile.skillHub.searchResults": {
+    "en": "Search results",
+    "zh-CN": "搜索结果"
+  },
+  "mobile.skillHub.officialSkills": {
+    "en": "Official skills",
+    "zh-CN": "官方技能"
+  },
+  "mobile.skillHub.skills": {
+    "en": "Skills",
+    "zh-CN": "技能列表"
+  },
+  "mobile.skillHub.someSkillSourcesTimedOut": {
+    "en": "Some skill sources timed out",
+    "zh-CN": "部分技能来源请求超时"
+  },
+  "mobile.skillHub.noSkillsFound": {
+    "en": "No skills found",
+    "zh-CN": "没有找到技能"
+  },
+  "mobile.starmap.memoryAndSkillGraph": {
+    "en": "Memory and skill graph",
+    "zh-CN": "记忆与技能关系图"
+  },
+  "mobile.starmap.thisNodeChangedRefreshAndTryAgain": {
+    "en": "This node changed. Refresh and try again.",
+    "zh-CN": "该节点已变化，请刷新后重试"
+  },
+  "mobile.starmap.editGraphNode": {
+    "en": "Edit graph node",
+    "zh-CN": "编辑图谱节点"
+  },
+  "mobile.starmap.saveNode": {
+    "en": "Save node",
+    "zh-CN": "保存节点"
+  },
+  "mobile.starmap.memoryContent": {
+    "en": "Memory content",
+    "zh-CN": "记忆内容"
+  },
+  "mobile.starmap.archiveSkill": {
+    "en": "Archive skill",
+    "zh-CN": "归档技能"
+  },
+  "mobile.starmap.deleteMemory": {
+    "en": "Delete memory",
+    "zh-CN": "删除记忆"
+  },
+  "mobile.starmap.theServerDidNotConfirmTheGraphChange": {
+    "en": "The server did not confirm the graph change",
+    "zh-CN": "服务器未确认图谱变更"
+  },
+  "mobile.starmap.graphNode": {
+    "en": "Graph node",
+    "zh-CN": "图谱节点"
+  },
+  "mobile.starmap.nodeContent": {
+    "en": "Node content",
+    "zh-CN": "节点内容"
+  },
+  "mobile.starmap.nodeCategory": {
+    "en": "Node category",
+    "zh-CN": "节点类别"
+  },
+  "mobile.starmap.timesUsed": {
+    "en": "Times used",
+    "zh-CN": "使用次数"
+  },
+  "mobile.starmap.content": {
+    "en": "Content",
+    "zh-CN": "内容"
+  },
+  "mobile.starmap.editNode": {
+    "en": "Edit node",
+    "zh-CN": "编辑节点"
+  },
+  "mobile.starmap.relatedNodes": {
+    "en": "Related nodes",
+    "zh-CN": "相关节点"
+  },
+  "mobile.starmap.searchLearningRecords": {
+    "en": "Search learning records",
+    "zh-CN": "搜索学习记录"
+  },
+  "mobile.starmap.theGraphShowsTheLatest24MatchesPurple": {
+    "en": "The graph shows the latest 24 matches. Purple squares are memories and circles are skills.",
+    "zh-CN": "图中显示最新 24 个匹配节点。紫色方块为记忆，圆点为技能。"
+  },
+  "mobile.starmap.purpleSquaresAreMemoriesAndCirclesAreSkills": {
+    "en": "Purple squares are memories and circles are skills. Connections come from Hermes learning records.",
+    "zh-CN": "紫色方块为记忆，圆点为技能。连线来自 Hermes 学习记录。"
+  },
+  "mobile.starmap.noMatchingLearningRecords": {
+    "en": "No matching learning records",
+    "zh-CN": "没有找到匹配的学习记录"
+  },
+  "mobile.usage.hermesReturnedInvalidUsageData": {
+    "en": "Hermes returned invalid usage data",
+    "zh-CN": "Hermes 返回的用量统计格式有误"
+  },
+  "mobile.usage.hermesReturnedInvalidModelStatistics": {
+    "en": "Hermes returned invalid model statistics",
+    "zh-CN": "Hermes 返回的模型统计格式有误"
+  },
+  "mobile.usage.modelUsage": {
+    "en": "Model usage",
+    "zh-CN": "模型用量"
+  },
+  "mobile.usage.lastDays": {
+    "en": "Last {v1} days",
+    "zh-CN": "近 {v1} 天"
+  },
+  "mobile.usage.lastDays.one": {
+    "en": "Last {v1} day",
+    "zh-CN": "近 {v1} 天"
+  },
+  "mobile.usage.loadingModelUsage": {
+    "en": "Loading model usage",
+    "zh-CN": "正在读取模型用量"
+  },
+  "mobile.usage.inputTokens": {
+    "en": "Input tokens",
+    "zh-CN": "输入 Token"
+  },
+  "mobile.usage.outputTokens": {
+    "en": "Output tokens",
+    "zh-CN": "输出 Token"
+  },
+  "mobile.usage.byModel": {
+    "en": "By model",
+    "zh-CN": "按模型"
+  },
+  "mobile.usage.noModelUsageRecordedForThisPeriod": {
+    "en": "No model usage recorded for this period",
+    "zh-CN": "这段时间还没有模型用量记录"
+  },
+  "mobile.webhooks.newWebhook": {
+    "en": "New webhook",
+    "zh-CN": "新建 Webhook"
+  },
+  "mobile.webhooks.createSubscription": {
+    "en": "Create subscription",
+    "zh-CN": "创建订阅"
+  },
+  "mobile.webhooks.profileSaveTheSigningSecretInYourSender": {
+    "en": "Profile: {v1}\nSave the signing secret in your sender configuration first.",
+    "zh-CN": "配置档案：{v1}\n请先将签名密钥保存在你的发送端配置中。"
+  },
+  "mobile.webhooks.subscriptionName": {
+    "en": "Subscription name",
+    "zh-CN": "订阅名"
+  },
+  "mobile.webhooks.forExampleBuildMonitor": {
+    "en": "For example, build-monitor",
+    "zh-CN": "例如 build-monitor"
+  },
+  "mobile.webhooks.eventsCommaSeparated": {
+    "en": "Events (comma-separated)",
+    "zh-CN": "监听事件（逗号分隔）"
+  },
+  "mobile.webhooks.leaveBlankToReceiveAllEvents": {
+    "en": "Leave blank to receive all events",
+    "zh-CN": "留空接收所有事件"
+  },
+  "mobile.webhooks.promptToRunWhenAnEventArrives": {
+    "en": "Prompt to run when an event arrives",
+    "zh-CN": "收到事件后执行的指令"
+  },
+  "mobile.webhooks.signingSecret": {
+    "en": "Signing secret",
+    "zh-CN": "签名密钥"
+  },
+  "mobile.webhooks.useLowercaseLettersDigitsHyphensAndUnderscoresFor": {
+    "en": "Use lowercase letters, digits, hyphens, and underscores for the name",
+    "zh-CN": "订阅名只能包含小写字母、数字、连字符和下划线"
+  },
+  "mobile.webhooks.thatSubscriptionNameAlreadyExistsChooseADifferent": {
+    "en": "That subscription name already exists. Choose a different name.",
+    "zh-CN": "订阅名已存在，请使用其他名称"
+  },
+  "mobile.webhooks.theServerDidNotConfirmSubscriptionCreation": {
+    "en": "The server did not confirm subscription creation",
+    "zh-CN": "服务器未确认订阅创建"
+  },
+  "mobile.webhooks.enableWebhookPlatform": {
+    "en": "Enable webhook platform",
+    "zh-CN": "启用 Webhook 平台"
+  },
+  "mobile.webhooks.enableSubscription": {
+    "en": "Enable subscription",
+    "zh-CN": "启用订阅"
+  },
+  "mobile.webhooks.disableSubscription": {
+    "en": "Disable subscription",
+    "zh-CN": "停用订阅"
+  },
+  "mobile.webhooks.deleteSubscription": {
+    "en": "Delete subscription",
+    "zh-CN": "删除订阅"
+  },
+  "mobile.webhooks.theServerMayRestartTheMessagingGateway": {
+    "en": "The server may restart the messaging gateway.",
+    "zh-CN": "服务器可能重新启动消息网关。"
+  },
+  "mobile.webhooks.theServerDidNotReturnTheCurrentProfile": {
+    "en": "The server did not return the current profile",
+    "zh-CN": "服务器未返回当前档案"
+  },
+  "mobile.webhooks.theServerDidNotConfirmTheWebhookAction": {
+    "en": "The server did not confirm the webhook action",
+    "zh-CN": "服务器未确认 Webhook 操作"
+  },
+  "mobile.webhooks.webhookSubscriptionDetails": {
+    "en": "Webhook subscription details",
+    "zh-CN": "Webhook 订阅详情"
+  },
+  "mobile.webhooks.receivingUrl": {
+    "en": "Receiving URL",
+    "zh-CN": "接收地址"
+  },
+  "mobile.webhooks.allEvents": {
+    "en": "All events",
+    "zh-CN": "所有事件"
+  },
+  "mobile.webhooks.gatewayPrompt": {
+    "en": "Gateway prompt",
+    "zh-CN": "网关指令"
+  },
+  "mobile.webhooks.delivery": {
+    "en": "Delivery",
+    "zh-CN": "投递"
+  },
+  "mobile.webhooks.secretConfigured": {
+    "en": "Secret configured",
+    "zh-CN": "已设置密钥"
+  },
+  "mobile.webhooks.noSecretConfigured": {
+    "en": "No secret configured",
+    "zh-CN": "未设置密钥"
+  },
+  "mobile.webhooks.thisSubscriptionNoLongerExists": {
+    "en": "This subscription no longer exists",
+    "zh-CN": "该订阅已不存在"
+  },
+  "mobile.webhooks.webhookPlatform": {
+    "en": "Webhook platform",
+    "zh-CN": "Webhook 平台"
+  },
+  "mobile.webhooks.noWebhookSubscriptions": {
+    "en": "No webhook subscriptions",
+    "zh-CN": "当前没有 Webhook 订阅"
+  },
+  "mobile.workspaceItems.noSearchResults": {
+    "en": "No search results",
+    "zh-CN": "没有搜索结果"
+  },
+  "mobile.workspaceItems.noYet": {
+    "en": "No {v1} yet",
+    "zh-CN": "当前没有{v1}"
+  },
+  "mobile.workspaceItems.search": {
+    "en": "Search {v1}",
+    "zh-CN": "搜索{v1}"
+  },
+  "mobile.workspaceItems.newSkill": {
+    "en": "New skill",
+    "zh-CN": "新建技能"
+  },
+  "mobile.workspace.createSkill": {
+    "en": "Create skill",
+    "zh-CN": "创建技能"
+  },
+  "mobile.workspace.skillName": {
+    "en": "Skill name",
+    "zh-CN": "技能名"
+  },
+  "mobile.workspace.categoryOptional": {
+    "en": "Category (optional)",
+    "zh-CN": "类别（可选）"
+  },
+  "mobile.workspace.skillMdContent": {
+    "en": "SKILL.md content",
+    "zh-CN": "SKILL.md 正文"
+  },
+  "mobile.workspace.theServerDidNotReturnTheProfileFor": {
+    "en": "The server did not return the profile for this project chat",
+    "zh-CN": "服务器未返回项目会话的档案"
+  },
+  "mobile.workspace.couldNotOpenTheProjectChat": {
+    "en": "Could not open the project chat",
+    "zh-CN": "无法打开项目会话"
+  },
+  "mobile.workspace.couldNotOpenTheWebapp": {
+    "en": "Could not open the Webapp",
+    "zh-CN": "无法打开官方页面"
+  },
+  "mobile.workspace.loadingFeatureCatalog": {
+    "en": "Loading feature catalog",
+    "zh-CN": "正在加载功能目录"
+  },
+  "mobile.workspace.backToChat": {
+    "en": "Back to Chat",
+    "zh-CN": "回到聊天"
+  },
+  "mobile.managedFiles.invalidFolderListing": {
+    "en": "Invalid folder listing",
+    "zh-CN": "文件目录格式不正确"
+  },
+  "mobile.managedFiles.theFolderLocationChangedGoUpOneLevel": {
+    "en": "The folder location changed. Go up one level and refresh.",
+    "zh-CN": "该文件夹的位置已变化，请返回上一级并刷新"
+  },
+  "mobile.managedFiles.enterASingleValidFileOrFolderName": {
+    "en": "Enter a single valid file or folder name",
+    "zh-CN": "请输入有效的单个文件名或文件夹名"
+  },
+  "mobile.managedFiles.textEditingIsLimitedTo32Kib": {
+    "en": "Text editing is limited to 32 KiB",
+    "zh-CN": "文本编辑上限为 32 KiB"
+  },
+  "mobile.managedFiles.invalidFilePreview": {
+    "en": "Invalid file preview",
+    "zh-CN": "文件预览格式不正确"
+  },
+  "mobile.managedFiles.hermesDidNotReturnAFileToSave": {
+    "en": "Hermes did not return a file to save",
+    "zh-CN": "Hermes 没有返回可保存的文件"
+  },
+  "mobile.workspace.invalidFeatureCatalog": {
+    "en": "Invalid feature catalog",
+    "zh-CN": "功能目录格式不正确"
+  },
+  "mobile.workspace.hermesDownload": {
+    "en": "Hermes download",
+    "zh-CN": "Hermes 下载文件"
+  },
+  "mobile.workspace.openTheFeatureCatalogToDownloadTheFile": {
+    "en": "Open the feature catalog to download the file returned by this operation",
+    "zh-CN": "此操作返回文件，请从功能目录下载"
+  },
+  "mobile.workspace.couldNotReadFileInformation": {
+    "en": "Could not read file information",
+    "zh-CN": "未能读取文件信息"
+  },
+  "mobile.artifacts.inlineImage": {
+    "en": "Inline image",
+    "zh-CN": "内嵌图片"
+  },
+  "mobile.data.theOperationFailedTryAgain": {
+    "en": "The operation failed. Try again.",
+    "zh-CN": "操作失败，请重试"
+  },
+  "mobile.data.theGatewayDeclinedTheOperation": {
+    "en": "The gateway declined the operation",
+    "zh-CN": "网关未接受此操作"
+  },
+  "mobile.operationForm.mustBeA": {
+    "en": "{v1} must be a {v2}",
+    "zh-CN": "{v1} 需要{v2}"
+  },
+  "mobile.operationForm.integer": {
+    "en": "integer",
+    "zh-CN": "整数"
+  },
+  "mobile.operationForm.number": {
+    "en": "number",
+    "zh-CN": "数字"
+  },
+  "mobile.operationForm.mustBeTrueOrFalse": {
+    "en": "{v1} must be true or false",
+    "zh-CN": "{v1} 需要 true 或 false"
+  },
+  "mobile.operationForm.mustContainValidJson": {
+    "en": "{v1} must contain valid JSON",
+    "zh-CN": "{v1} 需要有效的 JSON"
+  },
+  "mobile.operationForm.mustBeAJsonObject": {
+    "en": "{v1} must be a JSON object",
+    "zh-CN": "{v1} 需要 JSON 对象"
+  },
+  "mobile.operationForm.mustBeAJsonArray": {
+    "en": "{v1} must be a JSON array",
+    "zh-CN": "{v1} 需要 JSON 数组"
+  },
+  "mobile.operationForm.selectAFileFor": {
+    "en": "Select a file for {v1}",
+    "zh-CN": "请选择文件 {v1}"
+  },
+  "mobile.operationForm.enter": {
+    "en": "Enter {v1}",
+    "zh-CN": "请填写 {v1}"
+  },
+  "mobile.hermesLive.thisVersionIsMissingTheLiveBoardModule": {
+    "en": "This version is missing the live board module",
+    "zh-CN": "当前应用版本缺少实时看板模块"
+  },
+  "mobile.hermesOfficial.thisVersionIsMissingTheWebappEntryPoint": {
+    "en": "This version is missing the Webapp entry point",
+    "zh-CN": "当前应用版本缺少官方 Webapp 入口"
+  },
+  "mobile.hermesTerminal.thisVersionIsMissingTheHostTerminalModule": {
+    "en": "This version is missing the host terminal module",
+    "zh-CN": "当前应用版本缺少主机终端模块"
+  },
+  "mobile.hermesWorkspace.thisVersionIsMissingTheWorkspaceModule": {
+    "en": "This version is missing the workspace module",
+    "zh-CN": "当前应用版本缺少工作区模块"
+  },
+  "mobile.language.useSystemLanguage": {
+    "en": "Use system language",
+    "zh-CN": "跟随系统语言"
+  },
+  "mobile.language.selected": {
+    "en": "Selected",
+    "zh-CN": "已选择"
+  },
+  "mobile.live.taskCount": {
+    "en": "{count} tasks",
+    "zh-CN": "{count} 个任务"
+  },
+  "mobile.live.taskCount.one": {
+    "en": "{count} task",
+    "zh-CN": "{count} 个任务"
+  },
+  "mobile.operation.requestForm": {
+    "en": "Request form",
+    "zh-CN": "请求表单"
+  }
+}

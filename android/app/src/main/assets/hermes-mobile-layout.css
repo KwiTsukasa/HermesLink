@@ -1,0 +1,50 @@
+/*
+ * Responsive layout adjustments for the official Hermes Webapp 0.23.2.
+ * main--ssIraiQ.css SHA-256 b57464509e01a1b37fa33bc3401cceb2319f23a5daa16fb759c490827cfe8c42
+ * capabilities-yvkYnyCi.css SHA-256 b4a5a8bbf843fac023e202fa8dc2ece7b842e053f874d2b0abe0f21bbbc52b62
+ */
+@media (max-width: 420px) {
+  /* Give the existing scrollable category strip a usable touch area. */
+  .catalog-filter-row {
+    flex-wrap: wrap;
+    row-gap: 0.25rem;
+  }
+
+  .catalog-filter-row > .catalog-filter-trigger {
+    margin-inline-start: auto;
+  }
+
+  .catalog-filter-row > .catalog-filter-chips {
+    flex: 0 0 100%;
+    order: 1;
+  }
+
+  /* On narrow screens, a single line can reduce the status text to one word. */
+  [data-slot='status-row']:has(> .status-row-content > .truncate):has(> .status-row-actions) {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr) max-content;
+  }
+
+  [data-slot='status-row']:has(> .status-row-content > .truncate):has(> .status-row-actions) > .status-row-content {
+    grid-area: 1 / 2;
+  }
+
+  [data-slot='status-row']:has(> .status-row-content > .truncate):has(> .status-row-actions) > .status-row-content > .truncate {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  [data-slot='status-row']:has(> .status-row-content > .truncate):has(> .status-row-actions) > .status-row-icon {
+    grid-area: 1 / 1;
+  }
+
+  [data-slot='status-row']:has(> .status-row-content > .truncate):has(> .status-row-actions) > .status-row-dismiss {
+    grid-area: 1 / 3;
+  }
+
+  [data-slot='status-row']:has(> .status-row-content > .truncate):has(> .status-row-actions) > .status-row-actions {
+    grid-area: 2 / 2 / auto / -1;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+}

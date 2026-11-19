@@ -1,0 +1,121 @@
+[
+  {
+    "id": "en",
+    "upstream": "en",
+    "endonym": "English",
+    "rtl": false,
+    "surfaces": ["core", "desktop"]
+  },
+  {
+    "id": "af",
+    "upstream": "af",
+    "endonym": "Afrikaans",
+    "rtl": false,
+    "surfaces": ["core", "tui"]
+  },
+  {
+    "id": "ar",
+    "upstream": "ar",
+    "endonym": "العربية",
+    "rtl": true,
+    "surfaces": ["core", "tui", "desktop"]
+  },
+  {
+    "id": "de",
+    "upstream": "de",
+    "endonym": "Deutsch",
+    "rtl": false,
+    "surfaces": ["core", "tui", "desktop"]
+  },
+  {
+    "id": "es",
+    "upstream": "es",
+    "endonym": "Español",
+    "rtl": false,
+    "surfaces": ["core", "tui", "desktop"]
+  },
+  {
+    "id": "fr",
+    "upstream": "fr",
+    "endonym": "Français",
+    "rtl": false,
+    "surfaces": ["core", "tui", "desktop"]
+  },
+  {
+    "id": "ga",
+    "upstream": "ga",
+    "endonym": "Gaeilge",
+    "rtl": false,
+    "surfaces": ["core", "tui"]
+  },
+  {
+    "id": "hu",
+    "upstream": "hu",
+    "endonym": "Magyar",
+    "rtl": false,
+    "surfaces": ["core", "tui"]
+  },
+  {
+    "id": "it",
+    "upstream": "it",
+    "endonym": "Italiano",
+    "rtl": false,
+    "surfaces": ["core", "tui"]
+  },
+  {
+    "id": "ja",
+    "upstream": "ja",
+    "endonym": "日本語",
+    "rtl": false,
+    "surfaces": ["core", "tui", "desktop"]
+  },
+  {
+    "id": "ko",
+    "upstream": "ko",
+    "endonym": "한국어",
+    "rtl": false,
+    "surfaces": ["core", "tui"]
+  },
+  {
+    "id": "pt",
+    "upstream": "pt",
+    "endonym": "Português",
+    "rtl": false,
+    "surfaces": ["core", "tui"]
+  },
+  {
+    "id": "ru",
+    "upstream": "ru",
+    "endonym": "Русский",
+    "rtl": false,
+    "surfaces": ["core", "tui", "desktop"]
+  },
+  {
+    "id": "tr",
+    "upstream": "tr",
+    "endonym": "Türkçe",
+    "rtl": false,
+    "surfaces": ["core", "tui"]
+  },
+  {
+    "id": "uk",
+    "upstream": "uk",
+    "endonym": "Українська",
+    "rtl": false,
+    "surfaces": ["core", "tui"]
+  },
+  {
+    "id": "zh-CN",
+    "upstream": "zh",
+    "endonym": "简体中文",
+    "rtl": false,
+    "surfaces": ["core", "tui", "desktop"]
+  },
+  {
+    "id": "zh-Hant",
+    "upstream": "zh-hant",
+    "endonym": "繁體中文",
+    "rtl": false,
+    "surfaces": ["core", "tui", "desktop"]
+  }
+]

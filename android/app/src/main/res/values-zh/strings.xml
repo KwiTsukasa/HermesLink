@@ -1,0 +1,4 @@
+<resources>
+    <string name="shortcut_open_in_browser">在浏览器打开</string>
+    <string name="shortcut_native_interface">原生界面</string>
+</resources>

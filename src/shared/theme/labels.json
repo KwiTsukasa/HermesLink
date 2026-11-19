@@ -1,0 +1,34 @@
+{
+  "host": {
+    "en": "Appearance preferences on this Hermes host",
+    "zh-CN": "此 Hermes 主机的外观偏好"
+  },
+  "profile": {
+    "en": "Profile: {profile}",
+    "zh-CN": "配置档案：{profile}"
+  },
+  "local": {
+    "en": "Sign in to sync this host's appearance.",
+    "zh-CN": "登录后可同步此主机的外观。"
+  },
+  "synced": {
+    "en": "Synced with this Hermes host.",
+    "zh-CN": "已与此 Hermes 主机同步。"
+  },
+  "pending": {
+    "en": "Saved on this device. Sync resumes when this sign-in reconnects.",
+    "zh-CN": "已在手机保存。当前登录恢复连接后继续同步。"
+  },
+  "offline": {
+    "en": "Showing the last saved appearance. The host is unavailable.",
+    "zh-CN": "正在显示已保存的外观。暂时无法连接主机。"
+  },
+  "unavailable": {
+    "en": "This saved theme is unavailable on this device.",
+    "zh-CN": "此设备暂不支持服务器上保存的主题。"
+  },
+  "failed": {
+    "en": "Could not update appearance.",
+    "zh-CN": "无法更新外观。"
+  }
+}

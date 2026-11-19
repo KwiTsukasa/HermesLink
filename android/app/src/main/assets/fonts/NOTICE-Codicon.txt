@@ -1,0 +1,5 @@
+Codicons by Microsoft Corporation and contributors.
+Source: https://github.com/microsoft/vscode-codicons
+Icons and font: https://creativecommons.org/licenses/by/4.0/
+
+The unmodified font was extracted from the Hermes 0.23.2 Webapp distribution.

@@ -1,0 +1,105 @@
+{
+  "mobile.media.title": {
+    "en": "Voice and official pages",
+    "zh-CN": "语音与官方页面"
+  },
+  "mobile.media.bridgeUnavailable": {
+    "en": "Audio tools are unavailable in this build.",
+    "zh-CN": "此版本不提供音频工具。"
+  },
+  "mobile.media.serverAudioProcessing": {
+    "en": "Hermes processes the audio you choose or record and the text you ask it to read aloud.",
+    "zh-CN": "你主动选择或录制的音频，以及提交朗读的文字，由连接的 Hermes 服务处理。"
+  },
+  "mobile.media.openOrTranscribe": {
+    "en": "Waiting for an audio file or its transcript…",
+    "zh-CN": "正在等待选择音频文件或获取转写结果…"
+  },
+  "mobile.media.startingMicrophone": {
+    "en": "Starting the microphone…",
+    "zh-CN": "正在启动麦克风…"
+  },
+  "mobile.media.generatingSpeech": {
+    "en": "Generating speech…",
+    "zh-CN": "正在生成语音…"
+  },
+  "mobile.media.playingSpeech": {"en": "Reading aloud…", "zh-CN": "正在朗读…"},
+  "mobile.media.modeRelay": {"en": "Relay", "zh-CN": "中继"},
+  "mobile.media.modeDirect": {"en": "Direct", "zh-CN": "直连"},
+  "mobile.media.unknown": {"en": "Unknown", "zh-CN": "未知"},
+  "mobile.media.processingMode": {
+    "en": "Server processing mode",
+    "zh-CN": "服务端处理模式"
+  },
+  "mobile.media.chooseAudio": {
+    "en": "Choose audio to transcribe",
+    "zh-CN": "选择音频转写"
+  },
+  "mobile.media.startMicrophone": {
+    "en": "Start microphone transcription",
+    "zh-CN": "开始麦克风转写"
+  },
+  "mobile.media.streamingUnavailable": {
+    "en": "The current transcription provider does not support live transcription.",
+    "zh-CN": "当前转写提供方不支持实时转写。"
+  },
+  "mobile.media.streamingUnknown": {
+    "en": "The server did not report live transcription support.",
+    "zh-CN": "服务端未报告是否支持实时转写。"
+  },
+  "mobile.media.partialTranscript": {"en": "Live transcript", "zh-CN": "实时转写"},
+  "mobile.media.transcript": {"en": "Transcript", "zh-CN": "转写结果"},
+  "mobile.media.speechText": {"en": "Text to read aloud", "zh-CN": "要朗读的文字"},
+  "mobile.media.officialPages": {"en": "Official Webapp", "zh-CN": "官方 Webapp"},
+  "mobile.media.openPage": {
+    "en": "Open {page} in browser",
+    "zh-CN": "在浏览器中打开{page}"
+  },
+  "mobile.media.notConnected": {"en": "Not connected", "zh-CN": "未连接"},
+  "mobile.media.authorizeProvider": {
+    "en": "Connect {provider}",
+    "zh-CN": "连接 {provider}"
+  },
+  "mobile.media.verificationInstructions": {
+    "en": "Open the verification page, enter this code, then return here to check the authorization.",
+    "zh-CN": "打开验证页面并输入此验证码，然后返回这里检查授权状态。"
+  },
+  "mobile.media.verificationCode": {"en": "Verification code", "zh-CN": "验证码"},
+  "mobile.media.expiresAt": {"en": "Expires at", "zh-CN": "到期时间"},
+  "mobile.media.verifyInBrowser": {
+    "en": "Open verification page",
+    "zh-CN": "打开验证页面"
+  },
+  "mobile.media.checkAuthorization": {
+    "en": "Check authorization",
+    "zh-CN": "检查授权状态"
+  },
+  "mobile.media.noProviders": {
+    "en": "The server reported no provider accounts.",
+    "zh-CN": "服务端未返回提供方账号。"
+  },
+  "mobile.media.authorization.pending": {
+    "en": "Waiting for authorization in the browser.",
+    "zh-CN": "正在等待浏览器中的授权。"
+  },
+  "mobile.media.authorization.approved": {
+    "en": "Provider account connected.",
+    "zh-CN": "提供方账号已连接。"
+  },
+  "mobile.media.authorization.denied": {
+    "en": "Authorization was declined.",
+    "zh-CN": "授权已被拒绝。"
+  },
+  "mobile.media.authorization.expired": {
+    "en": "The authorization code expired.",
+    "zh-CN": "授权码已过期。"
+  },
+  "mobile.media.authorization.cancelled": {
+    "en": "Authorization cancelled.",
+    "zh-CN": "授权已取消。"
+  },
+  "mobile.media.authorization.error": {
+    "en": "Authorization failed.",
+    "zh-CN": "授权失败。"
+  }
+}

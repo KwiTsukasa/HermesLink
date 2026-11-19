@@ -1,0 +1,298 @@
+{
+  "version": "0.23.2",
+  "ref": "ae2a81ccc00e9b7c06301523e5bb09608397149c",
+  "presets": [
+    {
+      "id": "nous",
+      "label": "Nous",
+      "light": {
+        "bg": "#ffffff",
+        "panel": "#f6f8fa",
+        "ink": "#1f2328",
+        "sub": "#656d76",
+        "line": "#d0d7de",
+        "accent": "#0053fd",
+        "wash": "#e3edff",
+        "danger": "#cf222e"
+      },
+      "dark": {
+        "bg": "#0d1117",
+        "panel": "#010409",
+        "ink": "#e6edf3",
+        "sub": "#7d8590",
+        "line": "#30363d",
+        "accent": "#4a84fe",
+        "wash": "#17243a",
+        "danger": "#f85149"
+      }
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "light": {
+        "bg": "#ffffff",
+        "panel": "#f6f8fa",
+        "ink": "#1f2328",
+        "sub": "#656d76",
+        "line": "#d0d7de",
+        "accent": "#196d31",
+        "wash": "#e3ede6",
+        "danger": "#cf222e"
+      },
+      "dark": {
+        "bg": "#0d1117",
+        "panel": "#010409",
+        "ink": "#e6edf3",
+        "sub": "#7d8590",
+        "line": "#30363d",
+        "accent": "#4f9e5e",
+        "wash": "#192a24",
+        "danger": "#f85149"
+      }
+    },
+    {
+      "id": "catppuccin",
+      "label": "Catppuccin",
+      "light": {
+        "bg": "#eff1f5",
+        "panel": "#e6e9ef",
+        "ink": "#4c4f69",
+        "sub": "#4c4f69",
+        "line": "#acb0be",
+        "accent": "#6d2ebf",
+        "wash": "#dfdaef",
+        "danger": "#d20f39"
+      },
+      "dark": {
+        "bg": "#1e1e2e",
+        "panel": "#181825",
+        "ink": "#cdd6f4",
+        "sub": "#cdd6f4",
+        "line": "#585b70",
+        "accent": "#cba6f7",
+        "wash": "#3d3652",
+        "danger": "#f38ba8"
+      }
+    },
+    {
+      "id": "everforest",
+      "label": "Everforest",
+      "light": {
+        "bg": "#fdf6e3",
+        "panel": "#fdf6e3",
+        "ink": "#5c6a72",
+        "sub": "#939f91",
+        "line": "#fdf6e3",
+        "accent": "#586b35",
+        "wash": "#e9e5ce",
+        "danger": "#f1706f"
+      },
+      "dark": {
+        "bg": "#2d353b",
+        "panel": "#2d353b",
+        "ink": "#d3c6aa",
+        "sub": "#859289",
+        "line": "#2d353b",
+        "accent": "#a7c080",
+        "wash": "#434e47",
+        "danger": "#da6362"
+      }
+    },
+    {
+      "id": "solarized",
+      "label": "Solarized",
+      "light": {
+        "bg": "#fdf6e3",
+        "panel": "#d3cbb7",
+        "ink": "#1f1f1f",
+        "sub": "#9ca8a6",
+        "line": "#ddd6c1",
+        "accent": "#675e34",
+        "wash": "#ebe4ce",
+        "danger": "#e25563"
+      },
+      "dark": {
+        "bg": "#002b36",
+        "panel": "#002b36",
+        "ink": "#839496",
+        "sub": "#586e75",
+        "line": "#234751",
+        "accent": "#6ea1c4",
+        "wash": "#144050",
+        "danger": "#e35957"
+      }
+    },
+    {
+      "id": "nous-alt",
+      "label": "Nous Alt",
+      "light": {
+        "bg": "#F8FAFF",
+        "panel": "#FFFFFF",
+        "ink": "#17171A",
+        "sub": "#666678",
+        "line": "#0053FD38",
+        "accent": "#0053FD",
+        "wash": "#e6eeff",
+        "danger": "#C72E4D"
+      },
+      "dark": {
+        "bg": "#0D2F86",
+        "panel": "#12378F",
+        "ink": "#FFE6CB",
+        "sub": "#B5C7F3",
+        "line": "#3158AD",
+        "accent": "#0053FD",
+        "wash": "#1540B1",
+        "danger": "#C0473A"
+      }
+    },
+    {
+      "id": "classic",
+      "label": "Classic Hermes",
+      "light": {
+        "bg": "#F5F5F5",
+        "panel": "#f0f0ef",
+        "ink": "#2B2109",
+        "sub": "#B8860B",
+        "line": "#CD7F32",
+        "accent": "#825d02",
+        "wash": "#e7e3d8",
+        "danger": "#C62828"
+      },
+      "dark": {
+        "bg": "#1a1a2e",
+        "panel": "#232335",
+        "ink": "#FFF8DC",
+        "sub": "#B8860B",
+        "line": "#CD7F32",
+        "accent": "#FFBF00",
+        "wash": "#433826",
+        "danger": "#ef5350"
+      }
+    },
+    {
+      "id": "midnight",
+      "label": "Midnight",
+      "light": {
+        "bg": "#ffffff",
+        "panel": "#ffffff",
+        "ink": "#161616",
+        "sub": "#706e83",
+        "line": "#deddee",
+        "accent": "#8b80e8",
+        "wash": "#f3f2fd",
+        "danger": "#b94a3a"
+      },
+      "dark": {
+        "bg": "#08081c",
+        "panel": "#0d0d28",
+        "ink": "#ddd6ff",
+        "sub": "#7c7ab0",
+        "line": "#1e1e52",
+        "accent": "#8b80e8",
+        "wash": "#1a1a44",
+        "danger": "#b03060"
+      }
+    },
+    {
+      "id": "ember",
+      "label": "Ember",
+      "light": {
+        "bg": "#ffffff",
+        "panel": "#ffffff",
+        "ink": "#161616",
+        "sub": "#7d6c62",
+        "line": "#e9dbd1",
+        "accent": "#d97316",
+        "wash": "#fbf1e8",
+        "danger": "#b94a3a"
+      },
+      "dark": {
+        "bg": "#160800",
+        "panel": "#1e0e04",
+        "ink": "#ffd8b0",
+        "sub": "#aa7a56",
+        "line": "#3a1c08",
+        "accent": "#d97316",
+        "wash": "#301600",
+        "danger": "#c43010"
+      }
+    },
+    {
+      "id": "mono",
+      "label": "Mono",
+      "light": {
+        "bg": "#ffffff",
+        "panel": "#ffffff",
+        "ink": "#161616",
+        "sub": "#737377",
+        "line": "#e1e1e3",
+        "accent": "#9a9a9a",
+        "wash": "#f5f5f5",
+        "danger": "#b94a3a"
+      },
+      "dark": {
+        "bg": "#0e0e0e",
+        "panel": "#141414",
+        "ink": "#eaeaea",
+        "sub": "#808080",
+        "line": "#2a2a2a",
+        "accent": "#9a9a9a",
+        "wash": "#222222",
+        "danger": "#a84040"
+      }
+    },
+    {
+      "id": "slate",
+      "label": "Slate",
+      "light": {
+        "bg": "#ffffff",
+        "panel": "#ffffff",
+        "ink": "#161616",
+        "sub": "#687487",
+        "line": "#d7e2f1",
+        "accent": "#58a6ff",
+        "wash": "#eef6ff",
+        "danger": "#b94a3a"
+      },
+      "dark": {
+        "bg": "#0d1117",
+        "panel": "#161b22",
+        "ink": "#c9d1d9",
+        "sub": "#8b949e",
+        "line": "#30363d",
+        "accent": "#58a6ff",
+        "wash": "#1e2530",
+        "danger": "#cf4848"
+      }
+    },
+    {
+      "id": "cyberpunk",
+      "label": "Cyberpunk",
+      "light": {
+        "bg": "#ffffff",
+        "panel": "#ffffff",
+        "ink": "#161616",
+        "sub": "#5a8368",
+        "line": "#cbefd7",
+        "accent": "#00ff41",
+        "wash": "#e6ffec",
+        "danger": "#b94a3a"
+      },
+      "dark": {
+        "bg": "#000a00",
+        "panel": "#001200",
+        "ink": "#00ff41",
+        "sub": "#1a8a30",
+        "line": "#003000",
+        "accent": "#00ff41",
+        "wash": "#002000",
+        "danger": "#ff003c"
+      }
+    }
+  ],
+  "sources": {
+    "apps/desktop/dist-webapp/assets/context-CP_4oBaX.js": "34f50155b86f2ced78fc8aa2157c558dcb733a89c87c8860283daca99191d520",
+    "apps/desktop/dist-webapp/assets/storage-DCUWjpQr.js": "161b3b7902a84e409d5e789e8638bde11804d9bbdb414185256e9278e8d4fb82"
+  }
+}

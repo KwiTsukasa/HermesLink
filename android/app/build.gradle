@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application'
+    id 'com.facebook.react'
+}
+
+apply from: rootProject.file('terminal-assets.gradle')
+
+react {
+    debuggableVariants = []
+    autolinkLibrariesWithApp()
+}
+
+android {
+    namespace 'cn.xhs.hermespocket'
+    compileSdk {
+        version = release(37) { minorApiLevel = 1 }
+    }
+    ndkVersion '27.1.12297006'
+    externalNativeBuild {
+        cmake { version '3.22.1' }
+    }
+    defaultConfig {
+        applicationId 'cn.xhs.hermespocket'
+        minSdk 28
+        targetSdk 36
+        versionCode 7
+        versionName '0.6.1'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-android'
+    implementation 'com.facebook.react:hermes-android'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'org.apache.commons:commons-compress:1.28.0'
+}

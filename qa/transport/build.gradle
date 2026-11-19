@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir '../../android/app/src/main/java'
+            include 'cn/xhs/hermespocket/ChatControls.java'
+            include 'cn/xhs/hermespocket/ChatPresentation.java'
+            include 'cn/xhs/hermespocket/HermesClient.java'
+            include 'cn/xhs/hermespocket/HermesAppearanceClient.java'
+            include 'cn/xhs/hermespocket/HermesDisplayViewer.java'
+            include 'cn/xhs/hermespocket/HermesMediaClient.java'
+            include 'cn/xhs/hermespocket/HermesOfficialClient.java'
+            include 'cn/xhs/hermespocket/HermesResourceClient.java'
+            include 'cn/xhs/hermespocket/HermesProfileArchives.java'
+            include 'cn/xhs/hermespocket/HermesReplyStream.java'
+            include 'cn/xhs/hermespocket/HermesTerminal.java'
+            include 'cn/xhs/hermespocket/HermesText.java'
+            include 'cn/xhs/hermespocket/OfficialWebappOrigin.java'
+            include 'cn/xhs/hermespocket/KanbanEventStream.java'
+            include 'cn/xhs/hermespocket/RfbScreenDecoder.java'
+            include 'cn/xhs/hermespocket/WorkspaceCatalog.java'
+            include 'cn/xhs/hermespocket/WorkspaceClient.java'
+        }
+    }
+    test {
+        resources.srcDir '../../android/app/src/main/assets'
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 17
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'org.json:json:20240303'
+    implementation 'org.apache.commons:commons-compress:1.28.0'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'com.squareup.okhttp3:mockwebserver:4.12.0'
+}

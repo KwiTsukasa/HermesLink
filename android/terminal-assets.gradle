@@ -1,0 +1,47 @@
+import javax.inject.Inject
+import org.gradle.process.ExecOperations
+
+abstract class BuildTerminalAssets extends DefaultTask {
+    @InputFile
+    @PathSensitive(PathSensitivity.RELATIVE)
+    abstract RegularFileProperty getGenerator()
+
+    @InputFiles
+    @PathSensitive(PathSensitivity.RELATIVE)
+    abstract ConfigurableFileCollection getRendererSources()
+
+    @OutputDirectory
+    abstract DirectoryProperty getOutputDirectory()
+
+    @Inject
+    abstract ExecOperations getExecOperations()
+
+    @TaskAction
+    void generate() {
+        execOperations.exec {
+            commandLine 'node', generator.get().asFile.absolutePath, outputDirectory.get().asFile.absolutePath
+        }
+    }
+}
+
+def projectRoot = rootProject.file('..')
+def assetsDirectory = layout.buildDirectory.dir('generated/terminal-assets').get().asFile
+def terminalAssets = tasks.register('buildTerminalAssets', BuildTerminalAssets) {
+    generator.set(new File(projectRoot, 'tools/build_terminal_surface.cjs'))
+    rendererSources.from(
+        new File(projectRoot, 'src/features/terminal/renderer'),
+        new File(projectRoot, 'node_modules/@xterm/xterm/lib/xterm.js'),
+        new File(projectRoot, 'node_modules/@xterm/xterm/css/xterm.css'),
+        new File(projectRoot, 'node_modules/@xterm/xterm/LICENSE'),
+        new File(projectRoot, 'node_modules/@xterm/addon-fit/lib/addon-fit.js'),
+        new File(projectRoot, 'node_modules/@xterm/addon-fit/LICENSE'),
+    )
+    outputDirectory.set(assetsDirectory)
+}
+
+android.sourceSets.main.assets.srcDir assetsDirectory
+tasks.configureEach {
+    if (name == 'preBuild') {
+        dependsOn terminalAssets
+    }
+}
